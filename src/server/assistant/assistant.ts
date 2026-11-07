@@ -79,6 +79,9 @@ const SYSTEM_PROMPT = [
 ].join("\n");
 
 // Afirmar que algo foi feito/aprovado é inaceitável: o assistente não faz nada.
+// Cumprimento ou agradecimento isolado: não é pergunta sobre política, então não passa pela busca de fontes nem pela IA.
+const SMALL_TALK = /^(oi+|ol[aá]+|bom dia|boa tarde|boa noite|e a[ií]|obrigad[oa]|valeu|teste)[\s!.?,]*$/i;
+
 const DONE_CLAIM = /\b(aprovei|aprovado por mim|j[aá] (aprovei|reembolsei|executei|liberei)|reembolso (foi )?(realizado|efetuado|aprovado)|liberei a a[cç][aã]o|executei)\b/i;
 
 function caseFacts(d: CaseDetail): string[] {
@@ -125,6 +128,10 @@ export async function askAssistant(input: AskInput): Promise<AssistantAnswer> {
   const question = input.question.trim().slice(0, input.maxQuestionChars ?? 1000);
   const caseId = input.caseId ?? null;
   if (!question) return { ...base(input.adapter, caseId), status: "esclarecimento", answer: "Escreva a sua pergunta.", missing: ["pergunta"] };
+
+  if (SMALL_TALK.test(question)) {
+    return { ...base(input.adapter, caseId), status: "ok", answer: "Olá! Sou o assistente interno da GoBIA. Pergunte sobre uma política, um prazo, uma alçada ou um caso, e eu respondo citando as fontes.", warnings: ["resposta padrão, sem consulta a fontes"] };
+  }
 
   // 1) Escopo: o caso só existe para quem a RLS deixa ler. Nada é consultado antes disso.
   let detail: CaseDetail | null = null;

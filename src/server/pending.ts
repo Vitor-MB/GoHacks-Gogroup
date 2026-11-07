@@ -20,14 +20,24 @@ export interface PendingRow {
   remainingMs: number | null;
   countdown: string | null;
   task: { status: string; attempts: number; lastError: string | null } | null;
+  /** Contexto para leitura rápida na tela. */
+  customerName: string | null;
+  channels: string[];
+  summary: string | null;
+  itemLabel: string | null;
 }
 
 export interface PendingView { clock: string; review: PendingRow[]; approvals: PendingRow[] }
 
+type CaseRef = {
+  assignee_name: string | null; summary: string | null; customer_id: string | null;
+  case_conversations: { conversations: { channel: string } | null }[];
+};
+
 type Raw = {
   id: string; case_id: string; action: string; amount_cents: number | null; status: string; version: number; order_id: string | null;
   execute_after: string | null; approval_due_at: string | null; escalation_level: number; decision: { approvalRequired?: boolean } | null;
-  cases: { assignee_name: string | null } | { assignee_name: string | null }[] | null;
+  cases: CaseRef | CaseRef[] | null;
   scheduled_tasks: { status: string; attempts: number; last_error: string | null }[] | null;
 };
 
@@ -37,20 +47,39 @@ export async function listPending(db: SupabaseClient, runId: string): Promise<Pe
   const clock = await scenarioClock(db, runId);
   const clockMs = Date.parse(clock);
   const { data, error } = await db.from("action_proposals")
-    .select("id, case_id, action, amount_cents, status, version, order_id, execute_after, approval_due_at, escalation_level, decision, cases(assignee_name), scheduled_tasks(status, attempts, last_error)")
+    .select("id, case_id, action, amount_cents, status, version, order_id, execute_after, approval_due_at, escalation_level, decision, cases(assignee_name, summary, customer_id, case_conversations(conversations(channel))), scheduled_tasks(status, attempts, last_error)")
     .eq("scenario_run_id", runId).or("execute_after.not.is.null,status.eq.aguardando_aprovacao,status.eq.suspensa").order("created_at");
   if (error) throw new Error(`pendências: ${error.message}`);
 
+  const raws = (data ?? []) as unknown as Raw[];
+  const refOf = (p: Raw) => (Array.isArray(p.cases) ? p.cases[0] : p.cases) ?? null;
+  const customerIds = [...new Set(raws.map((p) => refOf(p)?.customer_id).filter((v): v is string => !!v))];
+  const orderIds = [...new Set(raws.map((p) => p.order_id).filter((v): v is string => !!v))];
+  const [customers, lines] = await Promise.all([
+    customerIds.length ? db.from("customers").select("customer_id, full_name").in("customer_id", customerIds) : Promise.resolve({ data: [], error: null }),
+    orderIds.length ? db.from("order_items").select("order_id, description, line").in("order_id", orderIds).order("line") : Promise.resolve({ data: [], error: null }),
+  ]);
+  if (customers.error) throw new Error(`clientes: ${customers.error.message}`);
+  if (lines.error) throw new Error(`itens: ${lines.error.message}`);
+  const nameOf = new Map((customers.data ?? []).map((c) => [c.customer_id as string, (c.full_name as string | null) ?? null]));
+  const itemsOf = new Map<string, string[]>();
+  for (const l of lines.data ?? []) itemsOf.set(l.order_id as string, [...(itemsOf.get(l.order_id as string) ?? []), String(l.description ?? "").trim()].filter(Boolean));
+
   const review: PendingRow[] = [];
   const approvals: PendingRow[] = [];
-  for (const p of (data ?? []) as unknown as Raw[]) {
+  for (const p of raws) {
     const needsApproval = p.decision?.approvalRequired === true;
-    const c = Array.isArray(p.cases) ? p.cases[0] : p.cases;
+    const c = refOf(p);
+    const its = p.order_id ? itemsOf.get(p.order_id) ?? [] : [];
     const task = p.scheduled_tasks?.length ? p.scheduled_tasks[p.scheduled_tasks.length - 1]! : null;
     const base: PendingRow = {
       proposalId: p.id, caseId: p.case_id, action: p.action, amountCents: p.amount_cents, status: p.status, version: p.version, orderId: p.order_id,
       assigneeName: c?.assignee_name ?? null, executeAfter: p.execute_after, approvalDueAt: p.approval_due_at, escalationLevel: p.escalation_level,
       remainingMs: null, countdown: null, task: task ? { status: task.status, attempts: task.attempts, lastError: task.last_error } : null,
+      customerName: c?.customer_id ? nameOf.get(c.customer_id) ?? null : null,
+      channels: [...new Set((c?.case_conversations ?? []).map((x) => x.conversations?.channel).filter((v): v is string => !!v))],
+      summary: c?.summary ?? null,
+      itemLabel: its.length ? `${its[0]}${its.length > 1 ? ` +${its.length - 1}` : ""}` : null,
     };
     if (needsApproval) {
       if (p.status === "aguardando_aprovacao" || p.status === "suspensa") {

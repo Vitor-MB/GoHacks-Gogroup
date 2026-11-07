@@ -1,91 +1,123 @@
 import Link from "next/link";
 import { getCurrentStaff } from "../../server/auth/session";
-import { listQueue, type QueueItem } from "../../server/cases";
 import { createSessionClient } from "../../server/db/client";
+import { getSupervisionQueue } from "../../server/supervision";
+import { countTabs, filterRows, parseTab, reasonLines, requiresSupervisor, waitLabel, waitTone, type Tab } from "../../server/supervision-model";
 
-const REASON_LABEL: Record<string, string> = {
-  aprovacao_supervisor: "Aprovação do supervisor", orientacao_e_encaminhamento: "Orientação e encaminhamento", acao_bloqueada: "Ação bloqueada",
-  continuidade_humana: "Continuidade humana", ia_indisponivel: "IA indisponível", execucao_falhou: "Execução falhou", proposta_rejeitada: "Proposta rejeitada",
-  proposta_suspensa: "Proposta suspensa", revalidacao_bloqueada: "Revalidação bloqueou",
-};
+const CHANNEL_LABEL: Record<string, string> = { whatsapp: "WhatsApp", email: "E-mail", reclame_aqui: "Reclame Aqui" };
 const TOPIC_LABEL: Record<string, string> = {
   rastreio_atraso: "Rastreio e atraso", troca_devolucao: "Troca ou devolução", avaria: "Avaria", personalizacao: "Personalização",
   brinde: "Brinde", reacao_adversa: "Reação adversa", cancelamento: "Cancelamento", outros: "Outros",
 };
-const brl = (c: number) => `R$ ${(c / 100).toFixed(2).replace(".", ",")}`;
-const ATTENTION = new Set(["aguardando_aprovacao", "suspensa", "bloqueada", "falhou"]);
+const brl = (c: number) => `R$ ${(c / 100).toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+const MAX_ROWS = 50;
 
-/** O que exige uma pessoa: caso aguardando humano ou proposta que depende de decisão. */
-const needsHuman = (c: QueueItem) => c.status === "aguardando_humano" || (!!c.proposal && ATTENTION.has(c.proposal.status));
+type Params = Record<string, string | string[] | undefined>;
+const one = (v: string | string[] | undefined) => (Array.isArray(v) ? v[0] : v) || undefined;
 
-export default async function PanelPage() {
+function href(p: { aba?: Tab; canal?: string; q?: string }) {
+  const sp = new URLSearchParams();
+  if (p.aba && p.aba !== "todos") sp.set("aba", p.aba);
+  if (p.canal) sp.set("canal", p.canal);
+  if (p.q) sp.set("q", p.q);
+  const s = sp.toString();
+  return s ? `/painel?${s}` : "/painel";
+}
+
+export default async function PanelPage({ searchParams }: { searchParams: Promise<Params> }) {
   const staff = await getCurrentStaff();
   if (!staff) return <main className="page"><p>Conta sem funcionário ativo vinculado.</p></main>;
 
+  const sp = await searchParams;
+  const tab = parseTab(one(sp.aba));
+  const canalRaw = one(sp.canal);
+  const canal = canalRaw && canalRaw in CHANNEL_LABEL ? canalRaw : undefined;
+  const q = one(sp.q)?.slice(0, 80);
+
+  const { runName, clockNow, rows: all } = await getSupervisionQueue();
+  const counts = countTabs(all);
+  const shown = filterRows(all, { tab, canal, q });
+  const visible = shown.slice(0, MAX_ROWS);
+
+  // Disponibilidade da IA: o aviso explica por que casos novos podem demorar e quando uma pessoa assume.
   const db = await createSessionClient();
-  const { data: run } = await db.from("scenario_runs").select("id, clock_now").eq("name", "demo").maybeSingle();
-  const all = run ? await listQueue(db, run.id) : [];
-  // Disponibilidade da IA: disjuntor aberto/meio-aberto ou investigações esperando nova tentativa.
   const [{ data: circuit }, { count: waiting }] = await Promise.all([
-    db.from("ai_circuit").select("state, failures").eq("name", "proxy").maybeSingle(),
-    run ? db.from("investigation_tasks").select("id", { count: "exact", head: true }).eq("scenario_run_id", run.id).in("status", ["pendente", "reservada"]).not("last_error_kind", "is", null) : Promise.resolve({ count: 0 }),
+    db.from("ai_circuit").select("state").eq("name", "proxy").maybeSingle(),
+    db.from("investigation_tasks").select("id", { count: "exact", head: true }).in("status", ["pendente", "reservada"]).not("last_error_kind", "is", null),
   ]);
   const aiDegraded = (!!circuit && circuit.state !== "closed") || (waiting ?? 0) > 0;
-  const items = all.filter(needsHuman);
 
-  const kpis = [
-    { label: "Aguardando aprovação", value: items.filter((c) => c.proposal?.status === "aguardando_aprovacao").length, tone: "blue" },
-    { label: "Aprovações vencidas", value: items.filter((c) => c.proposal?.overdue).length, tone: "pink" },
-    { label: "Sem responsável", value: items.filter((c) => !c.assignedTo).length, tone: "blue" },
-    { label: "Prioridade alta", value: items.filter((c) => c.priority.level === "alta").length, tone: "pink" },
+  const tabs: { key: Tab; label: string }[] = [
+    { key: "todos", label: "Todos" }, { key: "supervisor", label: "Exigem supervisor" }, { key: "agente", label: "Atendimento pode resolver" },
   ];
 
   return (
-    <main className="page">
-      <header className="page-head">
-        <p className="eyebrow">Painel</p>
-        <h1>Olá, {staff.fullName.split(" ")[0]}</h1>
+    <main className="page sv">
+      <header className="sv-head">
+        <h1>Fila de supervisão</h1>
         <p className="muted">
-          {run ? `Relógio do cenário: ${new Date(run.clock_now).toLocaleString("pt-BR", { timeZone: "America/Sao_Paulo" })}.` : "Cenário demo não encontrado."}{" "}
-          Casos que aguardam uma decisão ou ação de pessoa, do mais urgente ao menos.
+          {all.length === 0 ? "Nenhum processo esperando uma decisão agora." : `${all.length} ${all.length === 1 ? "processo esperando" : "processos esperando"} uma decisão. Os que exigem supervisor só andam com a aprovação.`}
+          {clockNow ? ` Relógio do cenário: ${new Date(clockNow).toLocaleString("pt-BR", { timeZone: "America/Sao_Paulo", dateStyle: "short", timeStyle: "short" })}.` : runName === null ? " Cenário demo não encontrado." : ""}
         </p>
       </header>
 
       {aiDegraded && (
-        <p role="status" className="muted"><strong>IA instável ou indisponível.</strong> Novos casos já receberam a confirmação de recebimento e ficam em fila de espera para nova tentativa{(waiting ?? 0) > 0 ? ` (${waiting} aguardando)` : ""}. Se a IA não voltar a tempo, o caso aparece aqui para uma pessoa assumir, com o motivo “IA indisponível”. Nenhuma ação é aprovada ou executada nesse período.</p>
+        <p role="status" className="sv-notice"><strong>IA instável ou indisponível.</strong> Novos casos já receberam a confirmação de recebimento e esperam nova tentativa{(waiting ?? 0) > 0 ? ` (${waiting} aguardando)` : ""}. Se a IA não voltar a tempo, o caso aparece aqui com o motivo “IA indisponível” para uma pessoa assumir. Nenhuma ação é aprovada ou executada nesse período.</p>
       )}
 
-      <section className="kpis" aria-label="Resumo">
-        {kpis.map((k) => (
-          <div key={k.label} className={`kpi kpi-${k.tone}`}>
-            <strong>{k.value}</strong>
-            <span>{k.label}</span>
-          </div>
-        ))}
-      </section>
+      <div className="sv-toolbar">
+        <nav className="sv-tabs" aria-label="Filtrar a fila">
+          {tabs.map((t) => (
+            <Link key={t.key} href={href({ aba: t.key, canal, q })} className={t.key === tab ? "is-on" : undefined} aria-current={t.key === tab ? "true" : undefined}>
+              {t.label} <b>{counts[t.key]}</b>
+            </Link>
+          ))}
+        </nav>
+        <details className="sv-select">
+          <summary>Canal: {canal ? CHANNEL_LABEL[canal] : "todos"}</summary>
+          <ul>
+            <li><Link href={href({ aba: tab, q })}>Todos</Link></li>
+            {Object.entries(CHANNEL_LABEL).map(([k, v]) => <li key={k}><Link href={href({ aba: tab, canal: k, q })}>{v}</Link></li>)}
+          </ul>
+        </details>
+      </div>
 
-      <section aria-labelledby="para-verificar">
-        <div className="section-head">
-          <h2 id="para-verificar">Para verificar</h2>
-          <Link href="/fila">Ver toda a fila</Link>
-        </div>
-        <table>
-          <thead><tr><th>Prioridade</th><th>Assunto</th><th>Pedido</th><th>Motivo / decisão pedida</th><th>Responsável</th></tr></thead>
+      {q && <p className="muted">Busca por “{q}”: {shown.length} {shown.length === 1 ? "resultado" : "resultados"}. <Link href={href({ aba: tab, canal })}>Limpar busca</Link></p>}
+
+      <div className="sv-card">
+        <table className="sv-table">
+          <thead>
+            <tr><th>Cliente e canal</th><th>Resumo do agente</th><th>Item e valor</th><th>Motivo</th><th>Espera</th><th><span className="sr-only">Ação</span></th></tr>
+          </thead>
           <tbody>
-            {items.slice(0, 12).map((c) => (
-              <tr key={c.id}>
-                <td><span className={`badge badge-${c.priority.level}`}>{c.priority.level}</span></td>
-                <td><Link href={`/fila/${c.id}`}>{TOPIC_LABEL[c.topic] ?? c.topic}</Link></td>
-                <td>{c.orderId ?? "—"}{c.proposal?.amountCents ? <><br /><span className="muted">{brl(c.proposal.amountCents)}</span></> : null}</td>
-                <td>{c.handoffReason ? <strong>{REASON_LABEL[c.handoffReason] ?? c.handoffReason}</strong> : "—"}{c.proposal?.overdue ? <> · <span className="badge badge-alta">vencida</span></> : null}{c.decisionRequested ? <><br />{c.decisionRequested}</> : null}</td>
-                <td>{c.assigneeName ?? "—"}</td>
-              </tr>
-            ))}
-            {items.length === 0 && <tr><td colSpan={5}>Nada aguardando verificação agora.</td></tr>}
+            {visible.map((r) => {
+              const sup = requiresSupervisor(r);
+              return (
+                <tr key={r.id}>
+                  <td>
+                    <strong>{r.customerName ?? (r.customerId ? `Cliente ${r.customerId}` : "Cliente não identificado")}</strong>
+                    <span className="sv-sub">{r.channels.map((c) => CHANNEL_LABEL[c] ?? c).join(", ") || "Canal desconhecido"}, {r.orderId ?? "sem pedido"}</span>
+                  </td>
+                  <td><span className="sv-clamp">{r.decisionRequested ?? r.summary ?? TOPIC_LABEL[r.topic] ?? r.topic}</span></td>
+                  <td>
+                    <strong>{r.itemLabel ?? (TOPIC_LABEL[r.topic] ?? r.topic)}</strong>
+                    <span className="sv-sub sv-money">{r.amountCents !== null ? brl(r.amountCents) : "Valor indisponível"}</span>
+                  </td>
+                  <td>
+                    <span className={sup ? "sv-pill sv-pill-red" : "sv-pill sv-pill-blue"}>{sup ? "Exige supervisor" : "Atendimento pode resolver"}</span>
+                    {reasonLines(r).map((l) => <span key={l} className="sv-sub">{l}</span>)}
+                  </td>
+                  <td><span className={`sv-wait sv-wait-${waitTone(r.waitMs)}`}>{waitLabel(r.waitMs)}</span></td>
+                  <td><Link href={`/fila/${r.id}`} className="sv-open">Abrir</Link></td>
+                </tr>
+              );
+            })}
+            {visible.length === 0 && <tr><td colSpan={6} className="sv-empty">{all.length === 0 ? "Nada aguardando decisão agora." : "Nenhum processo neste filtro."}</td></tr>}
           </tbody>
         </table>
-        {items.length > 12 && <p className="muted">Mostrando 12 de {items.length}. <Link href="/fila">Abrir a fila completa</Link>.</p>}
-      </section>
+      </div>
+      {shown.length > MAX_ROWS && <p className="muted">Mostrando {MAX_ROWS} de {shown.length}. <Link href="/fila">Abrir todos os casos</Link>.</p>}
+      <p className="muted sv-foot">Espera = tempo desde a abertura do contato, no relógio do cenário. Valor = valor da proposta ou, sem proposta, total do pedido.</p>
     </main>
   );
 }

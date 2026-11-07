@@ -23,7 +23,10 @@ export interface QueueItem {
   summary: string | null;
   clarification: string | null;
   orderId: string | null;
+  customerId: string | null;
   brandId: string | null;
+  /** Abertura do contato mais antigo, no relógio do cenário (base da espera). */
+  openedAt: string;
   channels: Channel[];
   conversations: number;
   updatedAt: string;
@@ -103,7 +106,7 @@ function toItem(row: CaseRow, clockMs: number): QueueItem {
   const proposal = pendingOf(row.action_proposals ?? [], clockMs);
   return {
     id: row.id, status: row.status, topic: row.topic, summary: row.summary, clarification: row.clarification,
-    orderId: row.order_id, brandId: row.brand_id, channels: [...new Set(convs.map((c) => c.channel))],
+    orderId: row.order_id, customerId: row.customer_id ?? null, brandId: row.brand_id, openedAt: new Date(opened).toISOString(), channels: [...new Set(convs.map((c) => c.channel))],
     conversations: convs.length, updatedAt: row.updated_at,
     assignedTo: row.assigned_to, assigneeName: row.assignee_name, handoffReason: row.handoff_reason, handoffTeam: row.handoff_team,
     decisionRequested: row.decision_requested, proposal,
@@ -115,7 +118,7 @@ function toItem(row: CaseRow, clockMs: number): QueueItem {
   };
 }
 
-const CASE_COLUMNS = "id, status, topic, summary, clarification, order_id, brand_id, updated_at, assigned_to, assignee_name, handoff_reason, handoff_team, decision_requested, case_conversations(conversations(conversation_id, channel, opened_at)), action_proposals(id, action, amount_cents, status, version, approval_due_at, escalation_level, created_at)";
+const CASE_COLUMNS = "id, status, topic, summary, clarification, order_id, customer_id, brand_id, updated_at, assigned_to, assignee_name, handoff_reason, handoff_team, decision_requested, case_conversations(conversations(conversation_id, channel, opened_at)), action_proposals(id, action, amount_cents, status, version, approval_due_at, escalation_level, created_at)";
 
 export interface QueueFilters {
   canal?: Channel;
@@ -154,7 +157,7 @@ export async function listQueue(db: SupabaseClient, runId: string): Promise<Queu
 export async function getCaseDetail(db: SupabaseClient, id: string): Promise<CaseDetail | null> {
   const { data, error } = await db
     .from("cases")
-    .select(`${CASE_COLUMNS}, customer_id, business_unit_id, sources, scenario_run_id`)
+    .select(`${CASE_COLUMNS}, business_unit_id, sources, scenario_run_id`)
     .eq("id", id)
     .maybeSingle();
   if (error) throw new Error(`caso: ${error.message}`);
