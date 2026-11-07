@@ -15,7 +15,7 @@ const STATUS_LABEL: Record<string, string> = {
 };
 const REASON_LABEL: Record<string, string> = {
   aprovacao_supervisor: "Aprovação do supervisor", orientacao_e_encaminhamento: "Orientação e encaminhamento", acao_bloqueada: "Ação bloqueada",
-  continuidade_humana: "Continuidade humana", execucao_falhou: "Execução falhou", proposta_rejeitada: "Proposta rejeitada",
+  continuidade_humana: "Continuidade humana", ia_indisponivel: "IA indisponível", execucao_falhou: "Execução falhou", proposta_rejeitada: "Proposta rejeitada",
   proposta_suspensa: "Proposta suspensa", revalidacao_bloqueada: "Revalidação bloqueou",
 };
 const ACTION_LABEL: Record<string, string> = {

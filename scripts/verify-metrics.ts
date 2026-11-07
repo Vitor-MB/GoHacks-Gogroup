@@ -84,7 +84,7 @@ const notify = async (caseId: string, kind: "notificacao_cliente" | "intervencao
   ok(await db.from("outbox_events").insert({ scenario_run_id: runId, case_id: caseId, kind, payload: { text: "verify" } }), `outbox ${kind}`);
 const usage = async (caseId: string, rows: Record<string, unknown>[]) =>
   ok(await db.from("ai_usage").insert(rows.map((r) => ({ scenario_run_id: runId, case_id: caseId, step: "investigacao", adapter_kind: "simulado", occurred_at: new Date(T("2026-11-02T09:00:00")).toISOString(), ...r }))), "uso de IA");
-const rpcErr = async (p: PromiseLike<unknown>) => { try { await p; return null; } catch (e) { return e instanceof Error ? e.message : String(e); } };
+const rpcErr = async (p: PromiseLike<unknown>) => { try { await p; return null; } catch (e) { const code = (e as { code?: string }).code; return e instanceof Error ? (code ? `${code}: ${e.message}` : e.message) : String(e); } };
 
 async function main() {
   console.log("\n# Parte 2 — encerramento, pesquisa e métricas no banco");

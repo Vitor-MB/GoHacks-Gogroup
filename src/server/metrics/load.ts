@@ -71,12 +71,13 @@ export async function loadMvp(db: SupabaseClient, f: StatsFilters): Promise<MvpL
       .eq("scenario_run_id", rid).order("id").range(a, b), "propostas"),
     fetchAll((a, b) => db.from("audit_events").select("id, proposal_id, event_type, scenario_at").eq("scenario_run_id", rid)
       .in("event_type", ["proposta_registrada", "execucao_falhou", "execucao_nova_tentativa", "execucao_falha_transitoria", "revalidacao_bloqueou"]).order("id").range(a, b), "auditoria"),
-    fetchAll((a, b) => db.from("ai_usage").select("id, case_id, step, requested_model, served_model, prompt_tokens, completion_tokens, cost_usd, latency_ms, ok").eq("scenario_run_id", rid).order("id").range(a, b), "uso de IA"),
+    fetchAll((a, b) => db.from("ai_usage").select("id, case_id, step, requested_model, served_model, prompt_tokens, completion_tokens, cost_usd, latency_ms, ok, tier, strategy, route_reason, switched_from").eq("scenario_run_id", rid).order("id").range(a, b), "uso de IA"),
   ]);
 
   const usage: UsageRecord[] = usageRows.map((u) => ({
     caseId: str(u.case_id), step: String(u.step), requestedModel: str(u.requested_model), servedModel: str(u.served_model),
     promptTokens: num(u.prompt_tokens), completionTokens: num(u.completion_tokens), costUsd: num(u.cost_usd), latencyMs: num(u.latency_ms), ok: u.ok !== false,
+    tier: str(u.tier), strategy: str(u.strategy), routeReason: str(u.route_reason), switchedFrom: str(u.switched_from),
   }));
   const usageByCase = new Map<string, UsageRecord[]>();
   for (const u of usage) if (u.caseId) usageByCase.set(u.caseId, [...(usageByCase.get(u.caseId) ?? []), u]);

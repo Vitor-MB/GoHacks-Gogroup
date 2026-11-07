@@ -3,7 +3,9 @@ import { NextResponse } from "next/server";
 import { readServerConfig } from "../../../../../server/config";
 import { createAdminClient } from "../../../../../server/db/admin";
 import { createSimulatedAdapter } from "../../../../../server/execution/adapters";
+import { processInvestigationTasks } from "../../../../../server/jobs/investigation";
 import { processDueTasks } from "../../../../../server/jobs/process";
+import { buildInvestigationDeps } from "../../../../../server/jobs/wiring";
 import { loadPolicyParams } from "../../../../../server/policy/load";
 
 export const dynamic = "force-dynamic";
@@ -46,7 +48,11 @@ export async function POST(request: Request) {
       runId, limit, worker: `cron:${randomUUID().slice(0, 8)}`,
       deps: { params: await loadPolicyParams(db), adapter: createSimulatedAdapter(db) },
     });
-    return NextResponse.json(report);
+    // Investigações pendentes (com retentativa e disjuntor): lote pequeno, porque cada uma pode chamar a IA.
+    const investigations = await processInvestigationTasks(db, {
+      limit: 2, worker: `cron:${randomUUID().slice(0, 8)}`, budgetMs: 25_000, deps: await buildInvestigationDeps(db),
+    });
+    return NextResponse.json({ ...report, investigations });
   } catch (e) {
     console.error("jobs/process", e instanceof Error ? e.message : "erro");
     return NextResponse.json({ error: "Falha ao processar as tarefas." }, { status: 500 });

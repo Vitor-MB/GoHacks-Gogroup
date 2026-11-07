@@ -141,6 +141,10 @@ export interface UsageRecord {
   costUsd: number | null;
   latencyMs: number | null;
   ok: boolean;
+  tier: string | null;        // GOB-13: economy | reasoning | unico (nulo = anterior ao roteamento)
+  strategy: string | null;
+  routeReason: string | null;
+  switchedFrom: string | null;
 }
 
 export interface AuditCounts {
@@ -201,7 +205,7 @@ export interface MvpStats {
     humanWaitHours: Summary | null;
   };
   models: {
-    model: string; step: string; calls: number; failures: number;
+    model: string; step: string; tier: string | null; calls: number; failures: number; routeSwitches: number;
     promptTokens: number; completionTokens: number; tokensUnknownCalls: number;
     latencyMs: Summary | null; swaps: number; costUsd: number; costUnknownCalls: number;
   }[];
@@ -316,13 +320,14 @@ export function computeMvp(input: MvpInput): MvpStats {
   const usage = input.usage.filter((u) => u.caseId === null || caseIds.has(u.caseId));
   const groups = new Map<string, UsageRecord[]>();
   for (const u of usage) {
-    const key = `${u.servedModel ?? u.requestedModel ?? "desconhecido"}\u0000${u.step}`;
+    const key = `${u.servedModel ?? u.requestedModel ?? "desconhecido"}\u0000${u.step}\u0000${u.tier ?? ""}`;
     groups.set(key, [...(groups.get(key) ?? []), u]);
   }
   const models = [...groups].map(([key, rows]) => {
-    const [model, step] = key.split("\u0000");
+    const [model, step, tier] = key.split("\u0000");
     return {
-      model, step, calls: rows.length, failures: rows.filter((r) => !r.ok).length,
+      model, step, tier: tier || null, calls: rows.length, failures: rows.filter((r) => !r.ok).length,
+      routeSwitches: rows.filter((r) => r.switchedFrom !== null).length,
       promptTokens: rows.reduce((a, r) => a + (r.promptTokens ?? 0), 0),
       completionTokens: rows.reduce((a, r) => a + (r.completionTokens ?? 0), 0),
       tokensUnknownCalls: rows.filter((r) => r.promptTokens === null || r.completionTokens === null).length,

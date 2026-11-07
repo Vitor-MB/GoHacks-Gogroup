@@ -5,7 +5,7 @@ import { createSessionClient } from "../../server/db/client";
 
 const REASON_LABEL: Record<string, string> = {
   aprovacao_supervisor: "Aprovação do supervisor", orientacao_e_encaminhamento: "Orientação e encaminhamento", acao_bloqueada: "Ação bloqueada",
-  continuidade_humana: "Continuidade humana", execucao_falhou: "Execução falhou", proposta_rejeitada: "Proposta rejeitada",
+  continuidade_humana: "Continuidade humana", ia_indisponivel: "IA indisponível", execucao_falhou: "Execução falhou", proposta_rejeitada: "Proposta rejeitada",
   proposta_suspensa: "Proposta suspensa", revalidacao_bloqueada: "Revalidação bloqueou",
 };
 const TOPIC_LABEL: Record<string, string> = {
@@ -25,6 +25,12 @@ export default async function PanelPage() {
   const db = await createSessionClient();
   const { data: run } = await db.from("scenario_runs").select("id, clock_now").eq("name", "demo").maybeSingle();
   const all = run ? await listQueue(db, run.id) : [];
+  // Disponibilidade da IA: disjuntor aberto/meio-aberto ou investigações esperando nova tentativa.
+  const [{ data: circuit }, { count: waiting }] = await Promise.all([
+    db.from("ai_circuit").select("state, failures").eq("name", "proxy").maybeSingle(),
+    run ? db.from("investigation_tasks").select("id", { count: "exact", head: true }).eq("scenario_run_id", run.id).in("status", ["pendente", "reservada"]).not("last_error_kind", "is", null) : Promise.resolve({ count: 0 }),
+  ]);
+  const aiDegraded = (!!circuit && circuit.state !== "closed") || (waiting ?? 0) > 0;
   const items = all.filter(needsHuman);
 
   const kpis = [
@@ -44,6 +50,10 @@ export default async function PanelPage() {
           Casos que aguardam uma decisão ou ação de pessoa, do mais urgente ao menos.
         </p>
       </header>
+
+      {aiDegraded && (
+        <p role="status" className="muted"><strong>IA instável ou indisponível.</strong> Novos casos já receberam a confirmação de recebimento e ficam em fila de espera para nova tentativa{(waiting ?? 0) > 0 ? ` (${waiting} aguardando)` : ""}. Se a IA não voltar a tempo, o caso aparece aqui para uma pessoa assumir, com o motivo “IA indisponível”. Nenhuma ação é aprovada ou executada nesse período.</p>
+      )}
 
       <section className="kpis" aria-label="Resumo">
         {kpis.map((k) => (

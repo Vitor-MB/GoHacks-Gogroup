@@ -33,7 +33,7 @@ export async function POST(request: Request) {
   if (!run) return NextResponse.json({ error: "Cenário não encontrado." }, { status: 404 });
 
   try {
-    const result = await ingestContact(db, run.id, parsed.event);
+    const result = await ingestContact(db, run.id, parsed.event, { enqueue: true });
     return NextResponse.json(result, { status: result.duplicate ? 200 : 201 });
   } catch (e) {
     console.error("intake", e instanceof Error ? e.message : "erro");

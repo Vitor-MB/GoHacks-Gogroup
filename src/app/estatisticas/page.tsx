@@ -161,10 +161,10 @@ export default async function StatsPage({ searchParams }: { searchParams: Promis
           </Card>
           <Card title="Modelos">
             {mvp.models.length === 0 ? <p>Nenhuma chamada de IA registrada neste filtro. {mvpLoad.usageCasesWithoutRecord} caso(s) sem registro de uso: custo e tokens indisponíveis.</p> : (
-              <table><thead><tr><th>Modelo · etapa</th><th>Chamadas</th><th>Tokens</th><th>Latência</th><th>Trocas</th><th>Custo</th></tr></thead>
+              <table><thead><tr><th>Modelo · etapa · camada</th><th>Chamadas</th><th>Tokens</th><th>Latência</th><th>Trocas</th><th>Custo</th></tr></thead>
                 <tbody>{mvp.models.map((m) => (
                   <tr key={`${m.model}|${m.step}`}>
-                    <td>{m.model} · {m.step}{m.failures ? <><br /><span className="muted">{m.failures} falha(s)</span></> : null}</td>
+                    <td>{m.model} · {m.step}{m.tier ? ` · ${m.tier}` : ""}{m.routeSwitches ? ` · ${m.routeSwitches} troca(s) de camada` : ""}{m.failures ? <><br /><span className="muted">{m.failures} falha(s)</span></> : null}</td>
                     <td>{m.calls}</td>
                     <td>{m.tokensUnknownCalls === m.calls ? "indisponível" : `${n0(m.promptTokens + m.completionTokens)}${m.tokensUnknownCalls ? ` (+${m.tokensUnknownCalls} sem dado)` : ""}`}</td>
                     <td>{m.latencyMs ? `${n0(m.latencyMs.mean)} ms (P90 ${n0(m.latencyMs.p90)})` : "indisponível"}</td>

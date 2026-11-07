@@ -19,11 +19,38 @@ export class AdapterError extends Error {
   }
 }
 
+/** GOB-13 · Camada do modelo: `economy` e `reasoning` são aliases de configuração; `unico` = só há um modelo. */
+export type Tier = "economy" | "reasoning" | "unico";
+export type Strategy = "adaptive" | "reasoning_only" | "economy_only" | "single";
+
+/**
+ * Sinais de roteamento calculados pelo SERVIDOR a partir de evidências e do estado da conversa. Nunca vêm da confiança
+ * autodeclarada do modelo, e o texto do modelo não consegue escolher a camada.
+ */
+export interface RouteSignals {
+  step: number;              // 1 = primeira chamada do caso
+  multiIntent: boolean;      // a mensagem traz mais de uma solicitação distinta
+  conflicts: number;         // conflitos de fonte nos resultados de ferramenta mais recentes
+  toolErrors: number;        // ferramentas recusadas ou com erro nos resultados mais recentes
+  pendingRepair: boolean;    // a chamada anterior devolveu saída inválida
+}
+
+/** Decisão de roteamento de uma chamada, registrada junto do uso (ai_usage). */
+export interface RouteInfo {
+  tier: Tier;
+  strategy: Strategy;
+  reason: string;
+  switchedFrom: Tier | null;
+  model: string | null;
+}
+
+export interface CompleteOptions { maxTokens?: number; signals?: RouteSignals; route?: RouteInfo }
+
 export interface ModelAdapter {
   /** "proxy" para o serviço real; "simulado" nunca é apresentado como resposta de provedor. */
   readonly kind: "proxy" | "simulado";
   readonly id: string;
-  complete(messages: ChatMessage[], opts?: { maxTokens?: number }): Promise<Completion>;
+  complete(messages: ChatMessage[], opts?: CompleteOptions): Promise<Completion>;
 }
 
 export interface ProxyConfig {
@@ -119,6 +146,8 @@ export interface CallObservation {
   servedModel: string | null;
   usage: Usage;
   latencyMs: number;
+  /** Camada/motivo desta tentativa quando o adaptador é roteado (GOB-13); nulo = modelo único sem roteamento. */
+  route: RouteInfo | null;
 }
 
 export function withBudget(inner: ModelAdapter, budget: Budget, onCall?: (o: CallObservation) => void): ModelAdapter & { report(): { calls: number; tokens: number; costUsd: number | null; costAvailable: boolean } } {
@@ -141,10 +170,10 @@ export function withBudget(inner: ModelAdapter, budget: Budget, onCall?: (o: Cal
         // Chamada que falhou também conta como tentativa; nenhum custo é inventado para ela.
         costSeen = false;
         onCall?.({ call: calls, ok: false, errorKind: e instanceof AdapterError ? e.kind : "desconhecido", servedModel: null,
-          usage: { promptTokens: null, completionTokens: null, costUsd: null }, latencyMs: Date.now() - started });
+          usage: { promptTokens: null, completionTokens: null, costUsd: null }, latencyMs: Date.now() - started, route: opts?.route ?? null });
         throw e;
       }
-      onCall?.({ call: calls, ok: true, errorKind: null, servedModel: c.model, usage: c.usage, latencyMs: Date.now() - started });
+      onCall?.({ call: calls, ok: true, errorKind: null, servedModel: c.model, usage: c.usage, latencyMs: Date.now() - started, route: opts?.route ?? null });
       tokens += (c.usage.promptTokens ?? 0) + (c.usage.completionTokens ?? 0);
       if (c.usage.costUsd === null) costSeen = false;
       else cost += c.usage.costUsd;

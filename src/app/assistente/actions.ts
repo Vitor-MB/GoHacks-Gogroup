@@ -4,7 +4,8 @@ import { getCurrentStaff } from "../../server/auth/session";
 import { readServerConfig } from "../../server/config";
 import { createAdminClient } from "../../server/db/admin";
 import { createSessionClient } from "../../server/db/client";
-import { createProxyAdapter, withBudget, type ModelAdapter } from "../../server/ai/adapter";
+import type { ModelAdapter } from "../../server/ai/adapter";
+import { createModelAdapter } from "../../server/ai/factory";
 import { askAssistant, type AssistantAnswer } from "../../server/assistant/assistant";
 import { usageRecorder } from "../../server/metrics/survey";
 
@@ -37,10 +38,13 @@ export async function askAssistantAction(_prev: AssistantState, formData: FormDa
 
   const cfg = readServerConfig();
   let adapter: ModelAdapter | null = null;
-  if (cfg.claudeProxyUrl && cfg.claudeProxyToken && cfg.claudeModel) {
-    const inner = createProxyAdapter({ url: cfg.claudeProxyUrl, token: cfg.claudeProxyToken, model: cfg.claudeModel, timeoutMs: 45_000 });
-    const record = usageRecorder(createAdminClient(), { runId, caseId: rawCase || null, adapter: inner, step: "assistente", occurredAt: () => new Date().toISOString() });
-    adapter = withBudget(inner, { maxCalls: 2, maxTokens: 20_000 }, (o) => { void record(o); });
+  {
+    // Consulta simples e somente leitura: sem sinais de complexidade o roteador usa a camada econômica (ou o modelo único).
+    const record = usageRecorder(createAdminClient(), { runId, caseId: rawCase || null, adapter: { kind: "proxy", id: `proxy:${cfg.claudeModelEconomy ?? cfg.claudeModel ?? "desconhecido"}` }, step: "assistente", occurredAt: () => new Date().toISOString() });
+    adapter = createModelAdapter(
+      { url: cfg.claudeProxyUrl, token: cfg.claudeProxyToken, model: cfg.claudeModel, economy: cfg.claudeModelEconomy, reasoning: cfg.claudeModelReasoning, routing: cfg.claudeRouting },
+      { budget: { maxCalls: 2, maxTokens: 20_000 }, timeoutMs: 45_000, onCall: (o) => { void record(o); } },
+    );
   }
 
   try {

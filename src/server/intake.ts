@@ -277,11 +277,15 @@ export interface IngestResult {
 }
 
 /** Recebe um contato: valida contexto no servidor e grava evento, conversa, mensagem e caso numa transação. */
-export async function ingestContact(db: Db, runId: string, event: ContactEvent): Promise<IngestResult> {
+/** Confirmação automática de recebimento: só informa o recebimento; não promete resultado, prazo de solução nem ação. */
+export const ACK_MESSAGE = "Recebemos o seu contato e o seu caso já está em andamento. Assim que houver um próximo passo confirmado, avisamos você por aqui. Esta é uma confirmação automática de recebimento.";
+
+/** Com `enqueue`, o caso novo nasce com tarefa de investigação e confirmação de recebimento na MESMA transação (entrada real). A fila inicial importada não enfileira. */
+export async function ingestContact(db: Db, runId: string, event: ContactEvent, opts: { enqueue?: boolean; deadlineMinutes?: number } = {}): Promise<IngestResult> {
   const topic = classifyTopic(event.subject, event.text);
   const facts = await loadFacts(db, runId, event);
   const ctx = resolveContext(event, topic, facts);
-  const { data, error } = await db.rpc("record_contact", {
+  const { data, error } = await db.rpc(opts.enqueue ? "record_contact_and_enqueue" : "record_contact", {
     p_run: runId,
     p_event: {
       channel: event.channel,
@@ -293,6 +297,7 @@ export async function ingestContact(db: Db, runId: string, event: ContactEvent):
       received_at: event.receivedAt,
     },
     p_ctx: ctx,
+    ...(opts.enqueue ? { p_ack: ACK_MESSAGE, p_deadline_minutes: opts.deadlineMinutes ?? 30 } : {}),
   });
   if (error) throw new Error(`record_contact: ${error.message}`);
   return data as IngestResult;
