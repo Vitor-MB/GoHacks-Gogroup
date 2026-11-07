@@ -326,3 +326,18 @@ a:hover { color: var(--blue-deep); }
 .stat-card .stat-big { font-size: 1.15rem; font-weight: 700; color: var(--ink); }
 .stat-card table { font-size: 0.8125rem; }
 @media (max-width: 52rem) { .stat-grid { grid-template-columns: 1fr; } }
+
+.assistant { margin: 1.5rem 0; padding: 1rem; border: 1px solid #0019d2; border-left: 4px solid #ff2f59; border-radius: 8px; }
+.assistant input[name="question"] { width: min(34rem, 100%); }
+.assistant-answer { margin-top: .75rem; }
+
+.chat-fab { position: fixed; right: 1.25rem; bottom: 1.25rem; width: 3.5rem; height: 3.5rem; border-radius: 50%; border: 0; background: #ff2f59; color: #fff; font-size: 1.6rem; font-weight: 700; cursor: pointer; box-shadow: 0 4px 14px rgba(0,25,210,.35); z-index: 50; }
+.chat-fab:hover { background: #0019d2; }
+.chat-panel { position: fixed; right: 1.25rem; bottom: 5.5rem; width: min(24rem, calc(100vw - 2.5rem)); height: min(32rem, 70vh); display: flex; flex-direction: column; background: #fff; color: #111; border: 1px solid #0019d2; border-radius: 12px; box-shadow: 0 8px 28px rgba(0,0,0,.25); z-index: 50; overflow: hidden; }
+.chat-panel header { background: #0019d2; color: #fff; padding: .6rem .8rem; display: flex; flex-direction: column; font-size: .85rem; }
+.chat-body { flex: 1; overflow-y: auto; padding: .6rem; display: flex; flex-direction: column; gap: .5rem; font-size: .9rem; }
+.chat-user { align-self: flex-end; background: #0013d0; color: #fff; padding: .4rem .7rem; border-radius: 10px; margin: 0; max-width: 85%; }
+.chat-bot { align-self: flex-start; background: #f2f3f8; padding: .4rem .7rem; border-radius: 10px; margin: 0; max-width: 92%; }
+.chat-bot p { margin: .3rem 0; }
+.chat-panel form { display: flex; gap: .4rem; padding: .5rem; border-top: 1px solid #ddd; }
+.chat-panel form input { flex: 1; min-width: 0; }

@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 import logo from "../../../assets/brand/gobia-logo-v1.png";
 import { signOut } from "../../server/auth/actions";
 import { getCurrentStaff } from "../../server/auth/session";
+import { AssistantChat } from "./assistant-chat";
 import { NavLinks } from "./nav-links";
 
 const ROLE_LABEL = { supervisor: "Supervisor", analista: "Analista", atendente: "Atendente" } as const;
@@ -25,6 +26,7 @@ export async function Shell({ children }: { children: ReactNode }) {
         </div>
       </aside>
       <div className="shell-main">{children}</div>
+      <AssistantChat />
     </div>
   );
 }
