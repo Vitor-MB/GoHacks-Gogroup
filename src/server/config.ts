@@ -7,5 +7,6 @@ export function readServerConfig() {
     claudeProxyToken: process.env.CLAUDE_PROXY_TOKEN,
     claudeModel: process.env.CLAUDE_MODEL,
     cronSecret: process.env.CRON_SECRET,
+    intakeSecret: process.env.INTAKE_SECRET,
   };
 }

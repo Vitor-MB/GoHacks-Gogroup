@@ -24,7 +24,7 @@ P0 forma o percurso principal do MVP. P1 acrescenta métricas, satisfação, ass
 
 **Aceite.** Instalação pelo lockfile, lint, tipos e build passam. A página inicial abre localmente. Segredos não aparecem no código cliente nem no Git.
 
-### [ ] GOB-02 — Criar o banco e o acesso por funcionário · P0
+### [x] GOB-02 — Criar o banco e o acesso por funcionário · P0
 
 **Depende de** GOB-01. **Planejamento** §§ 4–6 e 10.
 
@@ -34,7 +34,7 @@ P0 forma o percurso principal do MVP. P1 acrescenta métricas, satisfação, ass
 
 **Aceite.** As migrations aplicam em uma base de desenvolvimento vazia. Uma sessão válida vê somente o escopo autorizado. Acesso sem sessão e acesso cruzado por marca falham tanto pela aplicação quanto pela API direta. A chave administrativa permanece no servidor.
 
-### [ ] GOB-03 — Importar a base e definir o relógio do cenário · P0
+### [x] GOB-03 — Importar a base e definir o relógio do cenário · P0
 
 **Depende de** GOB-02. **Planejamento** §§ 3, 6 e 9.
 
@@ -46,7 +46,7 @@ P0 forma o percurso principal do MVP. P1 acrescenta métricas, satisfação, ass
 
 ## Atendimento e execução
 
-### [ ] GOB-04 — Receber contatos e identificar o contexto · P0
+### [x] GOB-04 — Receber contatos e identificar o contexto · P0
 
 **Depende de** GOB-03. **Planejamento** §§ 6, 7.1 e 7.1.1.
 
@@ -56,7 +56,7 @@ P0 forma o percurso principal do MVP. P1 acrescenta métricas, satisfação, ass
 
 **Aceite.** Reenviar um evento não duplica a mensagem. `AT116589` e `AT116707` podem compartilhar a pendência do pedido `GCH558661` sem perder os canais de origem. Pedidos de outra marca ou assuntos diferentes mantêm o contexto separado.
 
-### [ ] GOB-05 — Implementar consultas e RAG no PostgreSQL · P0
+### [x] GOB-05 — Implementar consultas e RAG no PostgreSQL · P0
 
 **Depende de** GOB-03. **Planejamento** §§ 7.1.2 e 8.
 
@@ -66,7 +66,7 @@ P0 forma o percurso principal do MVP. P1 acrescenta métricas, satisfação, ass
 
 **Aceite.** Consultas do cenário retornam dados disponíveis na data e trechos citáveis. Termos em português recuperam a política esperada. Uma consulta de marca restrita não retorna conteúdo indevido. A busca funciona sem embeddings nem chamadas de IA.
 
-### [ ] GOB-06 — Implementar a decisão operacional · P0
+### [x] GOB-06 — Implementar a decisão operacional · P0
 
 **Depende de** GOB-03. **Planejamento** §§ 7.2–7.4 e 13.
 
@@ -172,6 +172,11 @@ P0 forma o percurso principal do MVP. P1 acrescenta métricas, satisfação, ass
 
 | Task | Estado | Evidência ou bloqueio | Próximo passo |
 | --- | --- | --- | --- |
-| GOB-01 | Bloqueada | Base Next.js, página inicial com a logo e configuração de ambiente implementadas. A proteção de `.env.local` foi conferida com `git check-ignore`. O registro npm não respondeu por DNS (`ENOTFOUND`) e o cache local não tem os pacotes (`ENOTCACHED`). A geração do lockfile, `npm ci`, lint, tipos, build e abertura da página aguardam as dependências. | Em um terminal com acesso ao npm, rodar `npm install` para gerar `package-lock.json`, verificar `npm ci`, `npm run lint`, `npm run typecheck`, `npm run build` e abrir a página com `npm run dev`. Versionar o lockfile e concluir o aceite antes de avançar para GOB-02. |
+| GOB-01 | Concluída | `npm ci`, `npm run lint`, `npm run typecheck` e `npm run build` passaram (07/11/2026). `package-lock.json` versionado e `.env.local` ignorado (`git check-ignore`). Abertura da página local confirmada pelo usuário. | — |
+| GOB-02 | Concluída | Migrations `supabase/migrations/20261107000001_core_schema.sql` (schema) e `…000002_rls_and_access.sql` (funções de acesso, RLS, concessões), `supabase/seed.sql` (unidades, marcas e 3 contas de teste, só dev) e `supabase/tests/rls_check.sql` escritos. Migrations e seed aplicados no projeto de desenvolvimento e `rls_check.sql` conferido pelo usuário. Integração Auth no Next.js escrita: `src/proxy.ts` (exige sessão), `src/server/db/client.ts` (sessão) e `admin.ts` (chave privilegiada, `server-only`), `src/server/auth/` (sessão, login, logout), página `/login` e `/` com papel e escopo. `npm run lint`, `typecheck` e `build` passam. `scripts/verify-access.ts` escrito. **Aceite confirmado pelo usuário (07/11/2026) após os testes. Pendência registrada na época:** login real e `verify-access.ts` (o `.env` estava vazio e o Next lê `.env.local`). | Salvar as chaves em `.env.local`, rodar `node --env-file=.env.local scripts/verify-access.ts` com `TEST_PASSWORD` definido e testar o login das 3 contas em `npm run dev`. Marcar GOB-02 como concluída só após o aceite (acesso sem sessão e cruzado por marca falham na aplicação e na API direta). |
+| GOB-03 | Concluída | Escritos: migration `supabase/migrations/20261107000003_import_and_clock.sql` (lotes por lote+SKU, `tracking_events`, `policies` com busca textual, `tool_catalog`, funções `orders_as_of`/`order_items_as_of`/`tracking_events_as_of`/`conversations_as_of`, `advance_scenario_clock`, `reset_scenario_run` restritas ao servidor), `scripts/import-data.ts` (upsert em lotes, validação de referências antes de gravar, `--dry-run`) e `scripts/verify-scenario.ts` (aceite no banco). **Validado sem banco:** `node scripts/import-data.ts --dry-run` leu os CSVs e conferiu todas as referências; contagens batem com o planejamento (6.092 pedidos, 2.867 clientes, 3.049 conversas = 2.984 + 65, 13.731 mensagens, 26.517 eventos); 273 pedidos posteriores a 02/11 08:00 (243 em dias seguintes + 30 no próprio 02/11); 330 conversas sem tag mantidas sem tag. `npm run lint` e `typecheck` passam. **Verificado no banco de desenvolvimento (07/11/2026, confirmado pelo usuário):** migration aplicada, importação executada duas vezes sem alterar contagens e `verify-scenario.ts` sem falhas (contagens, referências AT116665/AT116703, pedido futuro oculto até o relógio, reset isolado). | Seguir para GOB-04. |
+| GOB-04 | Concluída | Escritos: migration `supabase/migrations/20261107000004_intake.sql` (`contact_events` com unicidade por canal+evento+cenário, `cases.topic/clarification/sources`, índice de pendência compatível por cliente+pedido+assunto, `record_contact` atômica só para `service_role`, reset estendido), `src/server/intake.ts` (contrato comum, assunto, resolução de contexto, fila inicial, saída pública sem dados privados), rota `POST /api/intake/event` (credencial `INTAKE_SECRET`), fila e detalhe (`/api/cases`, `/fila`), `scripts/seed-queue.ts` e `scripts/verify-intake.ts`. `npm run lint` e `npm run typecheck` passaram; regras puras conferidas localmente. Migration 000004 aplicada; `scripts/seed-queue.ts` e `scripts/verify-intake.ts` executados no banco de desenvolvimento e confirmados pelo usuário sem falhas (dedupe, AT116589/AT116707 no mesmo caso, separação por assunto e marca, esclarecimento, reset). A rota HTTP não foi exercitada. | Seguir para GOB-05 |
+| GOB-05 | Concluída | Escritos (07/11/2026): migration `supabase/migrations/20261107000005_knowledge_and_evidence.sql` (config de busca `pt_unaccent` = português sem acento; `carrier_tickets`, `attachments`, `print_machines` e visões `*_as_of`; `knowledge_documents` com fonte, versão, vigência, escopo, categoria e `tsvector` + GIN; `rebuild_knowledge()`; RPC `search_knowledge` com vigência pelo relógio do cenário, filtros de marca/unidade/SKU, correspondência exata antes do ranking e trechos limitados), `src/server/evidence.ts` (formato padrão `Evidence` com fontes, horário, `missing` e `conflicts`; situação do pedido no relógio; limite de contexto), `src/server/queries.ts` (pedido, itens, catálogo, lote, rastreio, chamados, produção e anexos), `src/server/knowledge.ts`, rotas `GET /api/knowledge` e `GET /api/orders/[id]/evidence`, importador estendido e `scripts/verify-knowledge.ts`. `lint`, `typecheck` e `build` passaram; migration aplicada, importação reexecutada e `scripts/verify-knowledge.ts` passou no banco de desenvolvimento (07/11/2026): termos em português (com e sem acento) recuperam a política esperada, categoria/SKU exatos vêm primeiro, marca restrita só traz fichas da própria marca, campanha sai da busca após a vigência, anônimo bloqueado. Não exercitados: ocultação por relógio contra dados reais (os dados iniciais não têm pedido com separação, evento ou resposta de chamado posteriores ao relógio; coberta só por regras puras), prova da conta restrita pela API (sem `TEST_PASSWORD`) e as rotas HTTP. | Seguir para GOB-06; repetir `verify-knowledge.ts` com `TEST_PASSWORD` e com o relógio avançado quando houver oportunidade |
+| GOB-06 | Concluída | Escritos (07/11/2026): `src/server/policy/calendar.ts` (dia útil = sem fim de semana nem feriado da política; soma e contagem de dias úteis; prazo prometido) e `src/server/policy/decision.ts` (função pura `decide`: fatos verificados + ação + valor → elegibilidade, justificativa, aprovação exigida/válida, janela de revisão opcional, bloqueios, orientação e encaminhamento fora do P0; limites e feriados lidos da política via `paramsFromPolicy`; valor, papel e "aprovado" sugeridos pelo modelo são ignorados e sinalizados; aprovação vale só para pedido, ação e valor idênticos, nunca vencida, nunca do próprio aprovador; cancelamento antes da separação sem limite). `scripts/verify-decision.ts` (61 verificações, sem banco) passou: feriado 02/11, fim de semana, contagem em dias úteis, R$ 100,00/100,01 e R$ 200,00/200,01 (reembolso, reenvio, reimpressão, troca), rastreio parado ≥ 3 dias úteis, atraso até 7 e acima de 7, extravio, preferência, duplicidade, suspeita, janela de revisão. O prazo prometido recalculado pela regra confere com 6092/6092 pedidos da base. `typecheck` e `eslint` passaram. Escopo: só regras puras; a leitura dos fatos no banco e a gravação da aprovação/proposta entram em GOB-07 e GOB-08. Execução P0 = rastreio, atraso e cancelamento antes da separação; demais categorias devolvem orientação e encaminhamento. | Seguir para GOB-07; mapear nele os fatos de `queries.ts` para `VerifiedFacts` |
 
 Adicione uma linha ao avançar em cada tarefa. Use `A fazer`, `Em andamento`, `Bloqueada` ou `Concluída` e aponte o comando, resultado ou cenário usado para verificar o aceite. Use números de teste e IDs sintéticos ao registrar evidências.

@@ -59,6 +59,59 @@ h1 {
   line-height: 1.6;
 }
 
+.form {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.form label {
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.form input {
+  padding: 0.7rem 0.8rem;
+  border: 1px solid #c6cfe8;
+  border-radius: 0.625rem;
+  font: inherit;
+}
+
+.form button,
+.signout button {
+  padding: 0.7rem 1rem;
+  border: 0;
+  border-radius: 0.625rem;
+  background: #2339a0;
+  color: #fff;
+  font: inherit;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+.form button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.form-error {
+  margin: 0;
+  color: #8d1840;
+  font-size: 0.9rem;
+}
+
+.scopes {
+  margin: 0 0 1.5rem;
+  padding-left: 1.25rem;
+  color: #46516e;
+}
+
+.signout {
+  margin-top: 1.5rem;
+}
+
 .status {
   display: inline-block;
   margin: 0;
@@ -68,4 +121,27 @@ h1 {
   color: #8d1840;
   font-size: 0.875rem;
   font-weight: 650;
+}
+
+.queue {
+  box-sizing: border-box;
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.queue table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.queue th,
+.queue td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid #dce3f7;
+  text-align: left;
+}
+
+.queue .muted {
+  color: #5a6590;
 }
