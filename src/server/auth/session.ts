@@ -26,17 +26,21 @@ export async function getCurrentStaff(): Promise<CurrentStaff | null> {
   const { data: auth } = await supabase.auth.getUser();
   if (!auth.user) return null;
 
-  const { data: staff } = await supabase
+  // `auth_user_id` não é uma coluna exposta à sessão (concessão por colunas, GOB-02), então não pode filtrar a
+  // consulta. A RLS `staff_self` já devolve somente o registro do próprio usuário autenticado.
+  const { data: staff, error } = await supabase
     .from("staff")
     .select("id, full_name, email, role, active")
-    .eq("auth_user_id", auth.user.id)
     .maybeSingle();
+  // Falha de leitura não é "conta sem vínculo": não mascarar o erro com a mensagem de liberação.
+  if (error) throw new Error(`Falha ao ler o funcionário da sessão: ${error.message}`);
   if (!staff || !staff.active) return null;
 
-  const { data: scopes } = await supabase
+  const { data: scopes, error: scopesError } = await supabase
     .from("staff_scopes")
     .select("scope, business_unit_id, brand_id")
     .eq("staff_id", staff.id);
+  if (scopesError) throw new Error(`Falha ao ler o escopo do funcionário: ${scopesError.message}`);
 
   return {
     id: staff.id,

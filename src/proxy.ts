@@ -10,8 +10,8 @@ export async function proxy(request: NextRequest) {
     return new NextResponse("Configuração do Supabase ausente.", { status: 503 });
   }
 
-  // A entrada de contatos simulados é máquina a máquina: autentica por credencial própria na rota, sem sessão.
-  if (request.nextUrl.pathname.startsWith("/api/intake/")) return NextResponse.next();
+  // Entrada de contatos simulados e jobs internos (Cron) são máquina a máquina: cada rota autentica por credencial própria, sem sessão.
+  if (request.nextUrl.pathname.startsWith("/api/intake/") || request.nextUrl.pathname.startsWith("/api/internal/")) return NextResponse.next();
 
   let response = NextResponse.next({ request });
   const supabase = createServerClient(url, key, {
@@ -32,7 +32,7 @@ export async function proxy(request: NextRequest) {
     return NextResponse.redirect(new URL("/login", request.url));
   }
   if (data.user && isLogin) {
-    return NextResponse.redirect(new URL("/", request.url));
+    return NextResponse.redirect(new URL("/painel", request.url));
   }
   return response;
 }

@@ -461,10 +461,33 @@ if (missingLots.length) {
 }
 const futureOrders = orders.rows.filter((o) => String(o.ordered_at) > "2026-11-02T08:00:00-03:00").length;
 
+// ---------- Pesquisas CSAT do histórico (GOB-11): enviadas e respondidas, para a taxa de resposta real ----------
+const csatCsv = csv("avaliacoes_csat");
+const surveyHistory: Dataset = {
+  table: "survey_history",
+  onConflict: "survey_id",
+  source: csatCsv.length,
+  rows: csatCsv.map((r) => {
+    const brand = brandId(r.marca);
+    return {
+      survey_id: must(text(r.pesquisa_id), "pesquisa_id"),
+      conversation_id: must(text(r.conversation_id), "conversation_id da pesquisa"),
+      channel: r.canal,
+      brand_id: brand,
+      business_unit_id: brandUnit.get(brand),
+      sent_at: must(timestamp(r.data_envio), "data_envio"),
+      answered_at: timestamp(r.data_resposta),
+      score: int(r.nota),
+      comment: text(r.comentario),
+    };
+  }),
+};
+
 // ---------- Ordem de carga ----------
 const datasets: Dataset[] = [
   businessUnits, brands, products, productLots, customers, orders, orderItems,
   conversations, messages, trackingEvents, carrierTickets, attachments, printMachines, policies, toolCatalog,
+  surveyHistory,
 ];
 
 function report() {

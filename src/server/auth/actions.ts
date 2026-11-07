@@ -16,7 +16,7 @@ export async function signIn(_prev: SignInState, formData: FormData): Promise<Si
   const { error } = await supabase.auth.signInWithPassword({ email, password });
   if (error) return { error: "E-mail ou senha inválidos." };
 
-  redirect("/");
+  redirect("/painel");
 }
 
 export async function signOut() {
