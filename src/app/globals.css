@@ -1,0 +1,71 @@
+:root {
+  color-scheme: light;
+  font-family: system-ui, sans-serif;
+  color: #151c3d;
+  background: #f4f6ff;
+}
+
+body {
+  margin: 0;
+}
+
+.welcome {
+  box-sizing: border-box;
+  display: grid;
+  min-height: 100svh;
+  place-items: center;
+  padding: 1.5rem;
+}
+
+.welcome-card {
+  box-sizing: border-box;
+  width: min(100%, 45rem);
+  padding: clamp(1.5rem, 5vw, 4rem);
+  border: 1px solid #dce3f7;
+  border-radius: 1.5rem;
+  background: #fff;
+  box-shadow: 0 1.25rem 4rem #13297212;
+}
+
+.brand {
+  display: block;
+  width: 180px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 0 1.75rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.75rem;
+  color: #2339a0;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  line-height: 1.08;
+  letter-spacing: -0.045em;
+}
+
+.intro {
+  max-width: 45ch;
+  margin: 1.25rem 0 1.5rem;
+  color: #46516e;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+.status {
+  display: inline-block;
+  margin: 0;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.625rem;
+  background: #fff0f4;
+  color: #8d1840;
+  font-size: 0.875rem;
+  font-weight: 650;
+}

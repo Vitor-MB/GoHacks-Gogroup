@@ -172,6 +172,6 @@ P0 forma o percurso principal do MVP. P1 acrescenta métricas, satisfação, ass
 
 | Task | Estado | Evidência ou bloqueio | Próximo passo |
 | --- | --- | --- | --- |
-| GOB-01 | A fazer | Backlog inicial | Preparar a base Next.js. |
+| GOB-01 | Bloqueada | Base Next.js, página inicial com a logo e configuração de ambiente implementadas. A proteção de `.env.local` foi conferida com `git check-ignore`. O registro npm não respondeu por DNS (`ENOTFOUND`) e o cache local não tem os pacotes (`ENOTCACHED`). A geração do lockfile, `npm ci`, lint, tipos, build e abertura da página aguardam as dependências. | Em um terminal com acesso ao npm, rodar `npm install` para gerar `package-lock.json`, verificar `npm ci`, `npm run lint`, `npm run typecheck`, `npm run build` e abrir a página com `npm run dev`. Versionar o lockfile e concluir o aceite antes de avançar para GOB-02. |
 
 Adicione uma linha ao avançar em cada tarefa. Use `A fazer`, `Em andamento`, `Bloqueada` ou `Concluída` e aponte o comando, resultado ou cenário usado para verificar o aceite. Use números de teste e IDs sintéticos ao registrar evidências.
