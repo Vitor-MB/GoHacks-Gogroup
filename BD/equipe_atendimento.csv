@@ -1,0 +1,28 @@
+colaborador_id,nome,email_corporativo,cargo,nivel,turno,canais_atendidos,supervisor_id,data_admissao,status
+atendente_01,Mariana Gonçalves,mariana.goncalves@gogroup.com.br,atendente,N2,08h-20h em revezamento,email; reclame_aqui; whatsapp,supervisor_02,2023-12-31,ativo
+atendente_02,Camila Ferreira,camila.ferreira@gogroup.com.br,atendente,N2,08h-20h em revezamento,email; reclame_aqui; whatsapp,supervisor_03,2022-11-19,ativo
+atendente_03,Juliana Batista,juliana.batista@gogroup.com.br,atendente,N1,08h-20h em revezamento,email; reclame_aqui; whatsapp,supervisor_01,2025-08-19,ativo
+atendente_04,Patrícia Monteiro,patricia.monteiro@gogroup.com.br,atendente,N1,08h-20h em revezamento,email; reclame_aqui; whatsapp,supervisor_01,2024-07-05,ativo
+atendente_05,Larissa Santana,larissa.santana@gogroup.com.br,atendente,N1,08h-20h em revezamento,email; reclame_aqui; whatsapp,supervisor_01,2023-10-02,ativo
+atendente_06,Bruna Rocha,bruna.rocha@gogroup.com.br,atendente,N1,08h-20h em revezamento,email; reclame_aqui; whatsapp,supervisor_03,2024-06-27,ativo
+atendente_07,Fernanda Costa,fernanda.costa@gogroup.com.br,atendente,N1,08h-20h em revezamento,email; reclame_aqui; whatsapp,supervisor_01,2026-01-11,ativo
+atendente_08,Aline Cardoso,aline.cardoso@gogroup.com.br,atendente,N1,08h-20h em revezamento,email; reclame_aqui; whatsapp,supervisor_02,2024-02-03,ativo
+atendente_09,Renata Andrade,renata.andrade@gogroup.com.br,atendente,N1,08h-20h em revezamento,email; reclame_aqui; whatsapp,supervisor_03,2026-01-27,ativo
+atendente_10,Tatiane Vieira,tatiane.vieira@gogroup.com.br,atendente,N1,08h-20h em revezamento,email; reclame_aqui; whatsapp,supervisor_01,2022-09-04,ativo
+atendente_11,Priscila Silva,priscila.silva@gogroup.com.br,atendente,N2,08h-20h em revezamento,email; reclame_aqui; whatsapp,supervisor_01,2021-05-27,ativo
+atendente_12,Daniela Lima,daniela.lima@gogroup.com.br,atendente,N1,08h-20h em revezamento,email; reclame_aqui; whatsapp,supervisor_01,2021-05-08,ativo
+atendente_13,Vanessa Oliveira,vanessa.oliveira@gogroup.com.br,atendente,N1,08h-20h em revezamento,email; reclame_aqui; whatsapp,supervisor_01,2023-07-08,ativo
+atendente_14,Carla Ferreira,carla.ferreira@gogroup.com.br,atendente,N1,08h-20h em revezamento,email; reclame_aqui; whatsapp,supervisor_03,2024-07-06,ativo
+atendente_15,Letícia Carvalho,leticia.carvalho@gogroup.com.br,atendente,N1,08h-20h em revezamento,email; reclame_aqui; whatsapp,supervisor_01,2025-11-06,ativo
+atendente_16,Sabrina Vieira,sabrina.vieira@gogroup.com.br,atendente,N1,08h-20h em revezamento,email; reclame_aqui; whatsapp,supervisor_03,2025-06-25,ativo
+atendente_17,Rafael Almeida,rafael.almeida@gogroup.com.br,atendente,N1,08h-20h em revezamento,email; reclame_aqui; whatsapp,supervisor_03,2021-12-28,ativo
+atendente_18,Diego Tavares,diego.tavares@gogroup.com.br,atendente,N2,08h-20h em revezamento,email; reclame_aqui; whatsapp,supervisor_03,2022-04-10,ativo
+atendente_19,Lucas Queiroz,lucas.queiroz@gogroup.com.br,atendente,N1,08h-20h em revezamento,email; reclame_aqui; whatsapp,supervisor_03,2024-01-28,ativo
+atendente_20,Thiago Santos,thiago.santos@gogroup.com.br,atendente,N1,08h-20h em revezamento,email; reclame_aqui; whatsapp,supervisor_02,2025-06-29,ativo
+atendente_21,Gustavo Rodrigues,gustavo.rodrigues@gogroup.com.br,atendente,N1,08h-20h em revezamento,email; reclame_aqui; whatsapp,supervisor_03,2024-05-07,ativo
+supervisor_01,Paula Gonçalves,paula.goncalves@gogroup.com.br,supervisor,N3,08h-20h em revezamento,email; reclame_aqui; whatsapp,,2022-08-08,ativo
+supervisor_02,Roberto Mendes,roberto.mendes@gogroup.com.br,supervisor,N3,08h-17h,,,2021-10-09,ativo
+supervisor_03,Cristiane Lopes,cristiane.lopes@gogroup.com.br,supervisor,N3,08h-17h,,,2021-09-07,ativo
+analista_01,Marcelo Tavares,marcelo.tavares@gogroup.com.br,analista,N2,09h-18h,,supervisor_01,2021-06-03,ativo
+analista_02,Jéssica Pinheiro,jessica.pinheiro@gogroup.com.br,analista,N2,09h-18h,,supervisor_01,2022-08-23,ativo
+analista_03,Otávio Ramos,otavio.ramos@gogroup.com.br,analista,N2,09h-18h,,supervisor_01,2023-04-09,ativo

@@ -1,0 +1,66 @@
+conversation_id,customer_id,order_id,marca,canal,data_abertura,status,n_interacoes,atendente_id,data_primeira_resposta,assunto
+AT116160,CH761018,GBH473217,Kokeshi,reclame_aqui,2026-10-29 13:53:49,pendente,2,atendente_02,2026-11-01 13:33:40,Pedido sem atualização
+AT116171,CH927088,GBH481046,Kokeshi,reclame_aqui,2026-10-29 15:02:16,pendente,2,atendente_09,2026-10-31 08:32:45,Pedido sem atualização
+AT116473,CH620178,GBH476745,Auá,reclame_aqui,2026-10-31 15:11:54,pendente,2,atendente_06,2026-11-01 08:11:32,Pedido atrasado e sem resposta
+AT116480,CH903414,GCH559342,Gocase,email,2026-10-31 15:58:30,aberto,2,,,Ajuda com o pedido GCH559342
+AT116486,CH589344,GBH474054,Ápice,reclame_aqui,2026-10-31 18:27:33,pendente,2,atendente_17,2026-11-01 13:30:53,Atraso na entrega
+AT116501,CH791587,GBH473091,Ápice,reclame_aqui,2026-10-31 20:04:06,aberto,1,,,Brinde não enviado
+AT116507,CH695289,GBH469698,Ápice,reclame_aqui,2026-10-31 21:27:59,aberto,1,,,Pedido atrasado e sem resposta
+AT116513,CH288773,GBH481890,Ápice,reclame_aqui,2026-10-31 21:49:59,pendente,2,atendente_11,2026-11-01 09:46:13,Pedido sem atualização
+AT116520,CH209547,GBH469163,Lescent,reclame_aqui,2026-10-31 22:40:46,aberto,1,,,Devolução
+AT116521,CH279546,GCH559560,Gocase,reclame_aqui,2026-10-31 22:45:20,aberto,1,,,Rastreio parado
+AT116524,CH157276,GCH556292,Gocase,reclame_aqui,2026-10-31 23:24:16,aberto,1,,,Personalização errada
+AT116538,CH631375,GBH454865,Barbour's,reclame_aqui,2026-11-01 08:09:07,aberto,1,,,Atraso na entrega
+AT116556,CH520328,GBH477520,Ápice,reclame_aqui,2026-11-01 10:02:21,aberto,1,,,Produto avariado
+AT116559,CH705363,GBH466364,Lescent,reclame_aqui,2026-11-01 10:26:10,aberto,1,,,Pedido atrasado e sem resposta
+AT116560,CH733022,GBH470187,Rituária,reclame_aqui,2026-11-01 10:35:14,aberto,1,,,Pedido incompleto
+AT116563,CH254949,GBH492667,Ápice,email,2026-11-01 10:45:40,aberto,2,,,(sem assunto)
+AT116568,CH284463,GBH471000,Rituária,reclame_aqui,2026-11-01 11:02:29,aberto,1,,,Produto causou alergia
+AT116573,CH420695,GBH468365,Kokeshi,reclame_aqui,2026-11-01 11:03:41,aberto,1,,,Brinde não enviado
+AT116589,CH107459,GCH558661,Gocase,reclame_aqui,2026-11-01 11:50:52,aberto,1,,,Produto não entregue
+AT116595,CH856123,GBH470309,Rituária,email,2026-11-01 13:08:58,aberto,2,,,Meu pedido GBH470309
+AT116597,CH334021,,Gocase,email,2026-11-01 14:05:28,aberto,2,,,Contato pelo site
+AT116603,CH560483,GBH487889,Ápice,email,2026-11-01 14:52:38,aberto,2,,,Re: Pedido GBH487889
+AT116606,CH325788,GBH492460,Auá,email,2026-11-01 15:58:18,aberto,2,,,Ajuda com o pedido GBH492460
+AT116612,CH229655,GCH553818,Gocase,email,2026-11-01 16:18:28,aberto,2,,,Contato pelo site
+AT116614,CH276087,GBH472693,Ápice,reclame_aqui,2026-11-01 16:28:27,aberto,1,,,Brinde não enviado
+AT116616,CH588866,GCH556833,Gocase,email,2026-11-01 16:53:36,aberto,2,,,Meu pedido GCH556833
+AT116624,CH485066,GBH475904,Auá,reclame_aqui,2026-11-01 17:26:54,aberto,1,,,Brinde não enviado
+AT116628,CH523472,GBH460826,Kokeshi,email,2026-11-01 17:52:10,aberto,2,,,Re: Pedido GBH460826
+AT116637,CH945478,GBH493566,Auá,email,2026-11-01 18:13:45,aberto,2,,,Re: Pedido GBH493566
+AT116638,CH402235,GBH480248,Yenzah,email,2026-11-01 18:16:54,aberto,2,,,Atendimento
+AT116646,CH691825,GBH466038,Kokeshi,email,2026-11-01 18:29:49,aberto,2,,,Problema com meu pedido
+AT116647,CH197342,GBH479612,By Samia,reclame_aqui,2026-11-01 18:31:26,aberto,1,,,Brinde não enviado
+AT116657,CH191766,,Kokeshi,whatsapp,2026-11-01 19:12:25,pendente,4,atendente_07,2026-11-01 19:21:05,
+AT116664,CH951208,,Yenzah,whatsapp,2026-11-01 19:38:52,aberto,1,,,
+AT116665,CH347205,GCH551964,Gocase,email,2026-11-01 19:50:28,aberto,2,,,Problema com meu pedido
+AT116666,CH197342,GCH553176,Gocase,whatsapp,2026-11-01 19:56:45,aberto,2,,,
+AT116667,CH188629,,Barbour's,whatsapp,2026-11-01 20:02:04,aberto,1,,,
+AT116668,CH547552,GBH493520,By Samia,reclame_aqui,2026-11-01 20:03:24,aberto,1,,,Pagamento não reconhecido
+AT116669,CH320162,GBH493044,Rituária,whatsapp,2026-11-01 20:06:11,aberto,3,,,
+AT116671,CH320403,GBH463088,By Samia,reclame_aqui,2026-11-01 20:20:42,aberto,1,,,Atraso na entrega
+AT116673,CH493487,GBH492358,Auá,whatsapp,2026-11-01 20:21:30,aberto,3,,,
+AT116675,CH476362,GCH560446,Gocase,whatsapp,2026-11-01 20:21:32,aberto,1,,,
+AT116677,CH389325,GBH491723,Kokeshi,whatsapp,2026-11-01 20:24:52,aberto,3,,,
+AT116679,CH550343,GBH450703,Auá,whatsapp,2026-11-01 20:33:15,aberto,2,,,
+AT116680,CH396698,GCH562861,Gocase,email,2026-11-01 20:38:31,aberto,2,,,Dúvida
+AT116681,CH560483,GCH562591,Gocase,whatsapp,2026-11-01 21:25:23,aberto,1,,,
+AT116682,CH197813,GBH464417,Auá,whatsapp,2026-11-01 21:41:29,aberto,3,,,
+AT116684,CH512475,GBH462762,Ápice,email,2026-11-01 21:44:29,aberto,2,,,Contato pelo site
+AT116686,CH750973,GBH470288,Ápice,reclame_aqui,2026-11-01 21:50:46,aberto,1,,,Pedido incompleto
+AT116688,CH340868,GBH469939,Auá,email,2026-11-01 21:56:08,aberto,2,,,Problema com meu pedido
+AT116689,CH603906,GCH562995,Gocase,email,2026-11-01 22:11:17,aberto,2,,,Preciso de ajuda
+AT116690,CH929304,GCH559202,Gocase,email,2026-11-01 22:27:04,aberto,2,,,Contato pelo site
+AT116692,CH657131,,Gocase,email,2026-11-01 22:32:41,aberto,2,,,Problema com meu pedido
+AT116693,CH547166,GCH563132,Gocase,whatsapp,2026-11-01 22:58:57,aberto,3,,,
+AT116695,CH515490,GBH472635,Rituária,whatsapp,2026-11-01 23:26:43,aberto,2,,,
+AT116697,CH420695,GBH485960,Yenzah,reclame_aqui,2026-11-01 23:28:37,aberto,1,,,Pedido sem atualização
+AT116699,CH337898,GBH477555,Lescent,email,2026-11-02 00:04:00,aberto,2,,,Re: Pedido GBH477555
+AT116700,CH392143,GBH457517,Lescent,whatsapp,2026-11-02 06:00:25,aberto,3,,,
+AT116701,CH266726,GBH495010,Ápice,whatsapp,2026-11-02 06:08:37,aberto,3,,,
+AT116702,CH703863,GBH489005,Rituária,whatsapp,2026-11-02 06:10:59,aberto,4,,,
+AT116703,CH811700,GCH551605,Gocase,whatsapp,2026-11-02 06:19:53,aberto,2,,,
+AT116705,CH142972,GBH450552,Barbour's,whatsapp,2026-11-02 06:23:34,aberto,4,,,
+AT116707,CH107459,GCH558661,Gocase,email,2026-11-02 06:59:21,aberto,2,,,Atendimento
+AT116709,CH564202,GBH453855,Yenzah,email,2026-11-02 07:17:15,aberto,2,,,Atendimento
+AT116711,CH604400,,Auá,whatsapp,2026-11-02 07:27:08,aberto,1,,,

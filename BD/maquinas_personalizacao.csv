@@ -1,0 +1,7 @@
+maquina_id,cd,fabricante_modelo,tecnologia,tipos_produto_atendidos,capacidade_pecas_hora,data_instalacao,ultima_troca_cartucho,ultima_manutencao_preventiva,status
+PRN-01,CD1,Mimaki UJF-6042 MkII,impressão UV,bolsa; capa; copo; garrafa; necessaire; porta_cartao,60,2023-06-27,2026-10-07,2026-10-20,ativa
+PRN-02,CD1,Mimaki UJF-6042 MkII,impressão UV,bolsa; capa; copo; garrafa; necessaire; porta_cartao,60,2022-06-15,2026-10-28,2026-09-22,ativa
+PRN-03,CD1,Epson SureColor F1070,impressão UV,bolsa; capa; copo; garrafa; necessaire; porta_cartao,40,2022-06-18,2026-10-26,2026-10-18,ativa
+PRN-04,CD2,Roland VersaUV LEF2-300,impressão UV,bolsa; capa; copo; garrafa; necessaire; porta_cartao,60,2023-04-18,2026-10-13,2026-09-25,ativa
+PRN-05,CD2,Roland VersaUV LEF2-300,impressão UV,bolsa; capa; copo; garrafa; necessaire; porta_cartao,40,2022-04-25,2026-10-29,2026-09-25,ativa
+PRN-06,CD2,Epson SureColor F1070,impressão UV,bolsa; capa; copo; garrafa; necessaire; porta_cartao,50,2024-05-15,2026-10-20,2026-10-16,ativa

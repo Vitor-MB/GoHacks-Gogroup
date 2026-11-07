@@ -1,0 +1,585 @@
+lote,sku,descricao_produto,marca,fabricante,data_fabricacao,data_validade,quantidade_produzida,data_liberacao_qualidade,laudo_qualidade,status_qualidade
+LT2602-B,APC-5001,Condicionador Reconstrução 1L,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-02-05,2028-08-05,3700,2026-02-09,LQ-2602-7028,liberado
+LT2603-C,APC-5001,Condicionador Reconstrução 1L,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-03-02,2028-09-02,7700,2026-03-05,LQ-2603-4415,liberado
+LT2604-D,APC-5001,Condicionador Reconstrução 1L,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-04-03,2028-10-03,9100,2026-04-07,LQ-2604-1146,liberado
+LT2605-E,APC-5001,Condicionador Reconstrução 1L,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-05-11,2028-11-11,5000,2026-05-16,LQ-2605-4262,liberado
+LT2606-F,APC-5001,Condicionador Reconstrução 1L,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-06-11,2028-12-11,3800,2026-06-15,LQ-2606-8670,liberado
+LT2607-G,APC-5001,Condicionador Reconstrução 1L,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-07-08,2029-01-08,10000,2026-07-11,LQ-2607-3698,liberado
+LT2608-H,APC-5001,Condicionador Reconstrução 1L,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-08-03,2029-02-03,14700,2026-08-05,LQ-2608-6874,liberado
+LT2609-A,APC-5001,Condicionador Reconstrução 1L,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-09-03,2029-03-03,10800,2026-09-05,LQ-2609-6338,liberado
+LT2610-B,APC-5001,Condicionador Reconstrução 1L,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-10-10,2029-04-10,9300,2026-10-14,LQ-2610-6256,liberado
+LT2602-G,APC-5002,Shampoo Reconstrução 1L,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-02-12,2028-08-12,4100,2026-02-14,LQ-2602-9298,liberado
+LT2603-H,APC-5002,Shampoo Reconstrução 1L,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-03-11,2028-09-11,13000,2026-03-13,LQ-2603-9443,liberado
+LT2604-A,APC-5002,Shampoo Reconstrução 1L,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-04-11,2028-10-11,6800,2026-04-13,LQ-2604-2854,liberado
+LT2605-B,APC-5002,Shampoo Reconstrução 1L,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-05-11,2028-11-11,6800,2026-05-16,LQ-2605-2773,liberado
+LT2606-C,APC-5002,Shampoo Reconstrução 1L,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-06-09,2028-12-09,13400,2026-06-14,LQ-2606-7184,liberado
+LT2607-D,APC-5002,Shampoo Reconstrução 1L,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-07-03,2029-01-03,5300,2026-07-06,LQ-2607-4802,liberado
+LT2608-E,APC-5002,Shampoo Reconstrução 1L,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-08-10,2029-02-10,13600,2026-08-14,LQ-2608-2945,liberado
+LT2609-F,APC-5002,Shampoo Reconstrução 1L,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-09-04,2029-03-04,5100,2026-09-06,LQ-2609-4260,liberado
+LT2610-G,APC-5002,Shampoo Reconstrução 1L,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-10-12,2029-04-12,5800,2026-10-16,LQ-2610-2783,liberado
+LT2602-D,APC-5003,Máscara Capilar Nutrição Intensa 500g,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-02-04,2028-08-04,9600,2026-02-06,LQ-2602-3209,liberado
+LT2603-E,APC-5003,Máscara Capilar Nutrição Intensa 500g,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-03-11,2028-09-11,5600,2026-03-14,LQ-2603-0886,liberado
+LT2604-F,APC-5003,Máscara Capilar Nutrição Intensa 500g,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-04-12,2028-10-12,2700,2026-04-15,LQ-2604-8787,liberado
+LT2605-G,APC-5003,Máscara Capilar Nutrição Intensa 500g,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-05-01,2028-11-01,9900,2026-05-04,LQ-2605-0979,liberado
+LT2606-H,APC-5003,Máscara Capilar Nutrição Intensa 500g,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-06-08,2028-12-08,3300,2026-06-13,LQ-2606-7633,liberado
+LT2607-A,APC-5003,Máscara Capilar Nutrição Intensa 500g,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-07-09,2029-01-09,8600,2026-07-11,LQ-2607-0666,liberado
+LT2608-B,APC-5003,Máscara Capilar Nutrição Intensa 500g,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-08-09,2029-02-09,10300,2026-08-11,LQ-2608-3713,liberado
+LT2609-C,APC-5003,Máscara Capilar Nutrição Intensa 500g,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-09-02,2029-03-02,3700,2026-09-04,LQ-2609-5284,liberado
+LT2610-D,APC-5003,Máscara Capilar Nutrição Intensa 500g,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-10-03,2029-04-03,3300,2026-10-06,LQ-2610-3560,liberado
+LT2602-A,APC-5004,Óleo Capilar Finalizador 60ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-02-06,2028-08-06,7500,2026-02-11,LQ-2602-8833,liberado
+LT2603-B,APC-5004,Óleo Capilar Finalizador 60ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-03-01,2028-09-01,7000,2026-03-06,LQ-2603-5609,liberado
+LT2604-C,APC-5004,Óleo Capilar Finalizador 60ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-04-06,2028-10-06,6800,2026-04-11,LQ-2604-7089,liberado
+LT2605-D,APC-5004,Óleo Capilar Finalizador 60ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-05-08,2028-11-08,12300,2026-05-12,LQ-2605-5186,liberado
+LT2606-E,APC-5004,Óleo Capilar Finalizador 60ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-06-06,2028-12-06,8100,2026-06-08,LQ-2606-8888,liberado
+LT2607-F,APC-5004,Óleo Capilar Finalizador 60ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-07-05,2029-01-05,9000,2026-07-09,LQ-2607-8787,liberado
+LT2608-G,APC-5004,Óleo Capilar Finalizador 60ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-08-04,2029-02-04,6500,2026-08-06,LQ-2608-1806,liberado
+LT2609-H,APC-5004,Óleo Capilar Finalizador 60ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-09-12,2029-03-12,11000,2026-09-17,LQ-2609-0004,liberado
+LT2610-A,APC-5004,Óleo Capilar Finalizador 60ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-10-02,2029-04-02,14400,2026-10-04,LQ-2610-0319,liberado
+LT2602-F,APC-5005,Leave-in Termoprotetor 200ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-02-03,2028-08-03,3600,2026-02-06,LQ-2602-5852,liberado
+LT2603-G,APC-5005,Leave-in Termoprotetor 200ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-03-08,2028-09-08,8800,2026-03-10,LQ-2603-9905,liberado
+LT2604-H,APC-5005,Leave-in Termoprotetor 200ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-04-01,2028-10-01,7900,2026-04-04,LQ-2604-0491,liberado
+LT2605-A,APC-5005,Leave-in Termoprotetor 200ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-05-05,2028-11-05,9800,2026-05-10,LQ-2605-8546,liberado
+LT2606-B,APC-5005,Leave-in Termoprotetor 200ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-06-04,2028-12-04,13100,2026-06-09,LQ-2606-1576,liberado
+LT2607-C,APC-5005,Leave-in Termoprotetor 200ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-07-08,2029-01-08,11600,2026-07-13,LQ-2607-9705,liberado
+LT2608-D,APC-5005,Leave-in Termoprotetor 200ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-08-04,2029-02-04,2200,2026-08-09,LQ-2608-6672,liberado
+LT2609-E,APC-5005,Leave-in Termoprotetor 200ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-09-11,2029-03-11,3600,2026-09-15,LQ-2609-0999,liberado
+LT2610-F,APC-5005,Leave-in Termoprotetor 200ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-10-09,2029-04-09,3400,2026-10-13,LQ-2610-8208,liberado
+LT2602-C,APC-5006,Shampoo Antirresíduo 300ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-02-07,2028-08-07,3000,2026-02-09,LQ-2602-5838,liberado
+LT2603-D,APC-5006,Shampoo Antirresíduo 300ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-03-08,2028-09-08,3700,2026-03-13,LQ-2603-1935,liberado
+LT2604-E,APC-5006,Shampoo Antirresíduo 300ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-04-12,2028-10-12,4400,2026-04-15,LQ-2604-9081,liberado
+LT2605-F,APC-5006,Shampoo Antirresíduo 300ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-05-10,2028-11-10,12500,2026-05-13,LQ-2605-9332,liberado
+LT2606-G,APC-5006,Shampoo Antirresíduo 300ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-06-02,2028-12-02,9300,2026-06-05,LQ-2606-1134,liberado
+LT2607-H,APC-5006,Shampoo Antirresíduo 300ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-07-06,2029-01-06,4600,2026-07-09,LQ-2607-2580,liberado
+LT2608-A,APC-5006,Shampoo Antirresíduo 300ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-08-01,2029-02-01,9100,2026-08-06,LQ-2608-2578,liberado
+LT2609-B,APC-5006,Shampoo Antirresíduo 300ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-09-03,2029-03-03,3100,2026-09-08,LQ-2609-3517,liberado
+LT2610-C,APC-5006,Shampoo Antirresíduo 300ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-10-05,2029-04-05,7400,2026-10-08,LQ-2610-9040,liberado
+LT2602-H,APC-5007,Ampola de Tratamento Brilho 15ml (3 un),Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-02-09,2028-08-09,7400,2026-02-14,LQ-2602-6838,liberado
+LT2603-A,APC-5007,Ampola de Tratamento Brilho 15ml (3 un),Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-03-06,2028-09-06,12000,2026-03-11,LQ-2603-7173,liberado
+LT2604-B,APC-5007,Ampola de Tratamento Brilho 15ml (3 un),Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-04-06,2028-10-06,3400,2026-04-09,LQ-2604-8163,liberado
+LT2605-C,APC-5007,Ampola de Tratamento Brilho 15ml (3 un),Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-05-10,2028-11-10,3000,2026-05-15,LQ-2605-9566,liberado
+LT2606-D,APC-5007,Ampola de Tratamento Brilho 15ml (3 un),Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-06-06,2028-12-06,13900,2026-06-11,LQ-2606-0185,liberado
+LT2607-E,APC-5007,Ampola de Tratamento Brilho 15ml (3 un),Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-07-03,2029-01-03,14200,2026-07-05,LQ-2607-2909,liberado
+LT2608-F,APC-5007,Ampola de Tratamento Brilho 15ml (3 un),Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-08-04,2029-02-04,2500,2026-08-09,LQ-2608-6287,liberado
+LT2609-G,APC-5007,Ampola de Tratamento Brilho 15ml (3 un),Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-09-07,2029-03-07,12800,2026-09-11,LQ-2609-4827,liberado
+LT2610-H,APC-5007,Ampola de Tratamento Brilho 15ml (3 un),Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-10-05,2029-04-05,11500,2026-10-07,LQ-2610-8693,liberado
+LT2602-E,APC-5008,Kit Reconstrução Shampoo + Condicionador 300ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-02-01,2028-08-01,8000,2026-02-06,LQ-2602-7515,liberado
+LT2603-F,APC-5008,Kit Reconstrução Shampoo + Condicionador 300ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-03-06,2028-09-06,7100,2026-03-09,LQ-2603-7979,liberado
+LT2604-G,APC-5008,Kit Reconstrução Shampoo + Condicionador 300ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-04-07,2028-10-07,4900,2026-04-09,LQ-2604-8604,liberado
+LT2605-H,APC-5008,Kit Reconstrução Shampoo + Condicionador 300ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-05-04,2028-11-04,14700,2026-05-07,LQ-2605-8720,liberado
+LT2606-A,APC-5008,Kit Reconstrução Shampoo + Condicionador 300ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-06-04,2028-12-04,4100,2026-06-09,LQ-2606-8697,liberado
+LT2607-B,APC-5008,Kit Reconstrução Shampoo + Condicionador 300ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-07-03,2029-01-03,9300,2026-07-05,LQ-2607-0035,liberado
+LT2608-C,APC-5008,Kit Reconstrução Shampoo + Condicionador 300ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-08-03,2029-02-03,14500,2026-08-08,LQ-2608-2349,liberado
+LT2609-D,APC-5008,Kit Reconstrução Shampoo + Condicionador 300ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-09-08,2029-03-08,13000,2026-09-11,LQ-2609-9930,liberado
+LT2610-E,APC-5008,Kit Reconstrução Shampoo + Condicionador 300ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-10-06,2029-04-06,14100,2026-10-11,LQ-2610-2063,liberado
+LT2602-B,APC-5009,Spray Fixador Extra Forte 250ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-02-05,2028-08-05,13200,2026-02-07,LQ-2602-4984,liberado
+LT2603-C,APC-5009,Spray Fixador Extra Forte 250ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-03-07,2028-09-07,14300,2026-03-12,LQ-2603-1752,liberado
+LT2604-D,APC-5009,Spray Fixador Extra Forte 250ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-04-12,2028-10-12,15000,2026-04-17,LQ-2604-4517,liberado
+LT2605-E,APC-5009,Spray Fixador Extra Forte 250ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-05-08,2028-11-08,12300,2026-05-10,LQ-2605-6116,liberado
+LT2606-F,APC-5009,Spray Fixador Extra Forte 250ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-06-03,2028-12-03,9400,2026-06-06,LQ-2606-7431,liberado
+LT2607-G,APC-5009,Spray Fixador Extra Forte 250ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-07-11,2029-01-11,9600,2026-07-14,LQ-2607-3334,liberado
+LT2608-H,APC-5009,Spray Fixador Extra Forte 250ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-08-11,2029-02-11,11700,2026-08-14,LQ-2608-6952,liberado
+LT2609-A,APC-5009,Spray Fixador Extra Forte 250ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-09-12,2029-03-12,11800,2026-09-14,LQ-2609-3783,liberado
+LT2610-B,APC-5009,Spray Fixador Extra Forte 250ml,Ápice,Laboratório Vita Cosméticos (Itapevi-SP),2026-10-07,2029-04-07,9500,2026-10-09,LQ-2610-5929,liberado
+LT2602-D,AUA-5001,Hidratante Corporal Cupuaçu 250ml,Auá,Fábrica GoBeauté (Eusébio-CE),2026-02-12,2028-02-12,13300,2026-02-14,LQ-2602-1009,liberado
+LT2603-E,AUA-5001,Hidratante Corporal Cupuaçu 250ml,Auá,Fábrica GoBeauté (Eusébio-CE),2026-03-10,2028-03-10,12700,2026-03-14,LQ-2603-6770,liberado
+LT2604-F,AUA-5001,Hidratante Corporal Cupuaçu 250ml,Auá,Fábrica GoBeauté (Eusébio-CE),2026-04-09,2028-04-09,5600,2026-04-11,LQ-2604-0368,liberado
+LT2605-G,AUA-5001,Hidratante Corporal Cupuaçu 250ml,Auá,Fábrica GoBeauté (Eusébio-CE),2026-05-05,2028-05-05,11000,2026-05-09,LQ-2605-7457,liberado
+LT2606-H,AUA-5001,Hidratante Corporal Cupuaçu 250ml,Auá,Fábrica GoBeauté (Eusébio-CE),2026-06-03,2028-06-03,8300,2026-06-08,LQ-2606-2051,liberado
+LT2607-A,AUA-5001,Hidratante Corporal Cupuaçu 250ml,Auá,Fábrica GoBeauté (Eusébio-CE),2026-07-05,2028-07-05,12400,2026-07-07,LQ-2607-9125,liberado
+LT2608-B,AUA-5001,Hidratante Corporal Cupuaçu 250ml,Auá,Fábrica GoBeauté (Eusébio-CE),2026-08-12,2028-08-12,10600,2026-08-16,LQ-2608-6032,liberado
+LT2609-C,AUA-5001,Hidratante Corporal Cupuaçu 250ml,Auá,Fábrica GoBeauté (Eusébio-CE),2026-09-02,2028-09-02,9000,2026-09-05,LQ-2609-8830,liberado
+LT2610-D,AUA-5001,Hidratante Corporal Cupuaçu 250ml,Auá,Fábrica GoBeauté (Eusébio-CE),2026-10-03,2028-10-03,9600,2026-10-08,LQ-2610-2248,liberado
+LT2603-B,AUA-5002,Sabonete Vegetal Andiroba (3 un),Auá,Fábrica GoBeauté (Eusébio-CE),2026-03-05,2028-03-05,9800,2026-03-09,LQ-2603-0039,liberado
+LT2604-C,AUA-5002,Sabonete Vegetal Andiroba (3 un),Auá,Fábrica GoBeauté (Eusébio-CE),2026-04-05,2028-04-05,11900,2026-04-10,LQ-2604-6437,liberado
+LT2605-D,AUA-5002,Sabonete Vegetal Andiroba (3 un),Auá,Fábrica GoBeauté (Eusébio-CE),2026-05-09,2028-05-09,3800,2026-05-14,LQ-2605-4023,liberado
+LT2606-E,AUA-5002,Sabonete Vegetal Andiroba (3 un),Auá,Fábrica GoBeauté (Eusébio-CE),2026-06-08,2028-06-08,2700,2026-06-10,LQ-2606-2391,liberado
+LT2607-F,AUA-5002,Sabonete Vegetal Andiroba (3 un),Auá,Fábrica GoBeauté (Eusébio-CE),2026-07-10,2028-07-10,10400,2026-07-13,LQ-2607-5098,liberado
+LT2608-G,AUA-5002,Sabonete Vegetal Andiroba (3 un),Auá,Fábrica GoBeauté (Eusébio-CE),2026-08-12,2028-08-12,2800,2026-08-14,LQ-2608-2822,liberado
+LT2609-H,AUA-5002,Sabonete Vegetal Andiroba (3 un),Auá,Fábrica GoBeauté (Eusébio-CE),2026-09-07,2028-09-07,11000,2026-09-09,LQ-2609-1449,liberado
+LT2610-A,AUA-5002,Sabonete Vegetal Andiroba (3 un),Auá,Fábrica GoBeauté (Eusébio-CE),2026-10-01,2028-10-01,3400,2026-10-04,LQ-2610-1304,liberado
+LT2602-F,AUA-5003,Óleo Corporal Castanha-do-Pará 120ml,Auá,Fábrica GoBeauté (Eusébio-CE),2026-02-02,2028-02-02,4200,2026-02-05,LQ-2602-7530,liberado
+LT2603-G,AUA-5003,Óleo Corporal Castanha-do-Pará 120ml,Auá,Fábrica GoBeauté (Eusébio-CE),2026-03-06,2028-03-06,13400,2026-03-10,LQ-2603-2882,liberado
+LT2604-H,AUA-5003,Óleo Corporal Castanha-do-Pará 120ml,Auá,Fábrica GoBeauté (Eusébio-CE),2026-04-10,2028-04-10,11300,2026-04-15,LQ-2604-2891,liberado
+LT2605-A,AUA-5003,Óleo Corporal Castanha-do-Pará 120ml,Auá,Fábrica GoBeauté (Eusébio-CE),2026-05-09,2028-05-09,11200,2026-05-14,LQ-2605-8192,liberado
+LT2606-B,AUA-5003,Óleo Corporal Castanha-do-Pará 120ml,Auá,Fábrica GoBeauté (Eusébio-CE),2026-06-05,2028-06-05,11200,2026-06-09,LQ-2606-6777,liberado
+LT2607-C,AUA-5003,Óleo Corporal Castanha-do-Pará 120ml,Auá,Fábrica GoBeauté (Eusébio-CE),2026-07-02,2028-07-02,13100,2026-07-04,LQ-2607-5486,liberado
+LT2608-D,AUA-5003,Óleo Corporal Castanha-do-Pará 120ml,Auá,Fábrica GoBeauté (Eusébio-CE),2026-08-09,2028-08-09,7100,2026-08-11,LQ-2608-2501,liberado
+LT2609-E,AUA-5003,Óleo Corporal Castanha-do-Pará 120ml,Auá,Fábrica GoBeauté (Eusébio-CE),2026-09-12,2028-09-12,5700,2026-09-16,LQ-2609-0895,liberado
+LT2602-C,AUA-5004,Desodorante Natural Lavanda 60g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-02-02,2028-02-02,12900,2026-02-07,LQ-2602-2629,liberado
+LT2603-D,AUA-5004,Desodorante Natural Lavanda 60g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-03-11,2028-03-11,9600,2026-03-13,LQ-2603-1853,liberado
+LT2604-E,AUA-5004,Desodorante Natural Lavanda 60g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-04-06,2028-04-06,6200,2026-04-11,LQ-2604-8528,liberado
+LT2605-F,AUA-5004,Desodorante Natural Lavanda 60g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-05-01,2028-05-01,6500,2026-05-04,LQ-2605-5104,liberado
+LT2606-G,AUA-5004,Desodorante Natural Lavanda 60g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-06-08,2028-06-08,2400,2026-06-10,LQ-2606-8435,liberado
+LT2607-H,AUA-5004,Desodorante Natural Lavanda 60g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-07-02,2028-07-02,10600,2026-07-04,LQ-2607-1043,liberado
+LT2608-A,AUA-5004,Desodorante Natural Lavanda 60g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-08-10,2028-08-10,3000,2026-08-15,LQ-2608-0233,liberado
+LT2609-B,AUA-5004,Desodorante Natural Lavanda 60g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-09-05,2028-09-05,10000,2026-09-09,LQ-2609-3772,liberado
+LT2610-C,AUA-5004,Desodorante Natural Lavanda 60g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-10-01,2028-10-01,14400,2026-10-04,LQ-2610-8382,liberado
+LT2603-A,AUA-5005,Esfoliante Corporal Café 200g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-03-04,2028-03-04,12300,2026-03-06,LQ-2603-2880,liberado
+LT2604-B,AUA-5005,Esfoliante Corporal Café 200g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-04-07,2028-04-07,5000,2026-04-12,LQ-2604-8398,liberado
+LT2605-C,AUA-5005,Esfoliante Corporal Café 200g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-05-08,2028-05-08,13400,2026-05-12,LQ-2605-3167,liberado
+LT2606-D,AUA-5005,Esfoliante Corporal Café 200g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-06-08,2028-06-08,10100,2026-06-13,LQ-2606-2568,liberado
+LT2607-E,AUA-5005,Esfoliante Corporal Café 200g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-07-11,2028-07-11,4900,2026-07-14,LQ-2607-6656,liberado
+LT2608-F,AUA-5005,Esfoliante Corporal Café 200g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-08-03,2028-08-03,2700,2026-08-06,LQ-2608-0903,liberado
+LT2609-G,AUA-5005,Esfoliante Corporal Café 200g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-09-09,2028-09-09,12400,2026-09-12,LQ-2609-4325,liberado
+LT2603-F,AUA-5006,Manteiga Corporal Murumuru 150g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-03-10,2028-03-10,14900,2026-03-13,LQ-2603-5200,liberado
+LT2604-G,AUA-5006,Manteiga Corporal Murumuru 150g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-04-11,2028-04-11,13400,2026-04-15,LQ-2604-3075,liberado
+LT2605-H,AUA-5006,Manteiga Corporal Murumuru 150g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-05-03,2028-05-03,3300,2026-05-07,LQ-2605-4682,liberado
+LT2606-A,AUA-5006,Manteiga Corporal Murumuru 150g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-06-08,2028-06-08,11600,2026-06-12,LQ-2606-6853,liberado
+LT2607-B,AUA-5006,Manteiga Corporal Murumuru 150g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-07-06,2028-07-06,14100,2026-07-09,LQ-2607-8055,liberado
+LT2608-C,AUA-5006,Manteiga Corporal Murumuru 150g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-08-02,2028-08-02,11800,2026-08-04,LQ-2608-8300,liberado
+LT2609-D,AUA-5006,Manteiga Corporal Murumuru 150g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-09-06,2028-09-06,8400,2026-09-10,LQ-2609-0767,liberado
+LT2610-E,AUA-5006,Manteiga Corporal Murumuru 150g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-10-11,2028-10-11,3000,2026-10-13,LQ-2610-0243,liberado
+LT2602-B,AUA-5007,Shampoo Sólido Alecrim 80g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-02-07,2028-08-07,9400,2026-02-11,LQ-2602-9267,liberado
+LT2603-C,AUA-5007,Shampoo Sólido Alecrim 80g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-03-08,2028-09-08,7600,2026-03-13,LQ-2603-9981,liberado
+LT2604-D,AUA-5007,Shampoo Sólido Alecrim 80g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-04-03,2028-10-03,11800,2026-04-07,LQ-2604-1610,liberado
+LT2605-E,AUA-5007,Shampoo Sólido Alecrim 80g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-05-04,2028-11-04,3900,2026-05-08,LQ-2605-9617,liberado
+LT2606-F,AUA-5007,Shampoo Sólido Alecrim 80g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-06-10,2028-12-10,14100,2026-06-13,LQ-2606-0188,liberado
+LT2607-G,AUA-5007,Shampoo Sólido Alecrim 80g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-07-09,2029-01-09,15000,2026-07-14,LQ-2607-3665,liberado
+LT2608-H,AUA-5007,Shampoo Sólido Alecrim 80g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-08-01,2029-02-01,9700,2026-08-03,LQ-2608-9201,liberado
+LT2609-A,AUA-5007,Shampoo Sólido Alecrim 80g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-09-01,2029-03-01,10200,2026-09-04,LQ-2609-8654,liberado
+LT2610-B,AUA-5007,Shampoo Sólido Alecrim 80g,Auá,Fábrica GoBeauté (Eusébio-CE),2026-10-03,2029-04-03,6100,2026-10-06,LQ-2610-1353,liberado
+LT2602-G,BBS-5001,Deo Colônia Amadeirado 100ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-02-07,2029-02-07,6000,2026-02-10,LQ-2602-0954,liberado
+LT2603-H,BBS-5001,Deo Colônia Amadeirado 100ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-03-10,2029-03-10,9800,2026-03-14,LQ-2603-7522,liberado
+LT2604-A,BBS-5001,Deo Colônia Amadeirado 100ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-04-06,2029-04-06,11500,2026-04-09,LQ-2604-2315,liberado
+LT2605-B,BBS-5001,Deo Colônia Amadeirado 100ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-05-11,2029-05-11,2400,2026-05-16,LQ-2605-3755,liberado
+LT2606-C,BBS-5001,Deo Colônia Amadeirado 100ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-06-02,2029-06-02,7900,2026-06-07,LQ-2606-8811,liberado
+LT2607-D,BBS-5001,Deo Colônia Amadeirado 100ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-07-07,2029-07-07,5300,2026-07-10,LQ-2607-5003,liberado
+LT2608-E,BBS-5001,Deo Colônia Amadeirado 100ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-08-12,2029-08-12,12500,2026-08-17,LQ-2608-9783,liberado
+LT2609-F,BBS-5001,Deo Colônia Amadeirado 100ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-09-10,2029-09-10,10200,2026-09-13,LQ-2609-4459,liberado
+LT2602-D,BBS-5002,Deo Colônia Citrus Fresh 100ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-02-09,2029-02-09,10600,2026-02-14,LQ-2602-0451,liberado
+LT2603-E,BBS-5002,Deo Colônia Citrus Fresh 100ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-03-06,2029-03-06,2000,2026-03-11,LQ-2603-5103,liberado
+LT2604-F,BBS-5002,Deo Colônia Citrus Fresh 100ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-04-01,2029-04-01,2700,2026-04-05,LQ-2604-7531,liberado
+LT2605-G,BBS-5002,Deo Colônia Citrus Fresh 100ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-05-05,2029-05-05,7600,2026-05-10,LQ-2605-3567,liberado
+LT2606-H,BBS-5002,Deo Colônia Citrus Fresh 100ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-06-04,2029-06-04,2800,2026-06-06,LQ-2606-8201,liberado
+LT2607-A,BBS-5002,Deo Colônia Citrus Fresh 100ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-07-09,2029-07-09,10500,2026-07-13,LQ-2607-5722,liberado
+LT2608-B,BBS-5002,Deo Colônia Citrus Fresh 100ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-08-05,2029-08-05,14400,2026-08-08,LQ-2608-7269,liberado
+LT2609-C,BBS-5002,Deo Colônia Citrus Fresh 100ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-09-04,2029-09-04,5400,2026-09-09,LQ-2609-7648,liberado
+LT2610-D,BBS-5002,Deo Colônia Citrus Fresh 100ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-10-11,2029-10-11,2100,2026-10-14,LQ-2610-4630,liberado
+LT2602-A,BBS-5003,Body Splash Masculino Sport 200ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-02-07,2029-02-07,7600,2026-02-10,LQ-2602-1814,liberado
+LT2603-B,BBS-5003,Body Splash Masculino Sport 200ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-03-06,2029-03-06,8800,2026-03-10,LQ-2603-9771,liberado
+LT2604-C,BBS-5003,Body Splash Masculino Sport 200ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-04-11,2029-04-11,12400,2026-04-16,LQ-2604-9566,liberado
+LT2605-D,BBS-5003,Body Splash Masculino Sport 200ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-05-11,2029-05-11,2800,2026-05-13,LQ-2605-8153,liberado
+LT2606-E,BBS-5003,Body Splash Masculino Sport 200ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-06-05,2029-06-05,6100,2026-06-09,LQ-2606-6515,liberado
+LT2607-F,BBS-5003,Body Splash Masculino Sport 200ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-07-03,2029-07-03,9800,2026-07-08,LQ-2607-9047,liberado
+LT2608-G,BBS-5003,Body Splash Masculino Sport 200ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-08-07,2029-08-07,9600,2026-08-09,LQ-2608-6150,liberado
+LT2609-H,BBS-5003,Body Splash Masculino Sport 200ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-09-08,2029-09-08,2300,2026-09-13,LQ-2609-8985,liberado
+LT2610-A,BBS-5003,Body Splash Masculino Sport 200ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-10-04,2029-10-04,8600,2026-10-09,LQ-2610-2430,liberado
+LT2602-F,BBS-5004,Pomada Modeladora Efeito Seco 80g,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-02-03,2028-02-03,14700,2026-02-05,LQ-2602-8840,liberado
+LT2603-G,BBS-5004,Pomada Modeladora Efeito Seco 80g,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-03-05,2028-03-05,13900,2026-03-08,LQ-2603-7769,liberado
+LT2604-H,BBS-5004,Pomada Modeladora Efeito Seco 80g,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-04-03,2028-04-03,3900,2026-04-05,LQ-2604-8792,liberado
+LT2605-A,BBS-5004,Pomada Modeladora Efeito Seco 80g,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-05-04,2028-05-04,4700,2026-05-06,LQ-2605-7090,liberado
+LT2606-B,BBS-5004,Pomada Modeladora Efeito Seco 80g,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-06-08,2028-06-08,10700,2026-06-10,LQ-2606-7185,liberado
+LT2607-C,BBS-5004,Pomada Modeladora Efeito Seco 80g,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-07-07,2028-07-07,8200,2026-07-11,LQ-2607-6946,liberado
+LT2608-D,BBS-5004,Pomada Modeladora Efeito Seco 80g,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-08-01,2028-08-01,2900,2026-08-03,LQ-2608-8572,liberado
+LT2609-E,BBS-5004,Pomada Modeladora Efeito Seco 80g,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-09-05,2028-09-05,7900,2026-09-07,LQ-2609-6683,liberado
+LT2610-F,BBS-5004,Pomada Modeladora Efeito Seco 80g,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-10-11,2028-10-11,13100,2026-10-13,LQ-2610-8775,liberado
+LT2603-D,BBS-5005,Óleo para Barba 30ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-03-04,2028-03-04,5900,2026-03-08,LQ-2603-0774,liberado
+LT2604-E,BBS-5005,Óleo para Barba 30ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-04-01,2028-04-01,9400,2026-04-04,LQ-2604-7060,liberado
+LT2605-F,BBS-5005,Óleo para Barba 30ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-05-01,2028-05-01,8800,2026-05-06,LQ-2605-0964,liberado
+LT2606-G,BBS-5005,Óleo para Barba 30ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-06-05,2028-06-05,13000,2026-06-10,LQ-2606-9004,liberado
+LT2607-H,BBS-5005,Óleo para Barba 30ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-07-10,2028-07-10,6300,2026-07-14,LQ-2607-2813,liberado
+LT2608-A,BBS-5005,Óleo para Barba 30ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-08-08,2028-08-08,7700,2026-08-13,LQ-2608-6544,liberado
+LT2609-B,BBS-5005,Óleo para Barba 30ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-09-07,2028-09-07,11700,2026-09-12,LQ-2609-3433,liberado
+LT2610-C,BBS-5005,Óleo para Barba 30ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-10-02,2028-10-02,14500,2026-10-06,LQ-2610-3345,liberado
+LT2603-A,BBS-5006,Balm para Barba 60g,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-03-02,2028-03-02,4000,2026-03-06,LQ-2603-0882,liberado
+LT2604-B,BBS-5006,Balm para Barba 60g,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-04-09,2028-04-09,13600,2026-04-13,LQ-2604-1986,liberado
+LT2605-C,BBS-5006,Balm para Barba 60g,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-05-11,2028-05-11,10700,2026-05-15,LQ-2605-0891,liberado
+LT2606-D,BBS-5006,Balm para Barba 60g,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-06-11,2028-06-11,4300,2026-06-16,LQ-2606-4783,liberado
+LT2607-E,BBS-5006,Balm para Barba 60g,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-07-01,2028-07-01,4800,2026-07-03,LQ-2607-7605,liberado
+LT2608-F,BBS-5006,Balm para Barba 60g,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-08-07,2028-08-07,11000,2026-08-09,LQ-2608-5505,liberado
+LT2609-G,BBS-5006,Balm para Barba 60g,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-09-05,2028-09-05,4600,2026-09-10,LQ-2609-3319,liberado
+LT2610-H,BBS-5006,Balm para Barba 60g,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-10-02,2028-10-02,12600,2026-10-04,LQ-2610-4816,liberado
+LT2602-E,BBS-5007,Shampoo Barba e Cabelo 250ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-02-09,2028-02-09,14600,2026-02-13,LQ-2602-3299,liberado
+LT2603-F,BBS-5007,Shampoo Barba e Cabelo 250ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-03-01,2028-03-01,5700,2026-03-05,LQ-2603-5804,liberado
+LT2604-G,BBS-5007,Shampoo Barba e Cabelo 250ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-04-06,2028-04-06,12700,2026-04-08,LQ-2604-1822,liberado
+LT2605-H,BBS-5007,Shampoo Barba e Cabelo 250ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-05-04,2028-05-04,9700,2026-05-08,LQ-2605-7683,liberado
+LT2606-A,BBS-5007,Shampoo Barba e Cabelo 250ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-06-06,2028-06-06,8600,2026-06-08,LQ-2606-5230,liberado
+LT2607-B,BBS-5007,Shampoo Barba e Cabelo 250ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-07-07,2028-07-07,5500,2026-07-10,LQ-2607-5917,liberado
+LT2608-C,BBS-5007,Shampoo Barba e Cabelo 250ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-08-12,2028-08-12,14600,2026-08-16,LQ-2608-6751,liberado
+LT2609-D,BBS-5007,Shampoo Barba e Cabelo 250ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-09-05,2028-09-05,12300,2026-09-07,LQ-2609-2217,liberado
+LT2610-E,BBS-5007,Shampoo Barba e Cabelo 250ml,Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-10-01,2028-10-01,14600,2026-10-06,LQ-2610-6156,liberado
+LT2602-B,BBS-5008,Kit Barba Completo (Óleo + Balm + Shampoo),Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-02-10,2028-02-10,4500,2026-02-15,LQ-2602-7415,liberado
+LT2603-C,BBS-5008,Kit Barba Completo (Óleo + Balm + Shampoo),Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-03-05,2028-03-05,2200,2026-03-07,LQ-2603-9095,liberado
+LT2604-D,BBS-5008,Kit Barba Completo (Óleo + Balm + Shampoo),Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-04-04,2028-04-04,3500,2026-04-07,LQ-2604-7405,liberado
+LT2605-E,BBS-5008,Kit Barba Completo (Óleo + Balm + Shampoo),Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-05-03,2028-05-03,13200,2026-05-08,LQ-2605-5644,liberado
+LT2606-F,BBS-5008,Kit Barba Completo (Óleo + Balm + Shampoo),Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-06-11,2028-06-11,13900,2026-06-16,LQ-2606-2335,liberado
+LT2607-G,BBS-5008,Kit Barba Completo (Óleo + Balm + Shampoo),Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-07-03,2028-07-03,13300,2026-07-05,LQ-2607-9579,liberado
+LT2608-H,BBS-5008,Kit Barba Completo (Óleo + Balm + Shampoo),Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-08-01,2028-08-01,6400,2026-08-05,LQ-2608-2368,liberado
+LT2609-A,BBS-5008,Kit Barba Completo (Óleo + Balm + Shampoo),Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-09-10,2028-09-10,3600,2026-09-13,LQ-2609-7046,liberado
+LT2610-B,BBS-5008,Kit Barba Completo (Óleo + Balm + Shampoo),Barbour's,Essenza Perfumaria (Jundiaí-SP),2026-10-05,2028-10-05,4600,2026-10-07,LQ-2610-7208,liberado
+LT2603-H,BSM-5001,Base Líquida Matte 30ml,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-03-08,2028-09-08,4000,2026-03-12,LQ-2603-6349,liberado
+LT2604-A,BSM-5001,Base Líquida Matte 30ml,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-04-05,2028-10-05,4400,2026-04-08,LQ-2604-3865,liberado
+LT2605-B,BSM-5001,Base Líquida Matte 30ml,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-05-05,2028-11-05,10300,2026-05-08,LQ-2605-5593,liberado
+LT2606-C,BSM-5001,Base Líquida Matte 30ml,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-06-08,2028-12-08,10100,2026-06-12,LQ-2606-2674,liberado
+LT2607-D,BSM-5001,Base Líquida Matte 30ml,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-07-02,2029-01-02,8100,2026-07-07,LQ-2607-9889,liberado
+LT2608-E,BSM-5001,Base Líquida Matte 30ml,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-08-03,2029-02-03,5200,2026-08-06,LQ-2608-6992,liberado
+LT2609-F,BSM-5001,Base Líquida Matte 30ml,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-09-07,2029-03-07,14300,2026-09-12,LQ-2609-5344,liberado
+LT2610-G,BSM-5001,Base Líquida Matte 30ml,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-10-07,2029-04-07,5000,2026-10-09,LQ-2610-5098,liberado
+LT2602-D,BSM-5002,Corretivo Líquido Alta Cobertura 6ml,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-02-06,2028-08-06,8000,2026-02-11,LQ-2602-5936,liberado
+LT2603-E,BSM-5002,Corretivo Líquido Alta Cobertura 6ml,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-03-07,2028-09-07,6300,2026-03-12,LQ-2603-8251,liberado
+LT2604-F,BSM-5002,Corretivo Líquido Alta Cobertura 6ml,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-04-08,2028-10-08,11800,2026-04-12,LQ-2604-1528,liberado
+LT2605-G,BSM-5002,Corretivo Líquido Alta Cobertura 6ml,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-05-04,2028-11-04,2900,2026-05-07,LQ-2605-7802,liberado
+LT2606-H,BSM-5002,Corretivo Líquido Alta Cobertura 6ml,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-06-02,2028-12-02,9200,2026-06-06,LQ-2606-7872,liberado
+LT2607-A,BSM-5002,Corretivo Líquido Alta Cobertura 6ml,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-07-07,2029-01-07,5500,2026-07-12,LQ-2607-7337,liberado
+LT2608-B,BSM-5002,Corretivo Líquido Alta Cobertura 6ml,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-08-06,2029-02-06,8900,2026-08-11,LQ-2608-3020,liberado
+LT2609-C,BSM-5002,Corretivo Líquido Alta Cobertura 6ml,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-09-10,2029-03-10,7000,2026-09-14,LQ-2609-4443,liberado
+LT2610-D,BSM-5002,Corretivo Líquido Alta Cobertura 6ml,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-10-03,2029-04-03,13600,2026-10-05,LQ-2610-2211,liberado
+LT2603-B,BSM-5003,Paleta de Sombras Nude 12 cores,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-03-03,2028-09-03,6200,2026-03-07,LQ-2603-8282,liberado
+LT2604-C,BSM-5003,Paleta de Sombras Nude 12 cores,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-04-01,2028-10-01,10000,2026-04-03,LQ-2604-5027,liberado
+LT2605-D,BSM-5003,Paleta de Sombras Nude 12 cores,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-05-08,2028-11-08,6500,2026-05-13,LQ-2605-2856,liberado
+LT2606-E,BSM-5003,Paleta de Sombras Nude 12 cores,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-06-09,2028-12-09,8700,2026-06-12,LQ-2606-1571,liberado
+LT2607-F,BSM-5003,Paleta de Sombras Nude 12 cores,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-07-07,2029-01-07,2300,2026-07-11,LQ-2607-9404,liberado
+LT2608-G,BSM-5003,Paleta de Sombras Nude 12 cores,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-08-03,2029-02-03,3500,2026-08-06,LQ-2608-8377,liberado
+LT2609-H,BSM-5003,Paleta de Sombras Nude 12 cores,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-09-03,2029-03-03,7000,2026-09-08,LQ-2609-2378,liberado
+LT2610-A,BSM-5003,Paleta de Sombras Nude 12 cores,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-10-05,2029-04-05,11800,2026-10-07,LQ-2610-6825,liberado
+LT2602-F,BSM-5004,Batom Líquido Matte,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-02-01,2028-08-01,11500,2026-02-03,LQ-2602-5310,liberado
+LT2603-G,BSM-5004,Batom Líquido Matte,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-03-10,2028-09-10,8400,2026-03-12,LQ-2603-2813,liberado
+LT2604-H,BSM-5004,Batom Líquido Matte,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-04-09,2028-10-09,13000,2026-04-12,LQ-2604-0980,liberado
+LT2605-A,BSM-5004,Batom Líquido Matte,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-05-01,2028-11-01,11100,2026-05-03,LQ-2605-9300,liberado
+LT2606-B,BSM-5004,Batom Líquido Matte,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-06-01,2028-12-01,8700,2026-06-05,LQ-2606-6942,liberado
+LT2607-C,BSM-5004,Batom Líquido Matte,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-07-04,2029-01-04,3700,2026-07-06,LQ-2607-7466,liberado
+LT2608-D,BSM-5004,Batom Líquido Matte,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-08-02,2029-02-02,8000,2026-08-07,LQ-2608-0743,liberado
+LT2609-E,BSM-5004,Batom Líquido Matte,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-09-01,2029-03-01,3400,2026-09-04,LQ-2609-7881,liberado
+LT2610-F,BSM-5004,Batom Líquido Matte,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-10-02,2029-04-02,5500,2026-10-05,LQ-2610-6899,liberado
+LT2602-C,BSM-5005,Máscara de Cílios Volume,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-02-07,2028-08-07,10100,2026-02-11,LQ-2602-5573,liberado
+LT2603-D,BSM-5005,Máscara de Cílios Volume,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-03-01,2028-09-01,7500,2026-03-05,LQ-2603-0380,liberado
+LT2604-E,BSM-5005,Máscara de Cílios Volume,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-04-12,2028-10-12,3400,2026-04-16,LQ-2604-0435,liberado
+LT2605-F,BSM-5005,Máscara de Cílios Volume,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-05-08,2028-11-08,12900,2026-05-12,LQ-2605-7670,liberado
+LT2606-G,BSM-5005,Máscara de Cílios Volume,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-06-07,2028-12-07,8000,2026-06-09,LQ-2606-9812,liberado
+LT2607-H,BSM-5005,Máscara de Cílios Volume,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-07-09,2029-01-09,7400,2026-07-13,LQ-2607-0031,liberado
+LT2608-A,BSM-5005,Máscara de Cílios Volume,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-08-08,2029-02-08,5000,2026-08-10,LQ-2608-8364,liberado
+LT2609-B,BSM-5005,Máscara de Cílios Volume,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-09-12,2029-03-12,4100,2026-09-17,LQ-2609-5119,liberado
+LT2602-H,BSM-5006,Pó Compacto Translúcido,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-02-05,2028-08-05,10300,2026-02-07,LQ-2602-5866,liberado
+LT2603-A,BSM-5006,Pó Compacto Translúcido,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-03-12,2028-09-12,8300,2026-03-14,LQ-2603-2380,liberado
+LT2604-B,BSM-5006,Pó Compacto Translúcido,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-04-11,2028-10-11,2700,2026-04-16,LQ-2604-3626,liberado
+LT2605-C,BSM-5006,Pó Compacto Translúcido,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-05-09,2028-11-09,8700,2026-05-11,LQ-2605-1106,liberado
+LT2606-D,BSM-5006,Pó Compacto Translúcido,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-06-08,2028-12-08,7800,2026-06-12,LQ-2606-4510,liberado
+LT2607-E,BSM-5006,Pó Compacto Translúcido,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-07-07,2029-01-07,5200,2026-07-10,LQ-2607-8081,liberado
+LT2608-F,BSM-5006,Pó Compacto Translúcido,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-08-11,2029-02-11,10400,2026-08-13,LQ-2608-2104,liberado
+LT2609-G,BSM-5006,Pó Compacto Translúcido,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-09-03,2029-03-03,10800,2026-09-05,LQ-2609-8111,liberado
+LT2610-H,BSM-5006,Pó Compacto Translúcido,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-10-03,2029-04-03,14100,2026-10-07,LQ-2610-8271,liberado
+LT2603-F,BSM-5007,Blush Compacto Pêssego,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-03-01,2028-09-01,14700,2026-03-03,LQ-2603-1092,liberado
+LT2604-G,BSM-5007,Blush Compacto Pêssego,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-04-06,2028-10-06,12700,2026-04-08,LQ-2604-0200,liberado
+LT2605-H,BSM-5007,Blush Compacto Pêssego,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-05-10,2028-11-10,10700,2026-05-15,LQ-2605-6168,liberado
+LT2606-A,BSM-5007,Blush Compacto Pêssego,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-06-12,2028-12-12,8800,2026-06-15,LQ-2606-0096,liberado
+LT2607-B,BSM-5007,Blush Compacto Pêssego,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-07-06,2029-01-06,13000,2026-07-10,LQ-2607-2136,liberado
+LT2608-C,BSM-5007,Blush Compacto Pêssego,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-08-04,2029-02-04,10400,2026-08-09,LQ-2608-0062,liberado
+LT2609-D,BSM-5007,Blush Compacto Pêssego,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-09-06,2029-03-06,10600,2026-09-09,LQ-2609-0461,liberado
+LT2602-B,BSM-5008,Gloss Labial Glow,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-02-06,2028-08-06,5100,2026-02-09,LQ-2602-3807,liberado
+LT2603-C,BSM-5008,Gloss Labial Glow,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-03-05,2028-09-05,11200,2026-03-07,LQ-2603-9202,liberado
+LT2604-D,BSM-5008,Gloss Labial Glow,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-04-08,2028-10-08,5000,2026-04-13,LQ-2604-0369,liberado
+LT2605-E,BSM-5008,Gloss Labial Glow,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-05-12,2028-11-12,14700,2026-05-17,LQ-2605-0238,liberado
+LT2606-F,BSM-5008,Gloss Labial Glow,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-06-01,2028-12-01,9100,2026-06-04,LQ-2606-9043,liberado
+LT2607-G,BSM-5008,Gloss Labial Glow,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-07-05,2029-01-05,11000,2026-07-10,LQ-2607-9612,liberado
+LT2608-H,BSM-5008,Gloss Labial Glow,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-08-08,2029-02-08,7200,2026-08-11,LQ-2608-4167,liberado
+LT2609-A,BSM-5008,Gloss Labial Glow,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-09-08,2029-03-08,3200,2026-09-10,LQ-2609-8068,liberado
+LT2610-B,BSM-5008,Gloss Labial Glow,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-10-02,2029-04-02,4100,2026-10-05,LQ-2610-4655,liberado
+LT2602-G,BSM-5009,Kit Pincéis 5 peças,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-02-09,2028-08-09,5800,2026-02-14,LQ-2602-2508,liberado
+LT2603-H,BSM-5009,Kit Pincéis 5 peças,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-03-08,2028-09-08,8900,2026-03-11,LQ-2603-0043,liberado
+LT2604-A,BSM-5009,Kit Pincéis 5 peças,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-04-03,2028-10-03,4700,2026-04-06,LQ-2604-0759,liberado
+LT2605-B,BSM-5009,Kit Pincéis 5 peças,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-05-04,2028-11-04,11200,2026-05-07,LQ-2605-5233,liberado
+LT2606-C,BSM-5009,Kit Pincéis 5 peças,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-06-07,2028-12-07,8500,2026-06-12,LQ-2606-8188,liberado
+LT2607-D,BSM-5009,Kit Pincéis 5 peças,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-07-10,2029-01-10,10000,2026-07-15,LQ-2607-8081,liberado
+LT2608-E,BSM-5009,Kit Pincéis 5 peças,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-08-01,2029-02-01,9400,2026-08-05,LQ-2608-8855,liberado
+LT2609-F,BSM-5009,Kit Pincéis 5 peças,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-09-10,2029-03-10,11000,2026-09-15,LQ-2609-4108,liberado
+LT2610-G,BSM-5009,Kit Pincéis 5 peças,By Samia,Fábrica GoBeauté (Eusébio-CE),2026-10-01,2029-04-01,11900,2026-10-05,LQ-2610-0985,liberado
+LT2602-F,KSH-5001,Sérum Facial Vitamina C 10% 30ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-02-02,2028-02-02,2800,2026-02-04,LQ-2602-0689,liberado
+LT2603-G,KSH-5001,Sérum Facial Vitamina C 10% 30ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-03-12,2028-03-12,4200,2026-03-17,LQ-2603-6948,liberado
+LT2604-H,KSH-5001,Sérum Facial Vitamina C 10% 30ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-04-01,2028-04-01,8300,2026-04-05,LQ-2604-5491,liberado
+LT2605-A,KSH-5001,Sérum Facial Vitamina C 10% 30ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-05-07,2028-05-07,13500,2026-05-11,LQ-2605-5013,liberado
+LT2606-B,KSH-5001,Sérum Facial Vitamina C 10% 30ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-06-07,2028-06-07,3400,2026-06-10,LQ-2606-3319,liberado
+LT2607-C,KSH-5001,Sérum Facial Vitamina C 10% 30ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-07-08,2028-07-08,5100,2026-07-10,LQ-2607-6320,liberado
+LT2608-D,KSH-5001,Sérum Facial Vitamina C 10% 30ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-08-11,2028-08-11,5400,2026-08-15,LQ-2608-8170,liberado
+LT2609-E,KSH-5001,Sérum Facial Vitamina C 10% 30ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-09-08,2028-09-08,13800,2026-09-11,LQ-2609-0020,liberado
+LT2610-F,KSH-5001,Sérum Facial Vitamina C 10% 30ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-10-07,2028-10-07,10300,2026-10-12,LQ-2610-2096,liberado
+LT2602-C,KSH-5002,Sérum Niacinamida 10% + Zinco 30ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-02-03,2028-02-03,7600,2026-02-07,LQ-2602-2339,liberado
+LT2603-D,KSH-5002,Sérum Niacinamida 10% + Zinco 30ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-03-11,2028-03-11,11100,2026-03-16,LQ-2603-5342,liberado
+LT2604-E,KSH-5002,Sérum Niacinamida 10% + Zinco 30ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-04-05,2028-04-05,4200,2026-04-08,LQ-2604-0144,liberado
+LT2605-F,KSH-5002,Sérum Niacinamida 10% + Zinco 30ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-05-01,2028-05-01,8600,2026-05-03,LQ-2605-0709,liberado
+LT2606-G,KSH-5002,Sérum Niacinamida 10% + Zinco 30ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-06-11,2028-06-11,13200,2026-06-13,LQ-2606-3264,liberado
+LT2607-H,KSH-5002,Sérum Niacinamida 10% + Zinco 30ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-07-12,2028-07-12,10100,2026-07-15,LQ-2607-7337,liberado
+LT2608-A,KSH-5002,Sérum Niacinamida 10% + Zinco 30ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-08-08,2028-08-08,11300,2026-08-11,LQ-2608-3663,liberado
+LT2609-B,KSH-5002,Sérum Niacinamida 10% + Zinco 30ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-09-04,2028-09-04,6800,2026-09-08,LQ-2609-7502,liberado
+LT2602-H,KSH-5003,Sérum Ácido Hialurônico 30ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-02-10,2028-02-10,10100,2026-02-12,LQ-2602-4244,liberado
+LT2603-A,KSH-5003,Sérum Ácido Hialurônico 30ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-03-12,2028-03-12,12700,2026-03-16,LQ-2603-0592,liberado
+LT2604-B,KSH-5003,Sérum Ácido Hialurônico 30ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-04-03,2028-04-03,11400,2026-04-07,LQ-2604-9517,liberado
+LT2605-C,KSH-5003,Sérum Ácido Hialurônico 30ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-05-11,2028-05-11,8900,2026-05-15,LQ-2605-5627,liberado
+LT2606-D,KSH-5003,Sérum Ácido Hialurônico 30ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-06-08,2028-06-08,5600,2026-06-12,LQ-2606-0847,liberado
+LT2607-E,KSH-5003,Sérum Ácido Hialurônico 30ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-07-03,2028-07-03,2800,2026-07-06,LQ-2607-6441,liberado
+LT2608-F,KSH-5003,Sérum Ácido Hialurônico 30ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-08-01,2028-08-01,11000,2026-08-04,LQ-2608-2533,liberado
+LT2609-G,KSH-5003,Sérum Ácido Hialurônico 30ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-09-10,2028-09-10,3600,2026-09-12,LQ-2609-8779,liberado
+LT2610-H,KSH-5003,Sérum Ácido Hialurônico 30ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-10-06,2028-10-06,2400,2026-10-10,LQ-2610-5895,liberado
+LT2603-F,KSH-5004,Hidratante Facial Oil Free 50g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-03-07,2028-03-07,4000,2026-03-11,LQ-2603-6157,liberado
+LT2604-G,KSH-5004,Hidratante Facial Oil Free 50g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-04-01,2028-04-01,11300,2026-04-04,LQ-2604-5974,liberado
+LT2605-H,KSH-5004,Hidratante Facial Oil Free 50g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-05-01,2028-05-01,3500,2026-05-03,LQ-2605-0116,liberado
+LT2606-A,KSH-5004,Hidratante Facial Oil Free 50g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-06-05,2028-06-05,8600,2026-06-08,LQ-2606-6634,liberado
+LT2607-B,KSH-5004,Hidratante Facial Oil Free 50g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-07-05,2028-07-05,13300,2026-07-07,LQ-2607-5121,liberado
+LT2608-C,KSH-5004,Hidratante Facial Oil Free 50g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-08-04,2028-08-04,6900,2026-08-08,LQ-2608-2767,liberado
+LT2609-D,KSH-5004,Hidratante Facial Oil Free 50g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-09-06,2028-09-06,3400,2026-09-10,LQ-2609-1201,liberado
+LT2610-E,KSH-5004,Hidratante Facial Oil Free 50g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-10-02,2028-10-02,8700,2026-10-07,LQ-2610-4600,liberado
+LT2602-B,KSH-5005,Gel de Limpeza Facial 150ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-02-04,2028-02-04,5300,2026-02-07,LQ-2602-4889,liberado
+LT2603-C,KSH-5005,Gel de Limpeza Facial 150ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-03-10,2028-03-10,14400,2026-03-14,LQ-2603-1717,liberado
+LT2604-D,KSH-5005,Gel de Limpeza Facial 150ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-04-04,2028-04-04,9900,2026-04-07,LQ-2604-2955,liberado
+LT2605-E,KSH-5005,Gel de Limpeza Facial 150ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-05-01,2028-05-01,8500,2026-05-06,LQ-2605-3745,liberado
+LT2606-F,KSH-5005,Gel de Limpeza Facial 150ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-06-09,2028-06-09,10100,2026-06-14,LQ-2606-7781,liberado
+LT2607-G,KSH-5005,Gel de Limpeza Facial 150ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-07-12,2028-07-12,11900,2026-07-14,LQ-2607-0089,liberado
+LT2608-H,KSH-5005,Gel de Limpeza Facial 150ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-08-01,2028-08-01,2700,2026-08-06,LQ-2608-9021,liberado
+LT2609-A,KSH-5005,Gel de Limpeza Facial 150ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-09-07,2028-09-07,6900,2026-09-11,LQ-2609-1227,liberado
+LT2610-B,KSH-5005,Gel de Limpeza Facial 150ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-10-03,2028-10-03,5900,2026-10-06,LQ-2610-9537,liberado
+LT2604-A,KSH-5006,Protetor Solar Facial FPS 50 Toque Seco 50g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-04-10,2028-04-10,6200,2026-04-12,LQ-2604-0550,liberado
+LT2605-B,KSH-5006,Protetor Solar Facial FPS 50 Toque Seco 50g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-05-06,2028-05-06,3300,2026-05-11,LQ-2605-7515,liberado
+LT2606-C,KSH-5006,Protetor Solar Facial FPS 50 Toque Seco 50g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-06-10,2028-06-10,12500,2026-06-14,LQ-2606-8590,liberado
+LT2607-D,KSH-5006,Protetor Solar Facial FPS 50 Toque Seco 50g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-07-10,2028-07-10,3100,2026-07-13,LQ-2607-6695,liberado
+LT2608-E,KSH-5006,Protetor Solar Facial FPS 50 Toque Seco 50g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-08-11,2028-08-11,11800,2026-08-14,LQ-2608-3437,liberado
+LT2609-F,KSH-5006,Protetor Solar Facial FPS 50 Toque Seco 50g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-09-12,2028-09-12,12600,2026-09-16,LQ-2609-3945,liberado
+LT2610-G,KSH-5006,Protetor Solar Facial FPS 50 Toque Seco 50g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-10-08,2028-10-08,12600,2026-10-11,LQ-2610-6530,liberado
+LT2602-D,KSH-5007,Água Micelar 200ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-02-02,2028-02-02,5300,2026-02-07,LQ-2602-0788,liberado
+LT2603-E,KSH-5007,Água Micelar 200ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-03-05,2028-03-05,6600,2026-03-10,LQ-2603-4769,liberado
+LT2604-F,KSH-5007,Água Micelar 200ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-04-08,2028-04-08,6500,2026-04-13,LQ-2604-0386,liberado
+LT2605-G,KSH-5007,Água Micelar 200ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-05-04,2028-05-04,6600,2026-05-08,LQ-2605-2223,liberado
+LT2606-H,KSH-5007,Água Micelar 200ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-06-07,2028-06-07,7400,2026-06-11,LQ-2606-6998,liberado
+LT2607-A,KSH-5007,Água Micelar 200ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-07-10,2028-07-10,6200,2026-07-14,LQ-2607-2561,liberado
+LT2608-B,KSH-5007,Água Micelar 200ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-08-11,2028-08-11,11800,2026-08-14,LQ-2608-2424,liberado
+LT2609-C,KSH-5007,Água Micelar 200ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-09-09,2028-09-09,11300,2026-09-13,LQ-2609-3195,liberado
+LT2604-C,KSH-5008,Tônico Facial Calmante 200ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-04-08,2028-04-08,2200,2026-04-10,LQ-2604-5726,liberado
+LT2605-D,KSH-5008,Tônico Facial Calmante 200ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-05-08,2028-05-08,11600,2026-05-11,LQ-2605-8454,liberado
+LT2606-E,KSH-5008,Tônico Facial Calmante 200ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-06-09,2028-06-09,5600,2026-06-11,LQ-2606-0931,liberado
+LT2607-F,KSH-5008,Tônico Facial Calmante 200ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-07-08,2028-07-08,2100,2026-07-11,LQ-2607-5246,liberado
+LT2608-G,KSH-5008,Tônico Facial Calmante 200ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-08-07,2028-08-07,8400,2026-08-10,LQ-2608-5546,liberado
+LT2609-H,KSH-5008,Tônico Facial Calmante 200ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-09-09,2028-09-09,9300,2026-09-12,LQ-2609-1560,liberado
+LT2610-A,KSH-5008,Tônico Facial Calmante 200ml,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-10-03,2028-10-03,11600,2026-10-08,LQ-2610-9062,liberado
+LT2602-F,KSH-5009,Creme Área dos Olhos 15g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-02-06,2028-02-06,13800,2026-02-09,LQ-2602-0824,liberado
+LT2603-G,KSH-5009,Creme Área dos Olhos 15g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-03-07,2028-03-07,9400,2026-03-11,LQ-2603-2834,liberado
+LT2604-H,KSH-5009,Creme Área dos Olhos 15g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-04-03,2028-04-03,3800,2026-04-05,LQ-2604-4537,liberado
+LT2605-A,KSH-5009,Creme Área dos Olhos 15g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-05-10,2028-05-10,2300,2026-05-13,LQ-2605-4179,liberado
+LT2606-B,KSH-5009,Creme Área dos Olhos 15g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-06-07,2028-06-07,4700,2026-06-10,LQ-2606-8028,liberado
+LT2607-C,KSH-5009,Creme Área dos Olhos 15g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-07-05,2028-07-05,6000,2026-07-10,LQ-2607-5129,liberado
+LT2608-D,KSH-5009,Creme Área dos Olhos 15g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-08-10,2028-08-10,3300,2026-08-15,LQ-2608-8199,liberado
+LT2609-E,KSH-5009,Creme Área dos Olhos 15g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-09-12,2028-09-12,4300,2026-09-17,LQ-2609-0344,liberado
+LT2610-F,KSH-5009,Creme Área dos Olhos 15g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-10-07,2028-10-07,7000,2026-10-11,LQ-2610-4000,liberado
+LT2603-D,KSH-5010,Máscara Facial de Argila 100g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-03-04,2028-03-04,5800,2026-03-09,LQ-2603-0942,liberado
+LT2604-E,KSH-5010,Máscara Facial de Argila 100g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-04-11,2028-04-11,7000,2026-04-16,LQ-2604-4591,liberado
+LT2605-F,KSH-5010,Máscara Facial de Argila 100g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-05-06,2028-05-06,4400,2026-05-10,LQ-2605-4473,liberado
+LT2606-G,KSH-5010,Máscara Facial de Argila 100g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-06-01,2028-06-01,10700,2026-06-06,LQ-2606-6289,liberado
+LT2607-H,KSH-5010,Máscara Facial de Argila 100g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-07-10,2028-07-10,14400,2026-07-12,LQ-2607-6465,liberado
+LT2608-A,KSH-5010,Máscara Facial de Argila 100g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-08-02,2028-08-02,3600,2026-08-04,LQ-2608-3831,liberado
+LT2609-B,KSH-5010,Máscara Facial de Argila 100g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-09-09,2028-09-09,3200,2026-09-11,LQ-2609-6264,liberado
+LT2610-C,KSH-5010,Máscara Facial de Argila 100g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-10-01,2028-10-01,6200,2026-10-03,LQ-2610-5914,liberado
+LT2602-H,KSH-5011,Kit Rotina Glow (Gel de Limpeza + Sérum Vitamina C + Hidratante),Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-02-10,2028-02-10,2800,2026-02-12,LQ-2602-5048,liberado
+LT2603-A,KSH-5011,Kit Rotina Glow (Gel de Limpeza + Sérum Vitamina C + Hidratante),Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-03-04,2028-03-04,10400,2026-03-07,LQ-2603-2572,liberado
+LT2604-B,KSH-5011,Kit Rotina Glow (Gel de Limpeza + Sérum Vitamina C + Hidratante),Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-04-11,2028-04-11,4600,2026-04-15,LQ-2604-4592,liberado
+LT2605-C,KSH-5011,Kit Rotina Glow (Gel de Limpeza + Sérum Vitamina C + Hidratante),Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-05-12,2028-05-12,5000,2026-05-16,LQ-2605-0005,liberado
+LT2606-D,KSH-5011,Kit Rotina Glow (Gel de Limpeza + Sérum Vitamina C + Hidratante),Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-06-07,2028-06-07,6600,2026-06-10,LQ-2606-1741,liberado
+LT2607-E,KSH-5011,Kit Rotina Glow (Gel de Limpeza + Sérum Vitamina C + Hidratante),Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-07-01,2028-07-01,14800,2026-07-06,LQ-2607-7469,liberado
+LT2608-F,KSH-5011,Kit Rotina Glow (Gel de Limpeza + Sérum Vitamina C + Hidratante),Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-08-05,2028-08-05,7400,2026-08-10,LQ-2608-5206,liberado
+LT2609-G,KSH-5011,Kit Rotina Glow (Gel de Limpeza + Sérum Vitamina C + Hidratante),Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-09-07,2028-09-07,12800,2026-09-09,LQ-2609-9251,liberado
+LT2610-H,KSH-5011,Kit Rotina Glow (Gel de Limpeza + Sérum Vitamina C + Hidratante),Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-10-10,2028-10-10,5400,2026-10-13,LQ-2610-7176,liberado
+LT2602-E,KSH-5012,Esfoliante Facial Enzimático 100g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-02-04,2028-02-04,8800,2026-02-07,LQ-2602-9959,liberado
+LT2603-F,KSH-5012,Esfoliante Facial Enzimático 100g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-03-02,2028-03-02,7100,2026-03-07,LQ-2603-7158,liberado
+LT2604-G,KSH-5012,Esfoliante Facial Enzimático 100g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-04-08,2028-04-08,2600,2026-04-13,LQ-2604-3475,liberado
+LT2605-H,KSH-5012,Esfoliante Facial Enzimático 100g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-05-06,2028-05-06,11300,2026-05-08,LQ-2605-2925,liberado
+LT2606-A,KSH-5012,Esfoliante Facial Enzimático 100g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-06-01,2028-06-01,11900,2026-06-04,LQ-2606-5400,liberado
+LT2607-B,KSH-5012,Esfoliante Facial Enzimático 100g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-07-11,2028-07-11,11700,2026-07-15,LQ-2607-9659,liberado
+LT2608-C,KSH-5012,Esfoliante Facial Enzimático 100g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-08-08,2028-08-08,15000,2026-08-13,LQ-2608-2587,liberado
+LT2609-D,KSH-5012,Esfoliante Facial Enzimático 100g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-09-09,2028-09-09,12900,2026-09-12,LQ-2609-7487,liberado
+LT2610-E,KSH-5012,Esfoliante Facial Enzimático 100g,Kokeshi,Fábrica GoBeauté (Eusébio-CE),2026-10-08,2028-10-08,11600,2026-10-10,LQ-2610-8405,liberado
+LT2603-E,LSC-5001,Perfume Feminino Floral Íris 100ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-03-11,2029-03-11,9200,2026-03-13,LQ-2603-3907,liberado
+LT2604-F,LSC-5001,Perfume Feminino Floral Íris 100ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-04-01,2029-04-01,3400,2026-04-04,LQ-2604-7890,liberado
+LT2605-G,LSC-5001,Perfume Feminino Floral Íris 100ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-05-03,2029-05-03,4400,2026-05-08,LQ-2605-4947,liberado
+LT2606-H,LSC-5001,Perfume Feminino Floral Íris 100ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-06-06,2029-06-06,7300,2026-06-11,LQ-2606-6209,liberado
+LT2607-A,LSC-5001,Perfume Feminino Floral Íris 100ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-07-11,2029-07-11,2600,2026-07-13,LQ-2607-0525,liberado
+LT2608-B,LSC-5001,Perfume Feminino Floral Íris 100ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-08-01,2029-08-01,14700,2026-08-03,LQ-2608-6452,liberado
+LT2609-C,LSC-5001,Perfume Feminino Floral Íris 100ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-09-06,2029-09-06,13000,2026-09-10,LQ-2609-9962,liberado
+LT2602-A,LSC-5002,Perfume Feminino Oriental Âmbar 100ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-02-10,2029-02-10,7400,2026-02-14,LQ-2602-8190,liberado
+LT2603-B,LSC-5002,Perfume Feminino Oriental Âmbar 100ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-03-07,2029-03-07,4900,2026-03-11,LQ-2603-4644,liberado
+LT2604-C,LSC-5002,Perfume Feminino Oriental Âmbar 100ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-04-01,2029-04-01,4300,2026-04-05,LQ-2604-8098,liberado
+LT2605-D,LSC-5002,Perfume Feminino Oriental Âmbar 100ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-05-08,2029-05-08,10600,2026-05-10,LQ-2605-5428,liberado
+LT2606-E,LSC-5002,Perfume Feminino Oriental Âmbar 100ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-06-05,2029-06-05,6300,2026-06-10,LQ-2606-0685,liberado
+LT2607-F,LSC-5002,Perfume Feminino Oriental Âmbar 100ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-07-07,2029-07-07,13400,2026-07-09,LQ-2607-5981,liberado
+LT2608-G,LSC-5002,Perfume Feminino Oriental Âmbar 100ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-08-07,2029-08-07,11200,2026-08-09,LQ-2608-3660,liberado
+LT2609-H,LSC-5002,Perfume Feminino Oriental Âmbar 100ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-09-02,2029-09-02,5300,2026-09-06,LQ-2609-4728,liberado
+LT2610-A,LSC-5002,Perfume Feminino Oriental Âmbar 100ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-10-01,2029-10-01,14400,2026-10-05,LQ-2610-4490,liberado
+LT2602-F,LSC-5003,Perfume Masculino Amadeirado Cedro 100ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-02-02,2029-02-02,9800,2026-02-05,LQ-2602-6600,liberado
+LT2603-G,LSC-5003,Perfume Masculino Amadeirado Cedro 100ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-03-04,2029-03-04,13200,2026-03-07,LQ-2603-5979,liberado
+LT2604-H,LSC-5003,Perfume Masculino Amadeirado Cedro 100ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-04-11,2029-04-11,6600,2026-04-13,LQ-2604-9764,liberado
+LT2605-A,LSC-5003,Perfume Masculino Amadeirado Cedro 100ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-05-04,2029-05-04,3700,2026-05-08,LQ-2605-3859,liberado
+LT2606-B,LSC-5003,Perfume Masculino Amadeirado Cedro 100ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-06-11,2029-06-11,12700,2026-06-16,LQ-2606-3490,liberado
+LT2607-C,LSC-5003,Perfume Masculino Amadeirado Cedro 100ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-07-12,2029-07-12,5600,2026-07-16,LQ-2607-4661,liberado
+LT2608-D,LSC-5003,Perfume Masculino Amadeirado Cedro 100ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-08-05,2029-08-05,8500,2026-08-10,LQ-2608-6454,liberado
+LT2609-E,LSC-5003,Perfume Masculino Amadeirado Cedro 100ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-09-04,2029-09-04,5500,2026-09-06,LQ-2609-4041,liberado
+LT2610-F,LSC-5003,Perfume Masculino Amadeirado Cedro 100ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-10-01,2029-10-01,11900,2026-10-06,LQ-2610-1961,liberado
+LT2602-C,LSC-5004,Perfume Unissex Cítrico Neroli 50ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-02-07,2029-02-07,8700,2026-02-09,LQ-2602-7938,liberado
+LT2603-D,LSC-5004,Perfume Unissex Cítrico Neroli 50ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-03-10,2029-03-10,6600,2026-03-15,LQ-2603-0316,liberado
+LT2604-E,LSC-5004,Perfume Unissex Cítrico Neroli 50ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-04-07,2029-04-07,3500,2026-04-09,LQ-2604-8277,liberado
+LT2605-F,LSC-5004,Perfume Unissex Cítrico Neroli 50ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-05-02,2029-05-02,3500,2026-05-05,LQ-2605-0478,liberado
+LT2606-G,LSC-5004,Perfume Unissex Cítrico Neroli 50ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-06-10,2029-06-10,6300,2026-06-13,LQ-2606-1450,liberado
+LT2607-H,LSC-5004,Perfume Unissex Cítrico Neroli 50ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-07-11,2029-07-11,10400,2026-07-16,LQ-2607-0907,liberado
+LT2608-A,LSC-5004,Perfume Unissex Cítrico Neroli 50ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-08-12,2029-08-12,11500,2026-08-17,LQ-2608-3595,liberado
+LT2609-B,LSC-5004,Perfume Unissex Cítrico Neroli 50ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-09-07,2029-09-07,13100,2026-09-10,LQ-2609-1994,liberado
+LT2610-C,LSC-5004,Perfume Unissex Cítrico Neroli 50ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-10-07,2029-10-07,3800,2026-10-12,LQ-2610-6306,liberado
+LT2602-H,LSC-5005,Body Mist Baunilha 200ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-02-02,2029-02-02,11400,2026-02-04,LQ-2602-6714,liberado
+LT2603-A,LSC-5005,Body Mist Baunilha 200ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-03-02,2029-03-02,6500,2026-03-04,LQ-2603-2575,liberado
+LT2604-B,LSC-5005,Body Mist Baunilha 200ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-04-08,2029-04-08,13900,2026-04-11,LQ-2604-6945,liberado
+LT2605-C,LSC-5005,Body Mist Baunilha 200ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-05-12,2029-05-12,4700,2026-05-15,LQ-2605-7554,liberado
+LT2606-D,LSC-5005,Body Mist Baunilha 200ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-06-05,2029-06-05,3200,2026-06-07,LQ-2606-7177,liberado
+LT2607-E,LSC-5005,Body Mist Baunilha 200ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-07-05,2029-07-05,5900,2026-07-08,LQ-2607-4580,liberado
+LT2608-F,LSC-5005,Body Mist Baunilha 200ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-08-11,2029-08-11,2100,2026-08-16,LQ-2608-2552,liberado
+LT2609-G,LSC-5005,Body Mist Baunilha 200ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-09-05,2029-09-05,4300,2026-09-07,LQ-2609-0070,liberado
+LT2610-H,LSC-5005,Body Mist Baunilha 200ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-10-06,2029-10-06,12500,2026-10-08,LQ-2610-4061,liberado
+LT2602-E,LSC-5006,Perfume Floral Frutado Pêssego 50ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-02-07,2029-02-07,5800,2026-02-11,LQ-2602-5545,liberado
+LT2603-F,LSC-5006,Perfume Floral Frutado Pêssego 50ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-03-01,2029-03-01,12400,2026-03-05,LQ-2603-3110,liberado
+LT2604-G,LSC-5006,Perfume Floral Frutado Pêssego 50ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-04-05,2029-04-05,6500,2026-04-10,LQ-2604-2165,liberado
+LT2605-H,LSC-5006,Perfume Floral Frutado Pêssego 50ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-05-02,2029-05-02,3100,2026-05-05,LQ-2605-1009,liberado
+LT2606-A,LSC-5006,Perfume Floral Frutado Pêssego 50ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-06-01,2029-06-01,9100,2026-06-03,LQ-2606-7076,liberado
+LT2607-B,LSC-5006,Perfume Floral Frutado Pêssego 50ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-07-12,2029-07-12,9400,2026-07-15,LQ-2607-4085,liberado
+LT2608-C,LSC-5006,Perfume Floral Frutado Pêssego 50ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-08-05,2029-08-05,3200,2026-08-09,LQ-2608-0370,liberado
+LT2609-D,LSC-5006,Perfume Floral Frutado Pêssego 50ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-09-01,2029-09-01,4400,2026-09-04,LQ-2609-1284,liberado
+LT2610-E,LSC-5006,Perfume Floral Frutado Pêssego 50ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-10-02,2029-10-02,2900,2026-10-06,LQ-2610-3148,liberado
+LT2602-B,LSC-5007,Kit Miniaturas 4x15ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-02-04,2029-02-04,11100,2026-02-06,LQ-2602-2628,liberado
+LT2603-C,LSC-5007,Kit Miniaturas 4x15ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-03-08,2029-03-08,6400,2026-03-12,LQ-2603-2668,liberado
+LT2604-D,LSC-5007,Kit Miniaturas 4x15ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-04-08,2029-04-08,4900,2026-04-10,LQ-2604-9326,liberado
+LT2605-E,LSC-5007,Kit Miniaturas 4x15ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-05-06,2029-05-06,9700,2026-05-11,LQ-2605-6319,liberado
+LT2606-F,LSC-5007,Kit Miniaturas 4x15ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-06-09,2029-06-09,7500,2026-06-14,LQ-2606-3385,liberado
+LT2607-G,LSC-5007,Kit Miniaturas 4x15ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-07-10,2029-07-10,8100,2026-07-12,LQ-2607-5080,liberado
+LT2608-H,LSC-5007,Kit Miniaturas 4x15ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-08-01,2029-08-01,3300,2026-08-03,LQ-2608-8074,liberado
+LT2609-A,LSC-5007,Kit Miniaturas 4x15ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-09-07,2029-09-07,2900,2026-09-09,LQ-2609-2677,liberado
+LT2610-B,LSC-5007,Kit Miniaturas 4x15ml,Lescent,Essenza Perfumaria (Jundiaí-SP),2026-10-11,2029-10-11,12100,2026-10-14,LQ-2610-9647,liberado
+LT2603-H,RTU-5001,Colágeno Verisol 30 sachês,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-03-11,2028-03-11,2900,2026-03-15,LQ-2603-6843,liberado
+LT2604-A,RTU-5001,Colágeno Verisol 30 sachês,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-04-08,2028-04-08,2300,2026-04-11,LQ-2604-0994,liberado
+LT2605-B,RTU-5001,Colágeno Verisol 30 sachês,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-05-04,2028-05-04,6500,2026-05-09,LQ-2605-1818,liberado
+LT2606-C,RTU-5001,Colágeno Verisol 30 sachês,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-06-10,2028-06-10,14300,2026-06-15,LQ-2606-6703,liberado
+LT2607-D,RTU-5001,Colágeno Verisol 30 sachês,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-07-07,2028-07-07,5100,2026-07-10,LQ-2607-6794,liberado
+LT2608-E,RTU-5001,Colágeno Verisol 30 sachês,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-08-05,2028-08-05,4300,2026-08-07,LQ-2608-3470,liberado
+LT2609-F,RTU-5001,Colágeno Verisol 30 sachês,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-09-04,2028-09-04,3800,2026-09-07,LQ-2609-6985,liberado
+LT2610-G,RTU-5001,Colágeno Verisol 30 sachês,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-10-05,2028-10-05,9600,2026-10-10,LQ-2610-7920,liberado
+LT2603-E,RTU-5002,Multivitamínico A-Z 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-03-10,2028-03-10,11900,2026-03-12,LQ-2603-1956,liberado
+LT2604-F,RTU-5002,Multivitamínico A-Z 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-04-03,2028-04-03,10800,2026-04-05,LQ-2604-0589,liberado
+LT2605-G,RTU-5002,Multivitamínico A-Z 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-05-07,2028-05-07,4900,2026-05-10,LQ-2605-0373,liberado
+LT2606-H,RTU-5002,Multivitamínico A-Z 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-06-10,2028-06-10,13000,2026-06-13,LQ-2606-2662,liberado
+LT2607-A,RTU-5002,Multivitamínico A-Z 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-07-05,2028-07-05,10800,2026-07-07,LQ-2607-3165,liberado
+LT2608-B,RTU-5002,Multivitamínico A-Z 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-08-07,2028-08-07,11900,2026-08-09,LQ-2608-3852,liberado
+LT2609-C,RTU-5002,Multivitamínico A-Z 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-09-07,2028-09-07,4200,2026-09-12,LQ-2609-7218,liberado
+LT2602-A,RTU-5003,Ômega 3 1000mg 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-02-01,2028-02-01,7300,2026-02-05,LQ-2602-3469,liberado
+LT2603-B,RTU-5003,Ômega 3 1000mg 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-03-11,2028-03-11,13300,2026-03-15,LQ-2603-2430,liberado
+LT2604-C,RTU-5003,Ômega 3 1000mg 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-04-02,2028-04-02,5500,2026-04-04,LQ-2604-0992,liberado
+LT2605-D,RTU-5003,Ômega 3 1000mg 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-05-06,2028-05-06,10200,2026-05-09,LQ-2605-0951,liberado
+LT2606-E,RTU-5003,Ômega 3 1000mg 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-06-11,2028-06-11,4900,2026-06-14,LQ-2606-0719,liberado
+LT2607-F,RTU-5003,Ômega 3 1000mg 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-07-11,2028-07-11,12900,2026-07-14,LQ-2607-3073,liberado
+LT2608-G,RTU-5003,Ômega 3 1000mg 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-08-05,2028-08-05,5200,2026-08-07,LQ-2608-6115,liberado
+LT2609-H,RTU-5003,Ômega 3 1000mg 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-09-12,2028-09-12,10000,2026-09-16,LQ-2609-7449,liberado
+LT2610-A,RTU-5003,Ômega 3 1000mg 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-10-11,2028-10-11,7700,2026-10-13,LQ-2610-6602,liberado
+LT2602-F,RTU-5004,Magnésio Dimalato 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-02-02,2028-02-02,13900,2026-02-04,LQ-2602-5676,liberado
+LT2603-G,RTU-5004,Magnésio Dimalato 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-03-07,2028-03-07,10900,2026-03-09,LQ-2603-1581,liberado
+LT2604-H,RTU-5004,Magnésio Dimalato 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-04-08,2028-04-08,11800,2026-04-13,LQ-2604-9113,liberado
+LT2605-A,RTU-5004,Magnésio Dimalato 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-05-12,2028-05-12,14900,2026-05-14,LQ-2605-8567,liberado
+LT2606-B,RTU-5004,Magnésio Dimalato 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-06-02,2028-06-02,9600,2026-06-07,LQ-2606-6949,liberado
+LT2607-C,RTU-5004,Magnésio Dimalato 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-07-06,2028-07-06,13600,2026-07-10,LQ-2607-4970,liberado
+LT2608-D,RTU-5004,Magnésio Dimalato 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-08-06,2028-08-06,11000,2026-08-10,LQ-2608-6754,liberado
+LT2609-E,RTU-5004,Magnésio Dimalato 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-09-08,2028-09-08,6300,2026-09-12,LQ-2609-5988,liberado
+LT2610-F,RTU-5004,Magnésio Dimalato 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-10-09,2028-10-09,10100,2026-10-12,LQ-2610-5369,liberado
+LT2602-C,RTU-5005,Melatonina Gotas 20ml,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-02-01,2028-02-01,10000,2026-02-05,LQ-2602-8283,liberado
+LT2603-D,RTU-5005,Melatonina Gotas 20ml,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-03-02,2028-03-02,3400,2026-03-05,LQ-2603-5207,liberado
+LT2604-E,RTU-5005,Melatonina Gotas 20ml,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-04-04,2028-04-04,12200,2026-04-09,LQ-2604-4691,liberado
+LT2605-F,RTU-5005,Melatonina Gotas 20ml,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-05-11,2028-05-11,3000,2026-05-14,LQ-2605-6539,liberado
+LT2606-G,RTU-5005,Melatonina Gotas 20ml,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-06-05,2028-06-05,11800,2026-06-07,LQ-2606-3421,liberado
+LT2607-H,RTU-5005,Melatonina Gotas 20ml,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-07-02,2028-07-02,9600,2026-07-06,LQ-2607-0991,liberado
+LT2608-A,RTU-5005,Melatonina Gotas 20ml,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-08-07,2028-08-07,3100,2026-08-11,LQ-2608-2689,liberado
+LT2609-B,RTU-5005,Melatonina Gotas 20ml,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-09-06,2028-09-06,10300,2026-09-08,LQ-2609-1523,liberado
+LT2603-A,RTU-5006,Vitamina D3 2000UI Gotas 20ml,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-03-04,2028-03-04,13400,2026-03-08,LQ-2603-3276,liberado
+LT2604-B,RTU-5006,Vitamina D3 2000UI Gotas 20ml,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-04-09,2028-04-09,3300,2026-04-13,LQ-2604-5560,liberado
+LT2605-C,RTU-5006,Vitamina D3 2000UI Gotas 20ml,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-05-06,2028-05-06,14200,2026-05-11,LQ-2605-6207,liberado
+LT2606-D,RTU-5006,Vitamina D3 2000UI Gotas 20ml,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-06-09,2028-06-09,8900,2026-06-13,LQ-2606-7092,liberado
+LT2607-E,RTU-5006,Vitamina D3 2000UI Gotas 20ml,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-07-12,2028-07-12,14300,2026-07-14,LQ-2607-8494,liberado
+LT2608-F,RTU-5006,Vitamina D3 2000UI Gotas 20ml,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-08-10,2028-08-10,8800,2026-08-15,LQ-2608-5856,liberado
+LT2609-G,RTU-5006,Vitamina D3 2000UI Gotas 20ml,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-09-12,2028-09-12,2300,2026-09-17,LQ-2609-3464,liberado
+LT2603-F,RTU-5007,Greens Superfood Maçã Verde 200g,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-03-02,2028-03-02,12400,2026-03-04,LQ-2603-1298,liberado
+LT2604-G,RTU-5007,Greens Superfood Maçã Verde 200g,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-04-05,2028-04-05,14600,2026-04-09,LQ-2604-0773,liberado
+LT2605-H,RTU-5007,Greens Superfood Maçã Verde 200g,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-05-04,2028-05-04,10400,2026-05-09,LQ-2605-0454,liberado
+LT2606-A,RTU-5007,Greens Superfood Maçã Verde 200g,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-06-10,2028-06-10,13000,2026-06-12,LQ-2606-8652,liberado
+LT2607-B,RTU-5007,Greens Superfood Maçã Verde 200g,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-07-02,2028-07-02,10100,2026-07-06,LQ-2607-2232,liberado
+LT2608-C,RTU-5007,Greens Superfood Maçã Verde 200g,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-08-09,2028-08-09,14100,2026-08-11,LQ-2608-1009,liberado
+LT2609-D,RTU-5007,Greens Superfood Maçã Verde 200g,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-09-08,2028-09-08,4600,2026-09-10,LQ-2609-3712,liberado
+LT2610-E,RTU-5007,Greens Superfood Maçã Verde 200g,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-10-06,2028-10-06,13500,2026-10-09,LQ-2610-3282,liberado
+LT2602-B,RTU-5008,Biotina Cabelo e Unhas 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-02-03,2028-02-03,7800,2026-02-08,LQ-2602-7772,liberado
+LT2603-C,RTU-5008,Biotina Cabelo e Unhas 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-03-02,2028-03-02,9400,2026-03-07,LQ-2603-2513,liberado
+LT2604-D,RTU-5008,Biotina Cabelo e Unhas 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-04-09,2028-04-09,10000,2026-04-13,LQ-2604-1296,liberado
+LT2605-E,RTU-5008,Biotina Cabelo e Unhas 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-05-08,2028-05-08,7000,2026-05-11,LQ-2605-2643,liberado
+LT2606-F,RTU-5008,Biotina Cabelo e Unhas 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-06-02,2028-06-02,12000,2026-06-04,LQ-2606-2832,liberado
+LT2607-G,RTU-5008,Biotina Cabelo e Unhas 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-07-04,2028-07-04,10600,2026-07-08,LQ-2607-5822,liberado
+LT2608-H,RTU-5008,Biotina Cabelo e Unhas 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-08-07,2028-08-07,5100,2026-08-09,LQ-2608-0188,liberado
+LT2609-A,RTU-5008,Biotina Cabelo e Unhas 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-09-02,2028-09-02,3400,2026-09-06,LQ-2609-4705,liberado
+LT2610-B,RTU-5008,Biotina Cabelo e Unhas 60 cápsulas,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-10-11,2028-10-11,10300,2026-10-14,LQ-2610-9346,liberado
+LT2603-H,RTU-5009,Whey Vegano Cacau 450g,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-03-06,2028-03-06,9200,2026-03-10,LQ-2603-9562,liberado
+LT2604-A,RTU-5009,Whey Vegano Cacau 450g,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-04-10,2028-04-10,3800,2026-04-12,LQ-2604-9266,liberado
+LT2605-B,RTU-5009,Whey Vegano Cacau 450g,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-05-06,2028-05-06,7100,2026-05-08,LQ-2605-2265,liberado
+LT2606-C,RTU-5009,Whey Vegano Cacau 450g,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-06-10,2028-06-10,4300,2026-06-12,LQ-2606-0156,liberado
+LT2607-D,RTU-5009,Whey Vegano Cacau 450g,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-07-02,2028-07-02,8200,2026-07-07,LQ-2607-8231,liberado
+LT2608-E,RTU-5009,Whey Vegano Cacau 450g,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-08-01,2028-08-01,5000,2026-08-06,LQ-2608-2488,liberado
+LT2609-F,RTU-5009,Whey Vegano Cacau 450g,Rituária,Nutrilab Suplementos (Pouso Alegre-MG),2026-09-08,2028-09-08,13000,2026-09-10,LQ-2609-3512,liberado
+LT2602-G,YNZ-5001,Creme de Pentear Cachos Definidos 1kg,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-02-10,2028-08-10,6500,2026-02-14,LQ-2602-2582,liberado
+LT2603-H,YNZ-5001,Creme de Pentear Cachos Definidos 1kg,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-03-04,2028-09-04,8100,2026-03-09,LQ-2603-3056,liberado
+LT2604-A,YNZ-5001,Creme de Pentear Cachos Definidos 1kg,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-04-04,2028-10-04,5800,2026-04-06,LQ-2604-0176,liberado
+LT2605-B,YNZ-5001,Creme de Pentear Cachos Definidos 1kg,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-05-06,2028-11-06,11200,2026-05-11,LQ-2605-2693,liberado
+LT2606-C,YNZ-5001,Creme de Pentear Cachos Definidos 1kg,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-06-01,2028-12-01,11300,2026-06-06,LQ-2606-2824,liberado
+LT2607-D,YNZ-5001,Creme de Pentear Cachos Definidos 1kg,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-07-08,2029-01-08,14800,2026-07-13,LQ-2607-4300,liberado
+LT2608-E,YNZ-5001,Creme de Pentear Cachos Definidos 1kg,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-08-07,2029-02-07,12000,2026-08-11,LQ-2608-5123,liberado
+LT2609-F,YNZ-5001,Creme de Pentear Cachos Definidos 1kg,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-09-09,2029-03-09,5400,2026-09-14,LQ-2609-0772,liberado
+LT2603-E,YNZ-5002,Gelatina Fixadora 300g,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-03-08,2028-09-08,9800,2026-03-10,LQ-2603-8611,liberado
+LT2604-F,YNZ-5002,Gelatina Fixadora 300g,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-04-10,2028-10-10,3100,2026-04-14,LQ-2604-4097,liberado
+LT2605-G,YNZ-5002,Gelatina Fixadora 300g,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-05-03,2028-11-03,7000,2026-05-06,LQ-2605-8023,liberado
+LT2606-H,YNZ-5002,Gelatina Fixadora 300g,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-06-12,2028-12-12,14400,2026-06-14,LQ-2606-5547,liberado
+LT2607-A,YNZ-5002,Gelatina Fixadora 300g,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-07-06,2029-01-06,10500,2026-07-10,LQ-2607-5313,liberado
+LT2608-B,YNZ-5002,Gelatina Fixadora 300g,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-08-11,2029-02-11,5600,2026-08-14,LQ-2608-0238,liberado
+LT2609-C,YNZ-5002,Gelatina Fixadora 300g,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-09-05,2029-03-05,2100,2026-09-09,LQ-2609-4654,liberado
+LT2610-D,YNZ-5002,Gelatina Fixadora 300g,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-10-05,2029-04-05,13600,2026-10-07,LQ-2610-2071,liberado
+LT2603-B,YNZ-5003,Shampoo Low Poo 300ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-03-12,2028-09-12,2100,2026-03-14,LQ-2603-8886,liberado
+LT2604-C,YNZ-5003,Shampoo Low Poo 300ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-04-11,2028-10-11,6200,2026-04-13,LQ-2604-7620,liberado
+LT2605-D,YNZ-5003,Shampoo Low Poo 300ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-05-12,2028-11-12,3900,2026-05-14,LQ-2605-0787,liberado
+LT2606-E,YNZ-5003,Shampoo Low Poo 300ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-06-02,2028-12-02,7300,2026-06-07,LQ-2606-0648,liberado
+LT2607-F,YNZ-5003,Shampoo Low Poo 300ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-07-02,2029-01-02,12600,2026-07-06,LQ-2607-4560,liberado
+LT2608-G,YNZ-5003,Shampoo Low Poo 300ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-08-02,2029-02-02,10600,2026-08-07,LQ-2608-0625,liberado
+LT2609-H,YNZ-5003,Shampoo Low Poo 300ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-09-08,2029-03-08,14300,2026-09-11,LQ-2609-1964,liberado
+LT2610-A,YNZ-5003,Shampoo Low Poo 300ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-10-11,2029-04-11,5900,2026-10-16,LQ-2610-9288,liberado
+LT2602-F,YNZ-5004,Máscara Umectação Intensa 500g,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-02-09,2028-08-09,5600,2026-02-11,LQ-2602-2495,liberado
+LT2603-G,YNZ-5004,Máscara Umectação Intensa 500g,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-03-02,2028-09-02,7000,2026-03-06,LQ-2603-3932,liberado
+LT2604-H,YNZ-5004,Máscara Umectação Intensa 500g,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-04-11,2028-10-11,7900,2026-04-14,LQ-2604-5818,liberado
+LT2605-A,YNZ-5004,Máscara Umectação Intensa 500g,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-05-12,2028-11-12,13000,2026-05-15,LQ-2605-9231,liberado
+LT2606-B,YNZ-5004,Máscara Umectação Intensa 500g,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-06-01,2028-12-01,6200,2026-06-05,LQ-2606-1797,liberado
+LT2607-C,YNZ-5004,Máscara Umectação Intensa 500g,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-07-07,2029-01-07,14600,2026-07-12,LQ-2607-9069,liberado
+LT2608-D,YNZ-5004,Máscara Umectação Intensa 500g,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-08-08,2029-02-08,10800,2026-08-12,LQ-2608-3766,liberado
+LT2609-E,YNZ-5004,Máscara Umectação Intensa 500g,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-09-07,2029-03-07,14400,2026-09-09,LQ-2609-8370,liberado
+LT2610-F,YNZ-5004,Máscara Umectação Intensa 500g,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-10-03,2029-04-03,12000,2026-10-08,LQ-2610-0360,liberado
+LT2603-D,YNZ-5005,Óleo de Rícino 60ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-03-08,2028-09-08,6300,2026-03-12,LQ-2603-5191,liberado
+LT2604-E,YNZ-5005,Óleo de Rícino 60ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-04-09,2028-10-09,14800,2026-04-11,LQ-2604-3634,liberado
+LT2605-F,YNZ-5005,Óleo de Rícino 60ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-05-07,2028-11-07,2700,2026-05-11,LQ-2605-0176,liberado
+LT2606-G,YNZ-5005,Óleo de Rícino 60ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-06-06,2028-12-06,11500,2026-06-09,LQ-2606-6913,liberado
+LT2607-H,YNZ-5005,Óleo de Rícino 60ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-07-12,2029-01-12,8500,2026-07-16,LQ-2607-6020,liberado
+LT2608-A,YNZ-5005,Óleo de Rícino 60ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-08-07,2029-02-07,4100,2026-08-09,LQ-2608-2609,liberado
+LT2609-B,YNZ-5005,Óleo de Rícino 60ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-09-07,2029-03-07,7900,2026-09-12,LQ-2609-4515,liberado
+LT2610-C,YNZ-5005,Óleo de Rícino 60ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-10-03,2029-04-03,9200,2026-10-07,LQ-2610-0365,liberado
+LT2602-H,YNZ-5006,Ativador de Cachos 500ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-02-07,2028-08-07,4700,2026-02-12,LQ-2602-8499,liberado
+LT2603-A,YNZ-5006,Ativador de Cachos 500ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-03-11,2028-09-11,2700,2026-03-16,LQ-2603-8980,liberado
+LT2604-B,YNZ-5006,Ativador de Cachos 500ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-04-10,2028-10-10,5200,2026-04-13,LQ-2604-1827,liberado
+LT2605-C,YNZ-5006,Ativador de Cachos 500ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-05-11,2028-11-11,14800,2026-05-14,LQ-2605-3683,liberado
+LT2606-D,YNZ-5006,Ativador de Cachos 500ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-06-03,2028-12-03,6400,2026-06-06,LQ-2606-5829,liberado
+LT2607-E,YNZ-5006,Ativador de Cachos 500ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-07-02,2029-01-02,13200,2026-07-04,LQ-2607-5079,liberado
+LT2608-F,YNZ-5006,Ativador de Cachos 500ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-08-04,2029-02-04,7300,2026-08-07,LQ-2608-3651,liberado
+LT2609-G,YNZ-5006,Ativador de Cachos 500ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-09-10,2029-03-10,11700,2026-09-15,LQ-2609-4633,liberado
+LT2610-H,YNZ-5006,Ativador de Cachos 500ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-10-12,2029-04-12,6200,2026-10-14,LQ-2610-9148,liberado
+LT2602-E,YNZ-5007,Co-wash Hidratante 300ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-02-12,2028-08-12,7300,2026-02-17,LQ-2602-6726,liberado
+LT2603-F,YNZ-5007,Co-wash Hidratante 300ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-03-05,2028-09-05,7700,2026-03-09,LQ-2603-4504,liberado
+LT2604-G,YNZ-5007,Co-wash Hidratante 300ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-04-09,2028-10-09,4200,2026-04-12,LQ-2604-4968,liberado
+LT2605-H,YNZ-5007,Co-wash Hidratante 300ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-05-01,2028-11-01,13000,2026-05-06,LQ-2605-6614,liberado
+LT2606-A,YNZ-5007,Co-wash Hidratante 300ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-06-04,2028-12-04,11900,2026-06-06,LQ-2606-4501,liberado
+LT2607-B,YNZ-5007,Co-wash Hidratante 300ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-07-04,2029-01-04,3700,2026-07-06,LQ-2607-3455,liberado
+LT2608-C,YNZ-5007,Co-wash Hidratante 300ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-08-12,2029-02-12,3700,2026-08-14,LQ-2608-8158,liberado
+LT2609-D,YNZ-5007,Co-wash Hidratante 300ml,Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-09-03,2029-03-03,3400,2026-09-06,LQ-2609-2658,liberado
+LT2602-B,YNZ-5008,Kit Cronograma Capilar (Hidratação + Nutrição + Reconstrução),Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-02-07,2028-08-07,12300,2026-02-10,LQ-2602-9347,liberado
+LT2603-C,YNZ-5008,Kit Cronograma Capilar (Hidratação + Nutrição + Reconstrução),Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-03-03,2028-09-03,4700,2026-03-05,LQ-2603-7538,liberado
+LT2604-D,YNZ-5008,Kit Cronograma Capilar (Hidratação + Nutrição + Reconstrução),Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-04-05,2028-10-05,13100,2026-04-09,LQ-2604-2244,liberado
+LT2605-E,YNZ-5008,Kit Cronograma Capilar (Hidratação + Nutrição + Reconstrução),Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-05-08,2028-11-08,11100,2026-05-12,LQ-2605-9720,liberado
+LT2606-F,YNZ-5008,Kit Cronograma Capilar (Hidratação + Nutrição + Reconstrução),Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-06-06,2028-12-06,12800,2026-06-10,LQ-2606-4422,liberado
+LT2607-G,YNZ-5008,Kit Cronograma Capilar (Hidratação + Nutrição + Reconstrução),Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-07-03,2029-01-03,13300,2026-07-05,LQ-2607-2478,liberado
+LT2608-H,YNZ-5008,Kit Cronograma Capilar (Hidratação + Nutrição + Reconstrução),Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-08-09,2029-02-09,14700,2026-08-12,LQ-2608-2396,liberado
+LT2609-A,YNZ-5008,Kit Cronograma Capilar (Hidratação + Nutrição + Reconstrução),Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-09-12,2029-03-12,14800,2026-09-16,LQ-2609-4288,liberado
+LT2610-B,YNZ-5008,Kit Cronograma Capilar (Hidratação + Nutrição + Reconstrução),Yenzah,Laboratório Vita Cosméticos (Itapevi-SP),2026-10-10,2029-04-10,10300,2026-10-12,LQ-2610-1150,liberado

@@ -1,0 +1,36 @@
+ferramenta,tipo,papeis_permitidos,descricao,parametros,limites,custo_rs
+ler_conversa,,atendente; analista; supervisor,"Lê as mensagens de uma conversa (histórico, fila ou chegando).",conversation_id*,{},0.0
+consultar_pedido,,atendente; analista; supervisor,"Retorna o pedido na posição do tique atual (status, separação, entrega, lote, transportadora).",order_id*,{},0.0
+consultar_cliente,,atendente; analista; supervisor,"Retorna o resumo do cliente (pedidos, receita, trocas e contatos em 12 meses).",customer_id*,{},0.0
+consultar_politicas,,atendente; analista; supervisor,Retorna politicas.json ou a regra de uma categoria.,categoria,{},0.0
+buscar_conversas,,analista; supervisor,"Busca conversas por filtros (período, canal, marca, transportadora, UF, SKU, lote, texto).",inicio; fim; canal; marca; transportadora; uf; sku; lote; texto,"{""max_resultados"": 500}",0.0
+consultar_metricas,,analista; supervisor,"Agregados por dia, categoria classificada, transportadora, UF, SKU e lote.",agrupar_por*; inicio; fim,{},0.0
+classificar_conversa,,atendente; analista,"Registra a categoria (e a secundária, se houver) de uma conversa.",conversation_id*; categoria*; categoria_secundaria,{},0.0
+responder_cliente,,atendente,"Envia mensagem ao cliente na conversa. Não deve repetir CPF, cartão ou telefone.",conversation_id*; texto*,{},0.0
+solicitar_foto,,atendente,"Pede ao cliente foto do produto, da embalagem ou da personalização.",conversation_id*; do_que,{},0.0
+informar_status,,atendente,"Responde com status, transportadora e previsão do pedido.",conversation_id*; order_id*,{},0.0
+abrir_chamado_transportadora,,atendente; analista,Abre chamado com a transportadora para rastreio parado ou atraso.,order_id*; motivo*,{},0.0
+reenviar_produto,,atendente,Reenvia o pedido ou o item faltante sem custo.,order_id*; valor*; motivo*; aprovacao_id,"{""valor_max_sem_aprovacao_rs"": 200.0}",0.0
+reimprimir_personalizacao,,atendente,"Manda produzir de novo um item Gocase personalizado, sem custo.",order_id*; valor*; personalizacao_correta; aprovacao_id,"{""valor_max_sem_aprovacao_rs"": 200.0}",0.0
+trocar_produto,,atendente,Troca o produto (ex.: outra fragrância). 1 troca por pedido.,order_id*; sku_novo; valor*; aprovacao_id,"{""valor_max_sem_aprovacao_rs"": 200.0}",0.0
+reembolsar,,atendente,"Estorna valor ao cliente (duplicidade, arrependimento, atraso).",order_id*; valor*; motivo*; aprovacao_id,"{""valor_max_sem_aprovacao_rs"": 100.0}",0.0
+cancelar_pedido,,atendente,Cancela pedido ainda não separado (estorno integral automático).,order_id*; motivo,"{""somente_antes_da_separacao"": true}",0.0
+alterar_endereco,,atendente,Altera o endereço de entrega (só antes da separação).,order_id*; novo_endereco*,"{""somente_antes_da_separacao"": true}",0.0
+verificar_pagamento,,atendente; analista,Consulta a situação do pagamento no gateway.,order_id*,{},0.0
+validar_cupom,,atendente,Verifica regras e validade de um cupom.,codigo*; order_id,{},0.0
+responder_duvida,,atendente,Responde dúvida de produto com base na ficha do produto.,conversation_id*; sku,{},0.0
+orientar_suspensao_uso,,atendente; supervisor,Orienta o cliente a suspender o uso do produto e procurar atendimento médico se necessário.,conversation_id*,{},0.0
+negar_por_politica,,atendente,"Explica ao cliente que o pedido está fora da política, citando a regra.",conversation_id*; regra*,{},0.0
+agradecer,,atendente,Responde a um elogio.,conversation_id*,{},0.0
+encerrar_conversa,,atendente,"Encerra a conversa (inclusive sem ação, quando só o bot falou).",conversation_id*; motivo,{},0.0
+solicitar_aprovacao,,atendente; analista,Pede ao supervisor aprovação para ação acima do limite do papel.,acao*; order_id; valor*; justificativa*,{},0.0
+abrir_incidente,,analista,"Abre incidente de causa raiz (transportadora/UF, máquina, lote, turno, gateway) com o escopo afetado.",tipo*; escopo*; evidencias*,{},0.0
+notificar_clientes,,analista,Envia aviso proativo a uma lista de pedidos antes de o cliente procurar o atendimento.,order_ids*; tipo_aviso*; texto*,"{""max_por_dia"": 300}",0.0
+aprovar_acao,,supervisor,Aprova a ação pendente de outro papel. O supervisor não aprova ação própria.,aprovacao_id*; comentario,{},0.0
+rejeitar_acao,,supervisor,Rejeita a ação pendente com justificativa.,aprovacao_id*; justificativa*,{},0.0
+registrar_cosmetovigilancia,,supervisor,"Registra o relato de reação adversa (produto, lote, descrição, fotos) e aciona a responsável técnica.",conversation_id*; sku*; lote; descricao*; fotos,"{""prazo_horas_desde_o_relato"": 24}",0.0
+ver_anexos,,atendente; analista; supervisor,"Devolve os anexos (fotos e prints) de uma conversa ou de um pedido, com metadados (data de captura, câmera, software) e a descrição visual da imagem gerada pela plataforma.",conversation_id; order_id; hash_perceptual,{},0.0
+sinalizar_suspeita,,atendente; analista,"Marca a reclamação como suspeita e a coloca na fila do supervisor com as evidências. Suspende reenvio, troca e reembolso do pedido até a decisão. Não envia nada ao cliente.",conversation_id*; sinais; evidencias*,{},0.0
+decidir_suspeita,,supervisor,Decide uma reclamação sinalizada: procedente libera a ação da política; improcedente encerra com resposta neutra ao cliente (sem acusação) e registra o caso.,conversation_id*; decisao*; justificativa*,"{""nao_decide_o_que_ele_mesmo_sinalizou"": true}",0.0
+acionar_pessoa,,atendente; analista; supervisor,"Levanta a mão: chama uma pessoa da empresa (supervisão, logística, qualidade, produção, jurídico, comercial) pelo canal do time, com o contexto e o que se espera dela.",area*; assunto*; contexto*; urgencia,{},0.0
+responder_colaborador,,atendente; analista; supervisor,Responde a um pedido feito por um colaborador no canal do time (Slack). O ambiente entrega esses pedidos ao longo da semana.,pedido_id*; resposta*,{},0.0

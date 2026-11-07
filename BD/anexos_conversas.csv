@@ -1,0 +1,383 @@
+anexo_id,conversation_id,message_id,order_id,customer_id,canal,enviado_em,tipo,hash_perceptual,exif_data_captura,exif_modelo_camera,exif_software,descricao_visual
+IMG000001,AT104618,MS0000029,GBH361471,CH609125,reclame_aqui,2026-08-05 08:14:22,foto_produto,bff98c72083a26e6,2026-08-02 12:23:28,iPhone 15,,Itens do pedido sobre a mesa: Gelatina Fixadora 300g; a nota fiscal lista um item a mais.
+IMG000002,AT104667,MS0000071,GBH366247,CH660017,whatsapp,2026-08-04 17:23:14,foto_produto,634a719bdae38c47,,,,Caixa aberta com Creme de Pentear Cachos Definidos 1kg; não há outro item nem brinde dentro da caixa.
+IMG000003,AT104691,MS0000100,GBH366046,CH728355,whatsapp,2026-08-04 20:48:50,foto_produto,cb27986ff372701f,,,,Kit Barba Completo (Óleo + Balm + Shampoo) com o pote rachado.
+IMG000004,AT104701,MS0000115,GBH367572,CH800633,whatsapp,2026-08-04 19:39:15,foto_produto,3ff80711f465f1d6,2026-08-03 07:12:55,Moto G54,,Caixa aberta com Sérum Ácido Hialurônico 30ml; não há outro item nem brinde dentro da caixa.
+IMG000005,AT104742,MS0000155,GCH525282,CH116228,reclame_aqui,2026-08-06 08:46:12,foto_produto,993f27e2540c4944,2026-08-05 22:15:34,iPhone 15,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000006,AT104837,MS0000251,GCH525425,CH246472,whatsapp,2026-08-05 18:58:18,foto_produto,207465e35f48fa57,,,,Case Guard Magsafe / iPhone 16 Pro Personalizada Iniciais com trinca no canto inferior direito.
+IMG000007,AT104871,MS0000286,GCH525282,CH116228,whatsapp,2026-08-06 08:48:49,foto_produto,993f27e2540c4944,,,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000008,AT104871,MS0000286,GCH525282,CH116228,whatsapp,2026-08-06 08:48:49,foto_embalagem,069b9abfa2dded12,,,,Caixa da transportadora com a fita violada; etiqueta com o número do pedido GCH525282 legível.
+IMG000009,AT104930,MS0000359,GBH365929,CH330517,whatsapp,2026-08-06 15:19:45,foto_produto,e73da6545488b3b0,,,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000010,AT104936,MS0000366,GCH525527,CH511505,whatsapp,2026-08-06 17:33:00,foto_produto,5e1440cfcdbcaf3f,2026-07-01 17:29:00,iPhone 13,,Necessaire estampada rasgado na costura.
+IMG000011,AT104982,MS0000403,GBH368234,CH405543,email,2026-08-07 09:02:39,foto_produto,96cc9b1d25a61d6c,2026-08-04 21:23:25,Moto G54,,Itens do pedido sobre a mesa: Deo Colônia Amadeirado 100ml; a nota fiscal lista um item a mais.
+IMG000012,AT105092,MS0000512,GBH370911,CH154084,whatsapp,2026-08-08 08:19:19,foto_produto,88154164ef5a02ed,2026-08-06 01:02:12,Galaxy A15,,Body Mist Baunilha 200ml com a tampa quebrada e produto espalhado na caixa.
+IMG000013,AT105092,MS0000512,GBH370911,CH154084,whatsapp,2026-08-08 08:19:19,foto_embalagem,cf4cecce88d563ff,,,,Caixa da transportadora com a fita violada.
+IMG000014,AT105120,MS0000551,GBH364345,CH921174,whatsapp,2026-08-08 09:21:44,foto_produto,ea49eb4f1d270760,,,,Embalagem de Shampoo Reconstrução 1L amassada e vazando.
+IMG000015,AT105156,MS0000607,GBH365587,CH892141,whatsapp,2026-08-08 15:36:08,foto_produto,4ed3f15de41afc4d,,,,Itens do pedido sobre a mesa: Batom Líquido Matte; a nota fiscal lista um item a mais.
+IMG000016,AT105180,MS0000639,GBH367391,CH994783,whatsapp,2026-08-08 18:34:47,foto_produto,4c213c9d06b64d09,2026-08-08 03:34:17,iPhone 11,,Embalagem de Sérum Niacinamida 10% + Zinco 30ml amassada e vazando.
+IMG000017,AT105180,MS0000639,GBH367391,CH994783,whatsapp,2026-08-08 18:34:47,foto_embalagem,bcba72b4e065fea6,,,,Caixa da transportadora molhada e deformada.
+IMG000018,AT105183,MS0000644,GBH365613,CH232439,email,2026-08-09 11:08:19,foto_produto,4e97f9cce28c263c,,,,Creme Área dos Olhos 15g com a tampa quebrada e produto espalhado na caixa.
+IMG000019,AT105205,MS0000664,GBH369753,CH811448,whatsapp,2026-08-09 09:18:08,foto_produto,143bab1ffde7d643,,,,Corretivo Líquido Alta Cobertura 6ml com o pote rachado.
+IMG000020,AT105205,MS0000664,GBH369753,CH811448,whatsapp,2026-08-09 09:18:08,foto_embalagem,53d18c0c9a064093,,,,Caixa da transportadora com a fita violada; etiqueta com o número do pedido GBH369753 legível.
+IMG000021,AT105239,MS0000707,GCH526998,CH427995,whatsapp,2026-08-09 12:52:27,foto_produto,9aa32ada3d19b04b,,,,Copo térmico de inox com a pintura descascada e um amassado lateral.
+IMG000022,AT105239,MS0000707,GCH526998,CH427995,whatsapp,2026-08-09 12:52:27,foto_embalagem,d1f4792ab0bc5103,,,,Caixa da transportadora íntegra por fora.
+IMG000023,AT105279,MS0000749,GBH368417,CH466868,email,2026-08-10 08:52:57,foto_produto,beebcc7e73b909d4,,,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000024,AT105332,MS0000803,GBH365696,CH929465,whatsapp,2026-08-10 09:14:55,foto_produto,a26abd6261b426bf,,,,Caixa aberta com Condicionador Reconstrução 1L; não há outro item nem brinde dentro da caixa.
+IMG000025,AT105334,MS0000808,GBH365587,CH892141,reclame_aqui,2026-08-11 08:05:58,foto_produto,4ed3f15de41afc4d,2026-08-04 06:06:08,iPhone 13,,Itens do pedido sobre a mesa: Batom Líquido Matte; a nota fiscal lista um item a mais.
+IMG000026,AT105334,MS0000808,GBH365587,CH892141,reclame_aqui,2026-08-11 08:05:58,foto_embalagem,08a8c30ef58ed3c5,,,,Caixa da transportadora amassada em uma das quinas.
+IMG000027,AT105451,MS0000914,GBH367815,CH442536,email,2026-08-10 17:39:23,foto_produto,f596d70792073dcb,2026-08-06 01:05:18,Moto G54,,Deo Colônia Citrus Fresh 100ml com a válvula quebrada e o frasco vazando.
+IMG000028,AT105451,MS0000914,GBH367815,CH442536,email,2026-08-10 17:39:23,foto_embalagem,ed9e11e32ea81a68,2026-08-08 01:51:29,Poco X6,,Caixa da transportadora íntegra por fora; etiqueta com o número do pedido GBH367815 legível.
+IMG000029,AT105497,MS0000981,GBH361471,CH609125,reclame_aqui,2026-08-11 16:43:14,foto_produto,bff98c72083a26e6,,,,Itens do pedido sobre a mesa: Gelatina Fixadora 300g; a nota fiscal lista um item a mais.
+IMG000030,AT105497,MS0000981,GBH361471,CH609125,reclame_aqui,2026-08-11 16:43:14,foto_embalagem,4f62222aecd7d707,,,,Caixa da transportadora amassada em uma das quinas.
+IMG000031,AT105546,MS0001048,GBH369341,CH152776,whatsapp,2026-08-11 10:40:54,foto_produto,97670cb1374f07a6,,,,Embalagem de Colágeno Verisol 30 sachês amassada e vazando.
+IMG000032,AT105603,MS0001112,GBH368468,CH475500,whatsapp,2026-08-11 16:34:03,foto_produto,82c37c721f0ac0a0,,,,Ampola de Tratamento Brilho 15ml (3 un) com a tampa quebrada e produto espalhado na caixa.
+IMG000033,AT105603,MS0001112,GBH368468,CH475500,whatsapp,2026-08-11 16:34:03,foto_embalagem,bf41c01abf52aaaf,,,,Caixa da transportadora molhada e deformada; etiqueta com o número do pedido GBH368468 legível.
+IMG000034,AT105659,MS0001176,GBH376384,CH604988,reclame_aqui,2026-08-13 08:21:46,foto_produto,1b8b2b53d39bb94c,2026-08-10 12:24:00,Redmi Note 13,,Itens do pedido sobre a mesa: Paleta de Sombras Nude 12 cores; a nota fiscal lista um item a mais.
+IMG000035,AT105753,MS0001294,GCH527872,CH163874,email,2026-08-13 09:16:24,foto_produto,4fe2e3ee3f6767d4,,,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000036,AT105753,MS0001294,GCH527872,CH163874,email,2026-08-13 09:16:24,foto_embalagem,c1b59245a471aef9,,,,Caixa da transportadora molhada e deformada; etiqueta com o número do pedido GCH527872 legível.
+IMG000037,AT105757,MS0001299,GBH374439,CH868450,email,2026-08-13 08:48:26,foto_produto,3a6d6a1a61ca1d7d,2026-08-12 23:51:02,iPhone 15,,Embalagem de Balm para Barba 60g amassada e vazando.
+IMG000038,AT105757,MS0001299,GBH374439,CH868450,email,2026-08-13 08:48:26,foto_embalagem,4f771e85adee7c04,2026-08-12 05:13:27,Galaxy A15,,Caixa da transportadora amassada em uma das quinas; etiqueta com o número do pedido GBH374439 legível.
+IMG000039,AT105761,MS0001304,GCH526834,CH374096,whatsapp,2026-08-12 18:27:12,foto_produto,7d9dc6be4b92fc4f,,,,Caixa aberta com Case Infinite Air / iPhone 13/14 Personalizada Foto; não há outro item nem brinde dentro da caixa.
+IMG000040,AT105807,MS0001358,GCH526649,CH678126,whatsapp,2026-08-13 08:44:43,foto_produto,6fa360e9b8821bc0,,,,Mini Tote Personalizada Iniciais com o nome impresso diferente do pedido e a arte deslocada para a esquerda.
+IMG000041,AT105874,MS0001437,GBH366644,CH933812,email,2026-08-14 09:29:28,foto_produto,50d614e2659736fe,2026-08-12 04:59:36,Redmi Note 13,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000042,AT105941,MS0001527,GCH524793,CH108967,whatsapp,2026-08-14 08:56:53,foto_produto,f70f9cd896600dc5,,,,Necessaire Voyage Personalizada Iniciais com o zíper arrebentado.
+IMG000043,AT105941,MS0001527,GCH524793,CH108967,whatsapp,2026-08-14 08:56:53,foto_embalagem,25e91577f73ca359,,,,Caixa da transportadora molhada e deformada; etiqueta com o número do pedido GCH524793 legível.
+IMG000044,AT105975,MS0001576,GBH366644,CH933812,email,2026-08-14 15:59:46,foto_produto,50d614e2659736fe,2026-08-12 06:09:48,Moto G54,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000045,AT105988,MS0001591,GBH373605,CH464995,whatsapp,2026-08-14 09:21:46,foto_produto,3d7719d1e28646f6,,,,Co-wash Hidratante 300ml com o pote rachado.
+IMG000046,AT106032,MS0001625,GBH373506,CH193669,email,2026-08-15 08:39:31,foto_produto,ec6f2cbbdcdde647,2026-08-14 19:18:02,iPhone 15,,Leave-in Termoprotetor 200ml com a tampa quebrada e produto espalhado na caixa.
+IMG000047,AT106065,MS0001654,GBH373907,CH559010,reclame_aqui,2026-08-16 08:46:09,foto_produto,f755189270aeea7c,2026-08-12 03:07:40,Redmi 13C,,Sabonete Vegetal Andiroba (3 un) com o pote rachado.
+IMG000048,AT106065,MS0001654,GBH373907,CH559010,reclame_aqui,2026-08-16 08:46:09,foto_embalagem,59d110dfb37b3528,2026-08-13 10:36:34,iPhone 15,,Caixa da transportadora com a fita violada.
+IMG000049,AT106081,MS0001676,GBH381673,CH451679,whatsapp,2026-08-15 08:28:28,foto_produto,5d79749b3003bde6,,,,Caixa aberta com Condicionador Reconstrução 1L; não há outro item nem brinde dentro da caixa.
+IMG000050,AT106081,MS0001676,GBH381673,CH451679,whatsapp,2026-08-15 08:28:28,foto_embalagem,8e7c455e736e40e6,,,,Caixa da transportadora íntegra por fora.
+IMG000051,AT106145,MS0001756,GBH369591,CH692221,reclame_aqui,2026-08-17 08:39:14,foto_produto,9c671967315e03dc,2026-08-16 04:03:41,Galaxy A15,,Frasco de Deo Colônia Amadeirado 100ml com o vidro trincado e líquido escorrido na caixa.
+IMG000052,AT106145,MS0001756,GBH369591,CH692221,reclame_aqui,2026-08-17 08:39:14,foto_embalagem,ddfa5a1968cdc836,,,,Caixa da transportadora molhada e deformada.
+IMG000053,AT106191,MS0001798,GBH367665,CH254424,reclame_aqui,2026-08-17 19:14:53,foto_produto,c299e0aaf1507c96,2026-08-16 02:40:13,Galaxy A34,Editor de Fotos do Galaxy,Caixa aberta com Co-wash Hidratante 300ml; não há outro item nem brinde dentro da caixa.
+IMG000054,AT106249,MS0001883,GBH372016,CH931248,email,2026-08-17 09:21:27,foto_produto,07f3c924a9994266,2026-08-13 12:31:01,iPhone 15,,Caixa aberta com Óleo de Rícino 60ml; não há outro item nem brinde dentro da caixa.
+IMG000055,AT106262,MS0001896,GBH361471,CH609125,reclame_aqui,2026-08-17 19:26:45,foto_produto,bff98c72083a26e6,,,,Itens do pedido sobre a mesa: Gelatina Fixadora 300g; a nota fiscal lista um item a mais.
+IMG000056,AT106272,MS0001906,GBH377392,CH388440,reclame_aqui,2026-08-19 20:18:51,foto_produto,637577fe2b115fcb,2026-08-14 23:21:37,Galaxy S23,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000057,AT106297,MS0001942,GBH381910,CH738040,email,2026-08-17 09:55:47,foto_produto,eb246d0583eacc1b,2026-08-14 19:05:43,Moto G84,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000058,AT106397,MS0002037,GBH375448,CH509003,reclame_aqui,2026-08-19 08:43:40,foto_produto,f4bcc63d80f9be0a,2026-08-15 12:34:48,Poco X6,Editor de Fotos do Galaxy,Kit Barba Completo (Óleo + Balm + Shampoo) com a tampa quebrada e produto espalhado na caixa.
+IMG000059,AT106480,MS0002116,GCH528786,CH636983,whatsapp,2026-08-18 10:47:41,foto_produto,d8db6bd54ecd2f06,,,,Copo Daily 600ml Personalizado Nome com a pintura descascada e um amassado lateral.
+IMG000060,AT106534,MS0002170,GBH379099,CH866991,whatsapp,2026-08-18 17:31:48,foto_produto,b955d1cd7133e15a,,,,Itens do pedido sobre a mesa: Magnésio Dimalato 60 cápsulas; a nota fiscal lista um item a mais.
+IMG000061,AT106552,MS0002191,GBH385882,CH883048,whatsapp,2026-08-19 08:39:57,foto_produto,45e5716c1cfb66e5,,,,Deo Colônia Amadeirado 100ml com a válvula quebrada e o frasco vazando.
+IMG000062,AT106554,MS0002199,GCH528786,CH636983,whatsapp,2026-08-19 08:39:23,foto_produto,d8db6bd54ecd2f06,2026-08-19 07:40:32,Redmi 13C,,Copo Daily 600ml Personalizado Nome com a pintura descascada e um amassado lateral.
+IMG000063,AT106569,MS0002212,GBH367665,CH254424,reclame_aqui,2026-08-19 12:40:44,foto_produto,c299e0aaf1507c96,2026-08-15 09:56:16,Galaxy S23,,Caixa aberta com Co-wash Hidratante 300ml; não há outro item nem brinde dentro da caixa.
+IMG000064,AT106815,MS0002483,GBH386014,CH359623,whatsapp,2026-08-20 13:31:53,foto_produto,a07654d86af094e0,,,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000065,AT106866,MS0002538,GBH373164,CH204148,email,2026-08-21 09:02:49,foto_produto,24d7d1d34262a5f9,2026-08-18 19:40:41,Redmi Note 13,,Caixa aberta com Ampola de Tratamento Brilho 15ml (3 un); não há outro item nem brinde dentro da caixa.
+IMG000066,AT106866,MS0002538,GBH373164,CH204148,email,2026-08-21 09:02:49,foto_embalagem,9718a568c5b44eeb,2026-08-14 02:04:50,iPhone 11,,Caixa da transportadora amassada em uma das quinas.
+IMG000067,AT106869,MS0002543,GCH530033,CH394532,email,2026-08-22 08:17:40,foto_produto,6a792951b6cb7d13,2026-08-16 07:30:05,Galaxy A34,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000068,AT106874,MS0002548,GCH527276,CH325983,reclame_aqui,2026-08-22 09:51:55,foto_produto,6e8ccf0f79f4cf97,,,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000069,AT106874,MS0002548,GCH527276,CH325983,reclame_aqui,2026-08-22 09:51:55,foto_embalagem,58a5e13ee0e0033a,2026-08-19 18:25:53,Poco X6,,Caixa da transportadora com a fita violada.
+IMG000070,AT106948,MS0002636,GCH529074,CH598939,whatsapp,2026-08-21 13:56:42,foto_produto,d7157e90695b8f61,,,,Necessaire Voyage Personalizada Iniciais com o nome impresso diferente do pedido e a arte deslocada para a esquerda.
+IMG000071,AT106985,MS0002680,GCH529021,CH810798,email,2026-08-22 09:43:58,foto_produto,60ef65e7f3444474,2026-07-25 17:12:00,Galaxy A54,,Copo térmico de inox com a tampa quebrada.
+IMG000072,AT107077,MS0002779,GBH389360,CH596401,email,2026-08-23 08:56:17,foto_produto,0c809ca75c5f1c56,2026-08-22 08:49:45,Galaxy A15,,Caixa aberta com Gelatina Fixadora 300g; não há outro item nem brinde dentro da caixa.
+IMG000073,AT107148,MS0002863,GBH381775,CH141428,whatsapp,2026-08-23 09:51:09,foto_produto,3d9db2f73912241e,,,,Embalagem de Hidratante Corporal Cupuaçu 250ml amassada e vazando.
+IMG000074,AT107296,MS0003059,GCH532004,CH483361,whatsapp,2026-08-24 10:22:19,foto_produto,d715c6e8e613893d,2026-07-08 19:56:00,Galaxy A34,,Necessaire estampada com o zíper arrebentado.
+IMG000075,AT107357,MS0003134,GBH384012,CH924100,email,2026-08-25 09:18:18,foto_produto,c5da2572d153c2b1,2026-08-19 10:31:33,Redmi Note 13,,Condicionador Reconstrução 1L com a tampa quebrada e produto espalhado na caixa.
+IMG000076,AT107365,MS0003147,GBH390453,CH776655,whatsapp,2026-08-25 09:17:34,foto_produto,a9815ec5a16d065e,,,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000077,AT107517,MS0003308,GBH386406,CH695785,whatsapp,2026-08-26 09:14:00,foto_produto,5bd30571ef06c30e,,,,Hidratante Corporal Cupuaçu 250ml com o pote rachado.
+IMG000078,AT107517,MS0003308,GBH386406,CH695785,whatsapp,2026-08-26 09:14:00,foto_embalagem,fe3812a766afa889,2026-08-24 02:49:58,Redmi 13C,,Caixa da transportadora amassada em uma das quinas.
+IMG000079,AT107546,MS0003337,GCH530564,CH218858,email,2026-08-26 08:26:01,foto_produto,fabbfa9bbedc252e,2026-08-25 05:37:24,Galaxy A15,,Garrafa Urban 500ml Rosa com a tampa quebrada.
+IMG000080,AT107546,MS0003337,GCH530564,CH218858,email,2026-08-26 08:26:01,foto_embalagem,31cea545f46eeab1,2026-08-25 22:11:19,Poco X6,,Caixa da transportadora íntegra por fora.
+IMG000081,AT107629,MS0003408,GBH389552,CH768414,whatsapp,2026-08-26 17:36:26,foto_produto,3826bd7943316b80,,,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000082,AT107636,MS0003421,GCH532504,CH526743,email,2026-08-27 08:38:25,foto_produto,a4c9009d01bc4dfa,2026-07-20 08:56:00,iPhone 15,,"Capinha de celular transparente com estampa rachada na lateral, perto dos botões."
+IMG000083,AT107658,MS0003445,GBH391052,CH509374,whatsapp,2026-08-26 19:48:12,foto_produto,9e6cee65028cf965,,,,Embalagem de Blush Compacto Pêssego amassada e vazando.
+IMG000084,AT107658,MS0003445,GBH391052,CH509374,whatsapp,2026-08-26 19:48:12,foto_embalagem,88135b986c4617a6,2026-08-21 17:29:41,iPhone 15,,Caixa da transportadora molhada e deformada.
+IMG000085,AT107697,MS0003475,GBH390453,CH776655,reclame_aqui,2026-08-29 10:39:03,foto_produto,a9815ec5a16d065e,2026-08-25 05:13:34,iPhone 13,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000086,AT107742,MS0003531,GBH392791,CH885214,email,2026-08-28 08:14:18,foto_produto,23b72556b983f8ee,2026-08-21 08:15:43,Galaxy A15,,Co-wash Hidratante 300ml com o pote rachado.
+IMG000087,AT107742,MS0003531,GBH392791,CH885214,email,2026-08-28 08:14:18,foto_embalagem,b011bff75a60e900,,,,Caixa da transportadora molhada e deformada; etiqueta com o número do pedido GBH392791 legível.
+IMG000088,AT107833,MS0003630,GCH530564,CH218858,email,2026-08-28 15:21:04,foto_produto,fabbfa9bbedc252e,2026-08-23 09:50:48,iPhone 15,,Garrafa Urban 500ml Rosa com a tampa quebrada.
+IMG000089,AT107896,MS0003692,GCH531056,CH657148,whatsapp,2026-08-28 17:27:16,foto_produto,d0c18b860a0d1d8c,,,,Garrafa Fresh 950ml Personalizada Iniciais com a impressão descascando nas bordas.
+IMG000090,AT107906,MS0003709,GBH396362,CH960341,email,2026-08-29 09:16:16,foto_produto,bc8940d65003aacb,,,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000091,AT107976,MS0003796,GCH532114,CH133466,whatsapp,2026-08-29 10:28:30,foto_produto,f4c65d4d6968d5f5,,,,Copo Daily 600ml Personalizado Iniciais com a tampa quebrada.
+IMG000092,AT107976,MS0003796,GCH532114,CH133466,whatsapp,2026-08-29 10:28:30,foto_embalagem,648dd38dc1392ac4,,,,Caixa da transportadora íntegra por fora.
+IMG000093,AT108060,MS0003878,GBH393304,CH453571,reclame_aqui,2026-08-31 08:57:03,foto_produto,7423344159769a05,2026-08-27 21:00:45,Galaxy A34,,Caixa aberta com Máscara Umectação Intensa 500g; não há outro item nem brinde dentro da caixa.
+IMG000094,AT108060,MS0003878,GBH393304,CH453571,reclame_aqui,2026-08-31 08:57:03,foto_embalagem,71ef528ee7f51a82,,,,Caixa da transportadora molhada e deformada; etiqueta com o número do pedido GBH393304 legível.
+IMG000095,AT108124,MS0003952,GBH393683,CH868450,email,2026-08-31 17:42:36,foto_produto,d5cc7ba24900a9e5,2026-08-28 10:26:30,Galaxy A15,,Itens do pedido sobre a mesa: Magnésio Dimalato 60 cápsulas; a nota fiscal lista um item a mais.
+IMG000096,AT108141,MS0003974,GBH397332,CH864785,email,2026-08-31 10:18:56,foto_produto,b8fb2bfc40b569d2,,,,Embalagem de Água Micelar 200ml amassada e vazando.
+IMG000097,AT108141,MS0003974,GBH397332,CH864785,email,2026-08-31 10:18:56,foto_embalagem,e1866e362ddc23da,2026-08-26 12:35:29,iPhone 11,,Caixa da transportadora molhada e deformada.
+IMG000098,AT108179,MS0004021,GCH533082,CH383772,whatsapp,2026-08-31 11:48:38,foto_produto,5e1440cfcdbcaf3f,,,,Necessaire estampada rasgado na costura.
+IMG000099,AT108179,MS0004021,GCH533082,CH383772,whatsapp,2026-08-31 11:48:38,foto_embalagem,404badc8c3c41476,,,,Caixa da transportadora íntegra por fora.
+IMG000100,AT108187,MS0004038,GBH394175,CH224223,whatsapp,2026-08-31 12:15:24,foto_produto,92d70f2fe90f129a,,,,Embalagem de Melatonina Gotas 20ml amassada e vazando.
+IMG000101,AT108187,MS0004038,GBH394175,CH224223,whatsapp,2026-08-31 12:15:24,foto_embalagem,31e5468857cacbc0,,,,Caixa da transportadora íntegra por fora.
+IMG000102,AT108282,MS0004129,GCH535148,CH926639,email,2026-09-01 11:50:11,foto_produto,b7d9e264fa84117b,,,,Copo térmico de inox com a pintura descascada e um amassado lateral.
+IMG000103,AT108294,MS0004145,GBH394222,CH504836,email,2026-09-01 08:37:18,foto_produto,f56d6ed4ceb47de7,2026-08-31 06:07:38,Galaxy A15,,Base Líquida Matte 30ml com o pote rachado.
+IMG000104,AT108398,MS0004253,GBH389950,CH889102,email,2026-09-01 15:30:24,foto_produto,4154490a5bdb26aa,2026-08-27 23:48:40,Redmi Note 13,,Gel de Limpeza Facial 150ml com o pote rachado.
+IMG000105,AT108398,MS0004253,GBH389950,CH889102,email,2026-09-01 15:30:24,foto_embalagem,a607c875070f766e,2026-08-24 03:25:13,Redmi Note 13,,Caixa da transportadora íntegra por fora.
+IMG000106,AT108447,MS0004306,GBH392253,CH924133,email,2026-09-02 09:34:42,foto_produto,091fd604ab3d4824,2026-08-31 21:31:30,Redmi Note 13,,Caixa aberta com Whey Vegano Cacau 450g; não há outro item nem brinde dentro da caixa.
+IMG000107,AT108447,MS0004306,GBH392253,CH924133,email,2026-09-02 09:34:42,foto_embalagem,a1e32815e896aff4,,,,Caixa da transportadora molhada e deformada; etiqueta com o número do pedido GBH392253 legível.
+IMG000108,AT108490,MS0004363,GCH533082,CH383772,whatsapp,2026-09-02 12:43:46,foto_produto,1c2808c3358b4ea0,,,,Mini Tote Personalizada Iniciais com o zíper arrebentado.
+IMG000109,AT108528,MS0004405,GCH535004,CH619054,whatsapp,2026-09-02 14:54:07,foto_produto,237d1e1449ffb0e4,2026-08-07 17:52:00,Redmi 13C,,"Capinha de celular transparente com estampa rachada na lateral, perto dos botões."
+IMG000110,AT108588,MS0004475,GBH402877,CH186754,reclame_aqui,2026-09-03 17:32:32,foto_produto,cb258030360b5f07,,,,Pote de Ômega 3 1000mg 60 cápsulas amassado e com o lacre rompido.
+IMG000111,AT108636,MS0004526,GBH384182,CH982281,reclame_aqui,2026-09-05 09:43:54,foto_produto,b21afb17484549f9,2026-09-03 19:32:33,Moto G84,,Embalagem de Base Líquida Matte 30ml amassada e vazando.
+IMG000112,AT108636,MS0004526,GBH384182,CH982281,reclame_aqui,2026-09-05 09:43:54,foto_embalagem,9d30c6e5a368d07c,2026-09-01 15:59:10,Poco X6,,Caixa da transportadora íntegra por fora.
+IMG000113,AT108672,MS0004563,GBH395089,CH415325,whatsapp,2026-09-03 14:02:19,foto_produto,cfa5c22b211e4375,,,,Co-wash Hidratante 300ml com o pote rachado.
+IMG000114,AT108707,MS0004605,GBH384182,CH982281,email,2026-09-04 08:21:18,foto_produto,b21afb17484549f9,2026-09-03 07:01:46,iPhone 13,,Embalagem de Base Líquida Matte 30ml amassada e vazando.
+IMG000115,AT108707,MS0004605,GBH384182,CH982281,email,2026-09-04 08:21:18,foto_embalagem,68f77b475fce0e8e,2026-08-31 03:24:10,iPhone 11,,Caixa da transportadora molhada e deformada.
+IMG000116,AT108755,MS0004659,GCH535329,CH867830,email,2026-09-05 08:43:44,foto_produto,5e99fe68c320fa4f,,,,Caixa aberta com Case Anti Impacto Slim Standard / Motorola Moto G84 5G Personalizada Iniciais; não há outro item nem brinde dentro da caixa.
+IMG000117,AT108770,MS0004678,GBH404751,CH550790,email,2026-09-05 10:00:29,foto_produto,e89dbb141f7ecd75,2026-09-03 12:09:00,iPhone 15,,Caixa aberta com Água Micelar 200ml; não há outro item nem brinde dentro da caixa.
+IMG000118,AT108907,MS0004833,GBH402388,CH830074,whatsapp,2026-09-05 16:24:24,foto_produto,e2241fb58fecd3ea,,,,Caixa aberta com Kit Reconstrução Shampoo + Condicionador 300ml; não há outro item nem brinde dentro da caixa.
+IMG000119,AT108912,MS0004838,GBH401841,CH483029,whatsapp,2026-09-05 17:07:10,foto_produto,a677e727981911e7,,,,Shampoo Antirresíduo 300ml com a tampa quebrada e produto espalhado na caixa.
+IMG000120,AT108912,MS0004838,GBH401841,CH483029,whatsapp,2026-09-05 17:07:10,foto_embalagem,74749d21bf44fcff,2026-09-05 12:35:03,Moto G54,,Caixa da transportadora íntegra por fora; etiqueta com o número do pedido GBH401841 legível.
+IMG000121,AT109087,MS0005015,GBH401984,CH572761,email,2026-09-08 08:42:21,foto_produto,5da322116a0489a2,2026-09-06 09:47:27,Moto G54,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000122,AT109087,MS0005015,GBH401984,CH572761,email,2026-09-08 08:42:21,foto_embalagem,30f0755d69dcdafc,2026-09-07 15:49:16,Galaxy A15,,Caixa da transportadora com a fita violada; etiqueta com o número do pedido GBH401984 legível.
+IMG000123,AT109113,MS0005035,GCH535078,CH999406,reclame_aqui,2026-09-08 12:36:44,foto_produto,41b2c50cabf85942,2026-07-30 22:45:00,Galaxy S23,,"Capinha de celular transparente com estampa rachada na lateral, perto dos botões."
+IMG000124,AT109126,MS0005043,GBH399844,CH873520,reclame_aqui,2026-09-08 09:36:53,foto_produto,894a401ae4e3e985,2026-09-02 01:10:35,iPhone 13,,Embalagem de Gelatina Fixadora 300g amassada e vazando.
+IMG000125,AT109126,MS0005043,GBH399844,CH873520,reclame_aqui,2026-09-08 09:36:53,foto_embalagem,5bab07e109f26e65,2026-09-02 16:51:48,Redmi Note 13,,Caixa da transportadora com a fita violada.
+IMG000126,AT109160,MS0005073,GCH534776,CH409615,email,2026-09-08 09:20:52,foto_produto,8474673705bb5b61,,,,Capinha de celular transparente com estampa com a borda lascada e a impressão riscada.
+IMG000127,AT109182,MS0005096,GBH402983,CH145473,whatsapp,2026-09-08 11:50:39,foto_produto,a6244d416b40d6dd,,,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000128,AT109182,MS0005096,GBH402983,CH145473,whatsapp,2026-09-08 11:50:39,foto_embalagem,f4cd23427f484331,,,,Caixa da transportadora molhada e deformada; etiqueta com o número do pedido GBH402983 legível.
+IMG000129,AT109201,MS0005117,GCH535777,CH794339,reclame_aqui,2026-09-09 08:33:13,foto_produto,65534962932b191f,2026-09-05 11:24:01,iPhone 11,,Itens do pedido sobre a mesa: Copo Daily 600ml Personalizado Iniciais; a nota fiscal lista um item a mais.
+IMG000130,AT109201,MS0005117,GCH535777,CH794339,reclame_aqui,2026-09-09 08:33:13,foto_embalagem,ff15df0d3f746385,,,,Caixa da transportadora amassada em uma das quinas.
+IMG000131,AT109301,MS0005231,GCH534776,CH409615,email,2026-09-10 10:14:52,foto_produto,dce7ea90d6dfbba8,2026-09-09 18:13:10,Redmi Note 13,,Case Guard Magsafe / iPhone 16 Pro Personalizada Foto com a borda lascada e a impressão riscada.
+IMG000132,AT109310,MS0005241,GBH399844,CH873520,reclame_aqui,2026-09-09 09:36:00,foto_produto,894a401ae4e3e985,2026-09-04 07:37:48,Redmi 13C,,Embalagem de Gelatina Fixadora 300g amassada e vazando.
+IMG000133,AT109363,MS0005302,GCH537340,CH894962,email,2026-09-10 08:14:31,foto_produto,b3df3bd37b1f1000,2026-09-06 08:12:46,Galaxy S23,,Itens do pedido sobre a mesa: Garrafa Fresh 950ml Personalizada Iniciais; a nota fiscal lista um item a mais.
+IMG000134,AT109363,MS0005302,GCH537340,CH894962,email,2026-09-10 08:14:31,foto_embalagem,6795e3a77641b257,2026-09-07 08:28:25,Galaxy A34,,Caixa da transportadora com a fita violada; etiqueta com o número do pedido GCH537340 legível.
+IMG000135,AT109373,MS0005317,GCH538043,CH351814,whatsapp,2026-09-09 13:46:41,foto_produto,39048e27a5ec0489,,,,Garrafa Urban 500ml Rosa com a pintura descascada e um amassado lateral.
+IMG000136,AT109415,MS0005348,GBH402877,CH186754,reclame_aqui,2026-09-11 13:50:06,foto_produto,cb258030360b5f07,,,,Pote de Ômega 3 1000mg 60 cápsulas amassado e com o lacre rompido.
+IMG000137,AT109415,MS0005348,GBH402877,CH186754,reclame_aqui,2026-09-11 13:50:06,foto_embalagem,09a988a5739a25dc,,,,Caixa da transportadora íntegra por fora; etiqueta com o número do pedido GBH402877 legível.
+IMG000138,AT109431,MS0005365,GBH402597,CH419624,whatsapp,2026-09-10 09:14:25,foto_produto,bc6c817d7ea3ff90,,,,Caixa aberta com Máscara de Cílios Volume; não há outro item nem brinde dentro da caixa.
+IMG000139,AT109600,MS0005541,GBH408226,CH457622,whatsapp,2026-09-11 17:39:57,foto_produto,c939fd6a1bb4d9ed,2026-09-09 22:10:02,Galaxy A15,,Frasco de Perfume Feminino Floral Íris 100ml com o vidro trincado e líquido escorrido na caixa.
+IMG000140,AT109619,MS0005562,GCH539223,CH188427,whatsapp,2026-09-11 19:49:17,foto_produto,88e247e112cdf11e,2026-09-10 19:15:36,iPhone 11,Fotos do iOS,Case Anti Impacto Slim Air / iPhone 16 Clear com a borda lascada e a impressão riscada.
+IMG000141,AT109664,MS0005614,GBH408622,CH392098,whatsapp,2026-09-12 11:07:41,foto_produto,4752f0a7af73b76e,,,,Body Mist Baunilha 200ml com o pote rachado.
+IMG000142,AT109664,MS0005614,GBH408622,CH392098,whatsapp,2026-09-12 11:07:41,foto_embalagem,6ecae20a5c9921b3,,,,Caixa da transportadora íntegra por fora.
+IMG000143,AT109745,MS0005707,GCH539223,CH188427,whatsapp,2026-09-13 09:03:22,foto_produto,88e247e112cdf11e,,,,Case Anti Impacto Slim Air / iPhone 16 Clear com a borda lascada e a impressão riscada.
+IMG000144,AT109773,MS0005754,GBH409714,CH971605,email,2026-09-14 08:24:39,foto_produto,0cdf3e9a17cf911a,,,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000145,AT109840,MS0005840,GBH410518,CH859998,whatsapp,2026-09-14 13:05:09,foto_produto,72a74f8c6555af03,,,,Itens do pedido sobre a mesa: Shampoo Antirresíduo 300ml; a nota fiscal lista um item a mais.
+IMG000146,AT109854,MS0005857,GBH412067,CH194611,whatsapp,2026-09-14 16:44:20,foto_produto,08e6386b38a68b61,,,,Embalagem de Paleta de Sombras Nude 12 cores amassada e vazando.
+IMG000147,AT109901,MS0005909,GBH409802,CH516724,whatsapp,2026-09-15 09:19:11,foto_produto,7ac66daf3ca7c4bf,,,,Ampola de Tratamento Brilho 15ml (3 un) com o pote rachado.
+IMG000148,AT109942,MS0005946,GBH411746,CH375925,reclame_aqui,2026-09-16 09:00:57,foto_produto,46355c201de06058,2026-09-11 18:14:21,Moto G54,,Embalagem de Colágeno Verisol 30 sachês amassada e vazando.
+IMG000149,AT109942,MS0005946,GBH411746,CH375925,reclame_aqui,2026-09-16 09:00:57,foto_embalagem,e1968b9c4fb2ae45,,,,Caixa da transportadora íntegra por fora; etiqueta com o número do pedido GBH411746 legível.
+IMG000150,AT110037,MS0006083,GBH417937,CH490684,whatsapp,2026-09-16 09:06:20,foto_produto,d7d94dd29c17e924,,,,Embalagem de Óleo Capilar Finalizador 60ml amassada e vazando.
+IMG000151,AT110037,MS0006083,GBH417937,CH490684,whatsapp,2026-09-16 09:06:20,foto_embalagem,06399ebb3e3fe10a,,,,Caixa da transportadora molhada e deformada.
+IMG000152,AT110041,MS0006091,GCH541149,CH372899,reclame_aqui,2026-09-17 08:43:02,foto_produto,b51008d05a30c87a,2026-09-13 11:26:51,Galaxy A15,,Garrafa Fresh 950ml Lilás com a tampa quebrada.
+IMG000153,AT110065,MS0006136,GCH540384,CH796832,whatsapp,2026-09-16 10:08:29,foto_produto,5264db287eebe195,,,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000154,AT110199,MS0006284,GCH538400,CH460189,email,2026-09-18 08:27:48,foto_produto,c170ab36e78c8043,,,,Tote Bag Daily Personalizada Nome com o zíper arrebentado.
+IMG000155,AT110217,MS0006316,GBH418563,CH888965,whatsapp,2026-09-17 17:44:21,foto_produto,aacccac0462d28d7,,,,Caixa aberta com Body Splash Masculino Sport 200ml; não há outro item nem brinde dentro da caixa.
+IMG000156,AT110231,MS0006343,GBH409705,CH413277,whatsapp,2026-09-18 08:46:32,foto_produto,3504050ed3bd0905,,,,Itens do pedido sobre a mesa: Hidratante Facial Oil Free 50g; a nota fiscal lista um item a mais.
+IMG000157,AT110259,MS0006382,GBH418101,CH905482,whatsapp,2026-09-18 09:53:31,foto_produto,94bd1dacbb78fbd9,,,,Paleta de Sombras Nude 12 cores com o pote rachado.
+IMG000158,AT110259,MS0006382,GBH418101,CH905482,whatsapp,2026-09-18 09:53:31,foto_embalagem,e54f319e81997c2e,,,,Caixa da transportadora molhada e deformada; etiqueta com o número do pedido GBH418101 legível.
+IMG000159,AT110354,MS0006493,GCH540348,CH693912,reclame_aqui,2026-09-22 08:26:25,foto_produto,6b313ac22a55fe2e,2026-09-20 07:14:58,Redmi 13C,,Caixa aberta com Case Guard Magsafe / iPhone 16 Pro Personalizada Nome; não há outro item nem brinde dentro da caixa.
+IMG000160,AT110373,MS0006527,GBH409966,CH760552,whatsapp,2026-09-19 08:56:39,foto_produto,e593fb865ac47ec5,,,,Itens do pedido sobre a mesa: Máscara Umectação Intensa 500g; a nota fiscal lista um item a mais.
+IMG000161,AT110400,MS0006555,GBH416776,CH534860,whatsapp,2026-09-19 08:21:44,foto_produto,c21ae6c2ccdba285,2026-09-15 20:02:04,Galaxy A15,,Itens do pedido sobre a mesa: Melatonina Gotas 20ml; a nota fiscal lista um item a mais.
+IMG000162,AT110400,MS0006555,GBH416776,CH534860,whatsapp,2026-09-19 08:21:44,foto_embalagem,7694ed78b88e724e,,,,Caixa da transportadora amassada em uma das quinas.
+IMG000163,AT110426,MS0006584,GBH415473,CH554499,email,2026-09-19 18:26:54,foto_produto,69394c67e688ce32,2026-09-18 06:35:36,Galaxy S23,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000164,AT110426,MS0006584,GBH415473,CH554499,email,2026-09-19 18:26:54,foto_embalagem,d753b4bfa05639b6,2026-09-17 09:44:51,iPhone 11,,Caixa da transportadora com a fita violada.
+IMG000165,AT110489,MS0006640,GBH421487,CH412906,whatsapp,2026-09-20 08:33:45,foto_produto,8deb31d35854bcc3,,,,Melatonina Gotas 20ml com o pote rachado.
+IMG000166,AT110594,MS0006761,GBH416420,CH208769,whatsapp,2026-09-21 09:18:13,foto_produto,f5af8c73af17fbd5,,,,Itens do pedido sobre a mesa: Perfume Unissex Cítrico Neroli 50ml; a nota fiscal lista um item a mais.
+IMG000167,AT110594,MS0006761,GBH416420,CH208769,whatsapp,2026-09-21 09:18:13,foto_embalagem,bc0b920938093f4f,,,,Caixa da transportadora íntegra por fora; etiqueta com o número do pedido GBH416420 legível.
+IMG000168,AT110620,MS0006795,GCH541547,CH231501,whatsapp,2026-09-21 13:56:56,foto_produto,a4c9009d01bc4dfa,2026-08-08 09:47:00,iPhone 15,,"Capinha de celular transparente com estampa rachada na lateral, perto dos botões."
+IMG000169,AT110620,MS0006795,GCH541547,CH231501,whatsapp,2026-09-21 13:56:56,foto_embalagem,5657b5ebe29aae69,,,,Caixa da transportadora íntegra por fora.
+IMG000170,AT110757,MS0006940,GCH540616,CH279054,reclame_aqui,2026-09-22 08:41:08,foto_produto,8a2a2af42f48fa0b,2026-09-20 16:18:38,Moto G84,,Copo Life 1100ml Personalizado Nome com o nome impresso diferente do pedido e a arte deslocada para a esquerda.
+IMG000171,AT110757,MS0006940,GCH540616,CH279054,reclame_aqui,2026-09-22 08:41:08,foto_embalagem,8ed12374e9e701e4,2026-09-15 12:32:00,iPhone 13,,Caixa da transportadora íntegra por fora; etiqueta com o número do pedido GCH540616 legível.
+IMG000172,AT110793,MS0006974,GBH422558,CH513347,email,2026-09-22 15:51:27,foto_produto,d5cc802b24cb2f70,,,,Itens do pedido sobre a mesa: Shampoo Low Poo 300ml; a nota fiscal lista um item a mais.
+IMG000173,AT110809,MS0006998,GBH423899,CH616210,whatsapp,2026-09-22 15:57:17,foto_produto,92bcc9a827f0cbeb,,,,Caixa aberta com Kit Pincéis 5 peças; não há outro item nem brinde dentro da caixa.
+IMG000174,AT110840,MS0007029,GBH417646,CH916716,whatsapp,2026-09-23 09:33:17,foto_produto,b82b44f91db372f5,,,,Máscara Capilar Nutrição Intensa 500g com o pote rachado.
+IMG000175,AT110950,MS0007175,GBH417587,CH924623,whatsapp,2026-09-23 16:40:50,foto_produto,b214009377d55e05,,,,Embalagem de Paleta de Sombras Nude 12 cores amassada e vazando.
+IMG000176,AT111110,MS0007351,GBH404261,CH934177,whatsapp,2026-09-24 16:23:31,foto_produto,741d83df80b5455a,,,,Embalagem de Vitamina D3 2000UI Gotas 20ml ao lado do braço com manchas vermelhas.
+IMG000177,AT111146,MS0007394,GBH418269,CH565089,whatsapp,2026-09-24 19:50:03,foto_produto,6b7fb2d0405699ae,,,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000178,AT111149,MS0007401,GBH421117,CH188018,whatsapp,2026-09-24 20:06:20,foto_produto,85747ba6203a9d7a,2026-09-23 05:45:43,Galaxy A34,,Máscara Umectação Intensa 500g com a tampa quebrada e produto espalhado na caixa.
+IMG000179,AT111286,MS0007567,GBH424194,CH817699,reclame_aqui,2026-09-26 19:59:21,foto_produto,e0d9c5ddf35d1327,2026-09-24 01:23:24,Moto G84,,Itens do pedido sobre a mesa: Shampoo Reconstrução 1L; a nota fiscal lista um item a mais.
+IMG000180,AT111306,MS0007590,GBH417587,CH924623,reclame_aqui,2026-09-27 14:40:40,foto_produto,b214009377d55e05,,,,Embalagem de Paleta de Sombras Nude 12 cores amassada e vazando.
+IMG000181,AT111315,MS0007604,GCH541580,CH935257,reclame_aqui,2026-09-26 11:35:47,foto_produto,f211059939ca15cf,,,,Caixa aberta com Copo Daily 600ml Personalizado Iniciais; não há outro item nem brinde dentro da caixa.
+IMG000182,AT111315,MS0007604,GCH541580,CH935257,reclame_aqui,2026-09-26 11:35:47,foto_embalagem,a0d7d1cbece8de2a,2026-09-20 13:27:24,Poco X6,,Caixa da transportadora molhada e deformada.
+IMG000183,AT111345,MS0007633,GBH424501,CH140186,reclame_aqui,2026-09-26 16:07:55,foto_produto,034593feffaec325,2026-09-24 11:43:27,Moto G54,,Condicionador Reconstrução 1L com o pote rachado.
+IMG000184,AT111345,MS0007633,GBH424501,CH140186,reclame_aqui,2026-09-26 16:07:55,foto_embalagem,69b98132aa0b05a5,,,,Caixa da transportadora íntegra por fora; etiqueta com o número do pedido GBH424501 legível.
+IMG000185,AT111384,MS0007657,GCH539414,CH192614,whatsapp,2026-09-26 09:49:44,foto_produto,48303fa772a23270,,,,Tote Bag Daily Personalizada Nome rasgado na costura.
+IMG000186,AT111410,MS0007690,GBH423426,CH239764,whatsapp,2026-09-26 13:06:38,foto_produto,ed6c72a5b7f90022,,,,Embalagem de Melatonina Gotas 20ml amassada e vazando.
+IMG000187,AT111410,MS0007690,GBH423426,CH239764,whatsapp,2026-09-26 13:06:38,foto_embalagem,9d0c62430eed2766,,,,Caixa da transportadora molhada e deformada; etiqueta com o número do pedido GBH423426 legível.
+IMG000188,AT111493,MS0007762,GCH542100,CH564382,whatsapp,2026-09-27 09:22:52,foto_produto,9aa32ada3d19b04b,,,,Copo térmico de inox com a pintura descascada e um amassado lateral.
+IMG000189,AT111614,MS0007890,GBH424286,CH818320,email,2026-09-28 09:40:07,foto_produto,79d847bfd343d2c1,2026-09-28 06:14:25,Redmi 13C,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000190,AT111639,MS0007914,GCH543139,CH651671,whatsapp,2026-09-28 08:58:37,foto_produto,3eec6881e258fa00,,,,Garrafa Urban 500ml Personalizada Nome com a impressão descascando nas bordas.
+IMG000191,AT111660,MS0007938,GCH540907,CH127567,email,2026-09-29 09:45:52,foto_produto,b5da7d167a2f746b,2026-09-29 04:57:08,Moto G84,,Garrafa Fresh 650ml Personalizada Iniciais com a tampa quebrada.
+IMG000192,AT111707,MS0007995,GBH425508,CH857591,whatsapp,2026-09-28 13:13:40,foto_produto,efc116f320da0d67,,,,Itens do pedido sobre a mesa: Leave-in Termoprotetor 200ml; a nota fiscal lista um item a mais.
+IMG000193,AT111815,MS0008105,GBH427754,CH338659,email,2026-09-29 09:03:04,foto_produto,ad636064c6fc41f8,2026-09-25 04:18:21,Moto G54,,Pomada Modeladora Efeito Seco 80g com o pote rachado.
+IMG000194,AT111840,MS0008139,GBH411532,CH113258,whatsapp,2026-09-29 09:38:51,foto_produto,dd4fd6a6ab528b62,,,,Embalagem de Protetor Solar Facial FPS 50 Toque Seco 50g amassada e vazando.
+IMG000195,AT111840,MS0008139,GBH411532,CH113258,whatsapp,2026-09-29 09:38:51,foto_embalagem,d0c3df80f70cc0ae,,,,Caixa da transportadora com a fita violada.
+IMG000196,AT111900,MS0008196,GCH545147,CH865949,whatsapp,2026-09-29 18:16:15,foto_produto,60ef65e7f3444474,2026-08-26 11:46:00,Galaxy A54,,Copo térmico de inox com a tampa quebrada.
+IMG000197,AT111917,MS0008222,GBH424501,CH140186,email,2026-09-30 11:40:03,foto_produto,034593feffaec325,2026-09-28 04:07:49,Redmi 13C,,Condicionador Reconstrução 1L com o pote rachado.
+IMG000198,AT111951,MS0008258,GCH538450,CH513001,whatsapp,2026-09-30 09:00:18,foto_produto,71437d8ad8907f28,2026-09-23 05:47:36,iPhone 15,,Garrafa Fresh 950ml Personalizada Nome com a pintura descascada e um amassado lateral.
+IMG000199,AT111951,MS0008258,GCH538450,CH513001,whatsapp,2026-09-30 09:00:18,foto_embalagem,6fc541ca482be72d,,,,Caixa da transportadora amassada em uma das quinas.
+IMG000200,AT111956,MS0008265,GBH427249,CH342316,whatsapp,2026-09-30 08:27:40,foto_produto,a87b49d0d020d09c,,,,Embalagem de Gel de Limpeza Facial 150ml amassada e vazando.
+IMG000201,AT111960,MS0008269,GCH542100,CH564382,reclame_aqui,2026-10-01 09:00:08,foto_produto,99f606640af6ca42,2026-09-30 05:50:04,Moto G84,,Copo Life 1100ml Personalizado Nome com a pintura descascada e um amassado lateral.
+IMG000202,AT111960,MS0008269,GCH542100,CH564382,reclame_aqui,2026-10-01 09:00:08,foto_embalagem,c859837b07b51248,,,,Caixa da transportadora íntegra por fora; etiqueta com o número do pedido GCH542100 legível.
+IMG000203,AT112076,MS0008379,GBH421864,CH262763,whatsapp,2026-09-30 18:01:59,foto_produto,c95db7787135d84d,,,,Caixa aberta com Kit Cronograma Capilar (Hidratação + Nutrição + Reconstrução); não há outro item nem brinde dentro da caixa.
+IMG000204,AT112188,MS0008514,GBH423899,CH616210,whatsapp,2026-10-01 15:57:39,foto_produto,92bcc9a827f0cbeb,,,,Caixa aberta com Kit Pincéis 5 peças; não há outro item nem brinde dentro da caixa.
+IMG000205,AT112217,MS0008545,GBH435430,CH341374,email,2026-10-02 09:04:06,foto_produto,3271f3872adaaf79,2026-10-01 17:16:56,iPhone 15,,Caixa aberta com Máscara Capilar Nutrição Intensa 500g; não há outro item nem brinde dentro da caixa.
+IMG000206,AT112254,MS0008588,GBH424672,CH354281,email,2026-10-02 09:07:48,foto_produto,c176c38452cc159c,,,,Ampola de Tratamento Brilho 15ml (3 un) com a tampa quebrada e produto espalhado na caixa.
+IMG000207,AT112264,MS0008606,GBH420360,CH419323,whatsapp,2026-10-02 09:03:52,foto_produto,b0b066cf6135729c,,,,Embalagem de Shampoo Reconstrução 1L ao lado do braço com manchas vermelhas.
+IMG000208,AT112274,MS0008620,GBH423899,CH616210,whatsapp,2026-10-02 09:59:33,foto_produto,92bcc9a827f0cbeb,,,,Caixa aberta com Kit Pincéis 5 peças; não há outro item nem brinde dentro da caixa.
+IMG000209,AT112299,MS0008656,GCH544744,CH116321,whatsapp,2026-10-02 12:11:46,foto_produto,237d1e1449ffb0e4,2026-09-04 13:43:00,Redmi 13C,,"Capinha de celular transparente com estampa rachada na lateral, perto dos botões."
+IMG000210,AT112332,MS0008690,GBH421225,CH805421,whatsapp,2026-10-02 15:34:27,foto_produto,6d4d715b6c6b2b52,,,,Itens do pedido sobre a mesa: Vitamina D3 2000UI Gotas 20ml; a nota fiscal lista um item a mais.
+IMG000211,AT112332,MS0008690,GBH421225,CH805421,whatsapp,2026-10-02 15:34:27,foto_embalagem,9492482cc65d6caa,,,,Caixa da transportadora molhada e deformada.
+IMG000212,AT112339,MS0008706,GBH429006,CH770052,email,2026-10-03 09:05:08,foto_produto,4f6fbb9e8a4fe40f,2026-10-02 10:36:28,Poco X6,,Embalagem de Óleo Capilar Finalizador 60ml amassada e vazando.
+IMG000213,AT112339,MS0008706,GBH429006,CH770052,email,2026-10-03 09:05:08,foto_embalagem,8aad491a61ba230a,2026-10-01 04:33:40,iPhone 15,,Caixa da transportadora com a fita violada; etiqueta com o número do pedido GBH429006 legível.
+IMG000214,AT112370,MS0008748,GBH424672,CH354281,whatsapp,2026-10-03 08:57:02,foto_produto,c176c38452cc159c,,,,Ampola de Tratamento Brilho 15ml (3 un) com a tampa quebrada e produto espalhado na caixa.
+IMG000215,AT112375,MS0008754,GBH436584,CH708444,reclame_aqui,2026-10-03 08:37:12,foto_produto,8312cf283a1b83ff,2026-10-02 04:01:14,iPhone 11,,Shampoo Antirresíduo 300ml com a tampa quebrada e produto espalhado na caixa.
+IMG000216,AT112375,MS0008754,GBH436584,CH708444,reclame_aqui,2026-10-03 08:37:12,foto_embalagem,7acff2e788358b5d,2026-09-29 18:41:03,Galaxy S23,,Caixa da transportadora amassada em uma das quinas.
+IMG000217,AT112553,MS0008934,GBH425508,CH857591,whatsapp,2026-10-04 15:48:41,foto_produto,efc116f320da0d67,,,,Itens do pedido sobre a mesa: Leave-in Termoprotetor 200ml; a nota fiscal lista um item a mais.
+IMG000218,AT112560,MS0008944,GCH545265,CH741137,email,2026-10-05 08:43:02,foto_produto,315955e6d82c5c43,2026-09-29 07:24:02,Galaxy A34,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000219,AT112568,MS0008954,GBH433308,CH950980,email,2026-10-04 20:04:11,foto_produto,e0135ae331521cc9,2026-09-29 19:04:45,iPhone 11,,Pote de Biotina Cabelo e Unhas 60 cápsulas amassado e com o lacre rompido.
+IMG000220,AT112674,MS0009058,GCH547911,CH699812,email,2026-10-06 09:03:15,foto_produto,54525da941d13ac1,2026-10-05 14:43:43,Redmi Note 13,,Case Anti Impacto Slim Air / iPhone 15 Personalizada Iniciais com a borda lascada e a impressão riscada.
+IMG000221,AT112715,MS0009091,GBH426923,CH809065,email,2026-10-05 17:35:15,foto_produto,2b065271e55feef1,2026-10-01 19:11:28,Moto G84,,Caixa aberta com Manteiga Corporal Murumuru 150g; não há outro item nem brinde dentro da caixa.
+IMG000222,AT112854,MS0009231,GBH429149,CH408584,reclame_aqui,2026-10-07 18:51:25,foto_produto,c36873266ab6cd67,2026-10-06 23:51:32,iPhone 13,,Embalagem de Leave-in Termoprotetor 200ml amassada e vazando.
+IMG000223,AT112896,MS0009290,GBH438446,CH795037,whatsapp,2026-10-06 18:02:29,foto_produto,2efeedc6ec240c23,,,,Óleo Capilar Finalizador 60ml com a tampa quebrada e produto espalhado na caixa.
+IMG000224,AT112896,MS0009290,GBH438446,CH795037,whatsapp,2026-10-06 18:02:29,foto_embalagem,31781a60d4a7b203,,,,Caixa da transportadora íntegra por fora; etiqueta com o número do pedido GBH438446 legível.
+IMG000225,AT112935,MS0009332,GBH428502,CH491315,whatsapp,2026-10-07 09:27:09,foto_produto,04588b205cd3f4f2,,,,Caixa aberta com Paleta de Sombras Nude 12 cores; não há outro item nem brinde dentro da caixa.
+IMG000226,AT112948,MS0009349,GCH545955,CH883425,whatsapp,2026-10-07 09:02:59,foto_produto,8a7d43b81034eb10,,,,Itens do pedido sobre a mesa: Garrafa Fresh 650ml Personalizada Iniciais; a nota fiscal lista um item a mais.
+IMG000227,AT112980,MS0009392,GBH438446,CH795037,email,2026-10-07 09:11:24,foto_produto,2efeedc6ec240c23,,,,Óleo Capilar Finalizador 60ml com a tampa quebrada e produto espalhado na caixa.
+IMG000228,AT112980,MS0009392,GBH438446,CH795037,email,2026-10-07 09:11:24,foto_embalagem,089a73722af87cbb,,,,Caixa da transportadora com a fita violada.
+IMG000229,AT112990,MS0009411,GBH430705,CH702011,whatsapp,2026-10-07 10:04:27,foto_produto,e71397684a45b99f,,,,Perfume Floral Frutado Pêssego 50ml com a válvula quebrada e o frasco vazando.
+IMG000230,AT113055,MS0009486,GBH422047,CH575740,email,2026-10-08 09:20:20,foto_produto,5c0ce8a2fcfef91d,2026-10-06 17:09:30,Poco X6,,Blush Compacto Pêssego com a tampa quebrada e produto espalhado na caixa.
+IMG000231,AT113062,MS0009496,GBH427644,CH111343,reclame_aqui,2026-10-09 08:06:39,foto_produto,c2510bf10d692cd3,2026-09-28 12:48:18,Galaxy S23,,Esfoliante Facial Enzimático 100g com o pote rachado.
+IMG000232,AT113077,MS0009509,GCH542227,CH203481,reclame_aqui,2026-10-09 10:33:27,foto_produto,29c5c0d09492507b,,,,Case Infinite Air / iPhone 13/14 Personalizada Foto com a borda lascada e a impressão riscada.
+IMG000233,AT113077,MS0009509,GCH542227,CH203481,reclame_aqui,2026-10-09 10:33:27,foto_embalagem,9188cf3c3544b5ad,2026-10-04 21:23:37,Poco X6,,Caixa da transportadora com a fita violada; etiqueta com o número do pedido GCH542227 legível.
+IMG000234,AT113190,MS0009628,GBH436986,CH424292,whatsapp,2026-10-08 16:36:29,foto_produto,90dca2fefb5f3ce6,,,,Perfume Floral Frutado Pêssego 50ml com a válvula quebrada e o frasco vazando.
+IMG000235,AT113231,MS0009672,GBH442139,CH523948,whatsapp,2026-10-08 18:25:18,foto_produto,0dccabc4b3528230,,,,Gel de Limpeza Facial 150ml com o pote rachado.
+IMG000236,AT113281,MS0009729,GCH547544,CH840636,whatsapp,2026-10-09 09:02:38,foto_produto,b7d9e264fa84117b,,,,Copo térmico de inox com a pintura descascada e um amassado lateral.
+IMG000237,AT113281,MS0009729,GCH547544,CH840636,whatsapp,2026-10-09 09:02:38,foto_embalagem,55c90bbf6fa5f90e,,,,Caixa da transportadora íntegra por fora.
+IMG000238,AT113298,MS0009750,GBH436986,CH424292,whatsapp,2026-10-09 09:09:11,foto_produto,90dca2fefb5f3ce6,,,,Perfume Floral Frutado Pêssego 50ml com a válvula quebrada e o frasco vazando.
+IMG000239,AT113298,MS0009750,GBH436986,CH424292,whatsapp,2026-10-09 09:09:11,foto_embalagem,f49b01165acdd280,,,,Caixa da transportadora molhada e deformada.
+IMG000240,AT113355,MS0009817,GBH436986,CH424292,reclame_aqui,2026-10-10 16:35:35,foto_produto,90dca2fefb5f3ce6,2026-10-10 03:24:17,Galaxy S23,,Perfume Floral Frutado Pêssego 50ml com a válvula quebrada e o frasco vazando.
+IMG000241,AT113355,MS0009817,GBH436986,CH424292,reclame_aqui,2026-10-10 16:35:35,foto_embalagem,abe5d71cd71e4991,2026-10-02 08:22:57,Galaxy S23,,Caixa da transportadora íntegra por fora.
+IMG000242,AT113360,MS0009823,GBH438279,CH347015,whatsapp,2026-10-09 13:32:01,foto_produto,f33aa3d9df0a343e,,,,Embalagem de Tônico Facial Calmante 200ml amassada e vazando.
+IMG000243,AT113430,MS0009892,GBH442879,CH685048,email,2026-10-10 13:40:04,foto_produto,1501fa8102581304,2026-10-08 20:38:27,Moto G84,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000244,AT113441,MS0009916,GBH427644,CH111343,whatsapp,2026-10-10 09:13:45,foto_produto,c2510bf10d692cd3,,,,Esfoliante Facial Enzimático 100g com o pote rachado.
+IMG000245,AT113441,MS0009916,GBH427644,CH111343,whatsapp,2026-10-10 09:13:45,foto_embalagem,2d1dc649a747c093,,,,Caixa da transportadora íntegra por fora.
+IMG000246,AT113520,MS0010003,GBH442139,CH523948,reclame_aqui,2026-10-11 15:43:26,foto_produto,0dccabc4b3528230,2026-10-08 05:02:50,Galaxy A15,,Gel de Limpeza Facial 150ml com o pote rachado.
+IMG000247,AT113598,MS0010096,GCH545312,CH779686,reclame_aqui,2026-10-13 09:12:35,foto_produto,25430f99fbff2a4d,,,,Garrafa Mini 350ml Personalizada Iniciais amassado na base.
+IMG000248,AT113598,MS0010096,GCH545312,CH779686,reclame_aqui,2026-10-13 09:12:35,foto_embalagem,d0b08190ed0b2a11,2026-10-11 14:32:27,iPhone 13,,Caixa da transportadora com a fita violada.
+IMG000249,AT113933,MS0010454,GCH545533,CH803336,whatsapp,2026-10-14 09:00:34,foto_produto,b8ad3a1567221136,,,,Case Anti Impacto Slim Standard / Motorola Moto G84 5G Personalizada Nome com a impressão descascando nas bordas.
+IMG000250,AT113975,MS0010501,GBH447700,CH163775,whatsapp,2026-10-14 10:14:57,foto_produto,1f7d7849d4122878,,,,Itens do pedido sobre a mesa: Hidratante Facial Oil Free 50g; a nota fiscal lista um item a mais.
+IMG000251,AT113975,MS0010501,GBH447700,CH163775,whatsapp,2026-10-14 10:14:57,foto_embalagem,553b8a59e3706901,,,,Caixa da transportadora íntegra por fora; etiqueta com o número do pedido GBH447700 legível.
+IMG000252,AT113978,MS0010507,GBH442538,CH784185,email,2026-10-15 09:23:39,foto_produto,166e09219de17a37,2026-10-11 13:20:15,Poco X6,Editor de Fotos do Galaxy,Body Mist Baunilha 200ml com o pote rachado.
+IMG000253,AT113978,MS0010507,GBH442538,CH784185,email,2026-10-15 09:23:39,foto_embalagem,98ec10d78a322476,2026-10-14 00:18:18,Galaxy A15,,Caixa da transportadora com a fita violada; etiqueta com o número do pedido GBH442538 legível.
+IMG000254,AT113988,MS0010520,GBH448549,CH501151,email,2026-10-14 19:38:15,foto_produto,6a2a79678e84db42,2026-10-07 11:24:58,Redmi 13C,,Whey Vegano Cacau 450g com a tampa quebrada e produto espalhado na caixa.
+IMG000255,AT113991,MS0010528,GBH442810,CH581414,whatsapp,2026-10-14 13:46:40,foto_produto,8f6de5ef5e317951,,,,Caixa aberta com Ômega 3 1000mg 60 cápsulas; não há outro item nem brinde dentro da caixa.
+IMG000256,AT113991,MS0010528,GBH442810,CH581414,whatsapp,2026-10-14 13:46:40,foto_embalagem,29f8f0b17560f7e3,,,,Caixa da transportadora molhada e deformada.
+IMG000257,AT114057,MS0010602,GBH447819,CH900425,whatsapp,2026-10-14 18:51:18,foto_produto,31e77f71bbfc5393,,,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000258,AT114128,MS0010690,GCH549426,CH970239,whatsapp,2026-10-15 11:22:20,foto_produto,9bc301942c26e7ef,,,,Garrafa Mini 350ml Personalizada Iniciais com a pintura descascada e um amassado lateral.
+IMG000259,AT114128,MS0010690,GCH549426,CH970239,whatsapp,2026-10-15 11:22:20,foto_embalagem,3c37a69d5ade520a,2026-10-13 14:42:13,Redmi 13C,,Caixa da transportadora com a fita violada; etiqueta com o número do pedido GCH549426 legível.
+IMG000260,AT114140,MS0010708,GBH443407,CH164405,whatsapp,2026-10-15 11:39:16,foto_produto,8348b49f7f1f051b,2026-10-13 05:57:27,Poco X6,,Óleo Corporal Castanha-do-Pará 120ml com a tampa quebrada e produto espalhado na caixa.
+IMG000261,AT114140,MS0010708,GBH443407,CH164405,whatsapp,2026-10-15 11:39:16,foto_embalagem,959bafc8c66f7995,,,,Caixa da transportadora molhada e deformada; etiqueta com o número do pedido GBH443407 legível.
+IMG000262,AT114311,MS0010886,GBH448214,CH182502,whatsapp,2026-10-16 11:11:54,foto_produto,9bc956436b6d146d,,,,Embalagem de Shampoo Reconstrução 1L amassada e vazando.
+IMG000263,AT114324,MS0010896,GBH449333,CH906373,reclame_aqui,2026-10-18 09:12:28,foto_produto,9cbfd24d9d7be930,2026-10-17 18:58:36,Redmi 13C,,Itens do pedido sobre a mesa: Esfoliante Corporal Café 200g; a nota fiscal lista um item a mais.
+IMG000264,AT114329,MS0010903,GBH435692,CH838560,whatsapp,2026-10-16 13:12:48,foto_produto,a6e323d94a9cc3ca,,,,Frasco de Perfume Feminino Oriental Âmbar 100ml com a tampa partida.
+IMG000265,AT114329,MS0010903,GBH435692,CH838560,whatsapp,2026-10-16 13:12:48,foto_embalagem,f99203d93c54290a,,,,Caixa da transportadora molhada e deformada; etiqueta com o número do pedido GBH435692 legível.
+IMG000266,AT114487,MS0011089,GBH452777,CH330418,email,2026-10-18 09:49:50,foto_produto,2a4cd17dbb02d6cc,2026-10-14 23:14:02,Galaxy A54,,Balm para Barba 60g com a tampa quebrada e produto espalhado na caixa.
+IMG000267,AT114498,MS0011104,GCH551285,CH585887,whatsapp,2026-10-17 16:39:59,foto_produto,41b2c50cabf85942,2026-10-03 17:58:00,Galaxy S23,,"Capinha de celular transparente com estampa rachada na lateral, perto dos botões."
+IMG000268,AT114498,MS0011104,GCH551285,CH585887,whatsapp,2026-10-17 16:39:59,foto_embalagem,a7aeceae50dfdebe,,,,Caixa da transportadora íntegra por fora.
+IMG000269,AT114539,MS0011144,GBH454818,CH826303,reclame_aqui,2026-10-18 08:56:22,foto_produto,88c23077c6babe11,2026-10-18 06:35:18,Galaxy A34,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000270,AT114539,MS0011144,GBH454818,CH826303,reclame_aqui,2026-10-18 08:56:22,foto_embalagem,f9e7539bc0ebe831,2026-10-18 08:29:32,Moto G54,Fotos do iOS,Caixa da transportadora molhada e deformada; etiqueta com o número do pedido GBH454818 legível.
+IMG000271,AT114597,MS0011208,GBH438170,CH487461,email,2026-10-19 08:37:58,foto_produto,88b085d5834d54d0,2026-10-03 01:07:33,Redmi 13C,,Tônico Facial Calmante 200ml com a tampa quebrada e produto espalhado na caixa.
+IMG000272,AT114597,MS0011208,GBH438170,CH487461,email,2026-10-19 08:37:58,foto_embalagem,ba35fb8dee159d0e,2026-10-17 17:38:53,Galaxy A15,,Caixa da transportadora amassada em uma das quinas.
+IMG000273,AT114603,MS0011216,GBH453917,CH886081,whatsapp,2026-10-18 16:59:41,foto_produto,30a72a8b89d9de5a,2026-10-17 07:22:45,iPhone 13,,Embalagem de Pomada Modeladora Efeito Seco 80g amassada e vazando.
+IMG000274,AT114603,MS0011216,GBH453917,CH886081,whatsapp,2026-10-18 16:59:41,foto_embalagem,f0d08b12139c6cef,,,,Caixa da transportadora amassada em uma das quinas.
+IMG000275,AT114629,MS0011241,GBH450479,CH775780,email,2026-10-19 08:57:09,foto_produto,7ed2d124624c89f6,2026-10-18 09:05:25,Redmi Note 13,,Embalagem de Máscara Facial de Argila 100g amassada e vazando.
+IMG000276,AT114629,MS0011241,GBH450479,CH775780,email,2026-10-19 08:57:09,foto_embalagem,e6ca0032c149e82a,2026-10-17 06:00:52,iPhone 13,,Caixa da transportadora íntegra por fora; etiqueta com o número do pedido GBH450479 legível.
+IMG000277,AT114633,MS0011248,GBH454299,CH658766,email,2026-10-19 08:44:11,foto_produto,9225d3f4a11b971e,2026-10-18 16:13:37,Galaxy A15,,Itens do pedido sobre a mesa: Protetor Solar Facial FPS 50 Toque Seco 50g; a nota fiscal lista um item a mais.
+IMG000278,AT114633,MS0011248,GBH454299,CH658766,email,2026-10-19 08:44:11,foto_embalagem,ed106cb052a70ffb,2026-10-14 19:31:47,Galaxy A15,Fotos do iOS,Caixa da transportadora com a fita violada; etiqueta com o número do pedido GBH454299 legível.
+IMG000279,AT114647,MS0011263,GBH454448,CH574962,whatsapp,2026-10-19 09:02:23,foto_produto,cdc9ace0506cd957,,,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000280,AT114672,MS0011288,GBH459651,CH268219,reclame_aqui,2026-10-20 09:30:11,foto_produto,415e3b12662ec086,,,,Embalagem de Sérum Facial Vitamina C 10% 30ml amassada e vazando.
+IMG000281,AT114672,MS0011288,GBH459651,CH268219,reclame_aqui,2026-10-20 09:30:11,foto_embalagem,0c63ce696fc102ca,2026-10-16 23:45:35,Galaxy A15,,Caixa da transportadora amassada em uma das quinas; etiqueta com o número do pedido GBH459651 legível.
+IMG000282,AT114738,MS0011374,GBH454921,CH249217,email,2026-10-20 09:41:52,foto_produto,d1130c5fd5ec5b36,2026-10-17 21:53:08,iPhone 13,,Pote de Multivitamínico A-Z 60 cápsulas amassado e com o lacre rompido.
+IMG000283,AT114777,MS0011418,GBH457925,CH358559,email,2026-10-20 18:15:34,foto_produto,2508c985ea0a0c6b,2026-10-16 07:55:48,iPhone 13,,Caixa aberta com Shampoo Sólido Alecrim 80g; não há outro item nem brinde dentro da caixa.
+IMG000284,AT114777,MS0011418,GBH457925,CH358559,email,2026-10-20 18:15:34,foto_embalagem,c02522c3107cbccc,2026-10-19 18:04:09,Galaxy A54,,Caixa da transportadora amassada em uma das quinas.
+IMG000285,AT114838,MS0011475,GBH459310,CH720546,whatsapp,2026-10-21 10:24:04,foto_produto,566255971db66e27,,,,Embalagem de Máscara Facial de Argila 100g amassada e vazando.
+IMG000286,AT114841,MS0011483,GCH552336,CH303282,whatsapp,2026-10-21 08:50:12,foto_produto,873b9ac53389feab,,,,"Mala Trip 20"" Personalizada Iniciais com a impressão borrada e as letras ilegíveis."
+IMG000287,AT114841,MS0011483,GCH552336,CH303282,whatsapp,2026-10-21 08:50:12,foto_embalagem,d4a542061d37e40c,,,,Caixa da transportadora íntegra por fora.
+IMG000288,AT114910,MS0011584,GBH458442,CH425676,whatsapp,2026-10-21 17:26:58,foto_produto,0541c4275d08f139,,,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000289,AT114940,MS0011613,GBH453572,CH531217,whatsapp,2026-10-21 16:55:06,foto_produto,15315938f85cdba2,,,,Kit Rotina Glow (Gel de Limpeza + Sérum Vitamina C + Hidratante) com o pote rachado.
+IMG000290,AT114940,MS0011613,GBH453572,CH531217,whatsapp,2026-10-21 16:55:06,foto_embalagem,abdaa8f8939d0bc6,,,,Caixa da transportadora com a fita violada; etiqueta com o número do pedido GBH453572 legível.
+IMG000291,AT114944,MS0011620,GBH450834,CH532771,email,2026-10-21 17:44:00,foto_produto,67a5220b86c5b40d,2026-10-15 07:17:59,iPhone 11,,Pote de Magnésio Dimalato 60 cápsulas amassado e com o lacre rompido.
+IMG000292,AT114996,MS0011685,GCH552901,CH322219,whatsapp,2026-10-22 08:53:10,foto_produto,9aa32ada3d19b04b,2026-10-09 22:25:00,Redmi Note 13,,Copo térmico de inox com a pintura descascada e um amassado lateral.
+IMG000293,AT115053,MS0011747,GBH460366,CH618351,whatsapp,2026-10-22 10:33:15,foto_produto,4a4c2e9300a8e677,,,,Itens do pedido sobre a mesa: Kit Cronograma Capilar (Hidratação + Nutrição + Reconstrução); a nota fiscal lista um item a mais.
+IMG000294,AT115053,MS0011747,GBH460366,CH618351,whatsapp,2026-10-22 10:33:15,foto_embalagem,a46bfecba38e898c,,,,Caixa da transportadora íntegra por fora; etiqueta com o número do pedido GBH460366 legível.
+IMG000295,AT115109,MS0011796,GBH459944,CH111343,reclame_aqui,2026-10-23 10:02:43,foto_produto,8510a4aaa2524189,2026-10-22 18:24:37,Redmi 13C,,Itens do pedido sobre a mesa: Tônico Facial Calmante 200ml; a nota fiscal lista um item a mais.
+IMG000296,AT115146,MS0011845,GBH448488,CH269880,whatsapp,2026-10-22 18:55:33,foto_produto,8cc166be907adc3e,,,,Itens do pedido sobre a mesa: Condicionador Reconstrução 1L; a nota fiscal lista um item a mais.
+IMG000297,AT115149,MS0011855,GBH464170,CH701527,whatsapp,2026-10-22 20:01:05,foto_produto,360f6b1928e0358c,,,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000298,AT115153,MS0011861,GCH552336,CH303282,email,2026-10-23 11:45:16,foto_produto,873b9ac53389feab,,,,"Mala Trip 20"" Personalizada Iniciais com a impressão borrada e as letras ilegíveis."
+IMG000299,AT115156,MS0011867,GBH440795,CH779254,email,2026-10-23 12:30:22,foto_produto,946a375e035f618e,2026-10-16 01:11:40,Galaxy S23,,Balm para Barba 60g com o pote rachado.
+IMG000300,AT115189,MS0011897,GBH459078,CH699233,email,2026-10-23 17:31:20,foto_produto,0c0a315445fd528d,2026-10-20 11:12:40,iPhone 13,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000301,AT115189,MS0011897,GBH459078,CH699233,email,2026-10-23 17:31:20,foto_embalagem,0ed8c9257f145588,2026-10-21 12:01:54,Redmi Note 13,Editor de Fotos do Galaxy,Caixa da transportadora com a fita violada.
+IMG000302,AT115282,MS0012003,GBH459944,CH111343,whatsapp,2026-10-23 14:35:03,foto_produto,8510a4aaa2524189,2026-10-22 17:34:49,Galaxy A54,,Itens do pedido sobre a mesa: Tônico Facial Calmante 200ml; a nota fiscal lista um item a mais.
+IMG000303,AT115325,MS0012042,GBH457092,CH464421,whatsapp,2026-10-24 08:08:34,foto_produto,0934c0f3d74cf143,,,,Embalagem de Máscara Capilar Nutrição Intensa 500g amassada e vazando.
+IMG000304,AT115332,MS0012052,GBH460044,CH797325,email,2026-10-24 09:26:00,foto_produto,99266041063101d2,2026-10-24 04:05:34,Galaxy A34,,Caixa aberta com Perfume Feminino Floral Íris 100ml; não há outro item nem brinde dentro da caixa.
+IMG000305,AT115332,MS0012052,GBH460044,CH797325,email,2026-10-24 09:26:00,foto_embalagem,cac18dc207101a35,,,,Caixa da transportadora amassada em uma das quinas.
+IMG000306,AT115336,MS0012061,GCH552336,CH303282,reclame_aqui,2026-10-25 18:09:46,foto_produto,873b9ac53389feab,2026-10-24 10:04:46,Galaxy S23,,"Mala Trip 20"" Personalizada Iniciais com a impressão borrada e as letras ilegíveis."
+IMG000307,AT115336,MS0012061,GCH552336,CH303282,reclame_aqui,2026-10-25 18:09:46,foto_embalagem,2090bc3b1242ed43,2026-10-20 16:58:31,Redmi Note 13,,Caixa da transportadora com a fita violada; etiqueta com o número do pedido GCH552336 legível.
+IMG000308,AT115380,MS0012117,GBH460900,CH417209,whatsapp,2026-10-24 14:10:55,foto_produto,2529309ebec0d347,2026-10-23 21:54:59,iPhone 13,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000309,AT115386,MS0012127,GBH465631,CH320890,whatsapp,2026-10-24 14:48:46,foto_produto,5a0ec8c06d31ef66,2026-10-23 08:05:27,Moto G84,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000310,AT115460,MS0012214,GBH457092,CH464421,whatsapp,2026-10-25 09:08:19,foto_produto,0934c0f3d74cf143,,,,Embalagem de Máscara Capilar Nutrição Intensa 500g amassada e vazando.
+IMG000311,AT115464,MS0012221,GBH462044,CH948006,whatsapp,2026-10-25 09:06:57,foto_produto,6c2bc64f1bdca9ca,,,,Embalagem de Hidratante Facial Oil Free 50g amassada e vazando.
+IMG000312,AT115486,MS0012239,GBH460044,CH797325,whatsapp,2026-10-25 09:21:15,foto_produto,99266041063101d2,,,,Caixa aberta com Perfume Feminino Floral Íris 100ml; não há outro item nem brinde dentro da caixa.
+IMG000313,AT115544,MS0012310,GBH463453,CH152425,whatsapp,2026-10-26 09:23:31,foto_produto,e4ff17ba95be6f8a,2026-10-21 22:50:26,Galaxy A34,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000314,AT115544,MS0012310,GBH463453,CH152425,whatsapp,2026-10-26 09:23:31,foto_embalagem,3c3876d79f8dc57e,,,,Caixa da transportadora molhada e deformada; etiqueta com o número do pedido GBH463453 legível.
+IMG000315,AT115556,MS0012332,GBH458061,CH699769,whatsapp,2026-10-26 09:07:41,foto_produto,60feda013c5e9228,,,,Máscara Capilar Nutrição Intensa 500g com o pote rachado.
+IMG000316,AT115566,MS0012354,GBH467002,CH978485,whatsapp,2026-10-26 09:11:27,foto_produto,d9165f3573c648d3,,,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000317,AT115566,MS0012354,GBH467002,CH978485,whatsapp,2026-10-26 09:11:27,foto_embalagem,34d5fc334dd05aab,,,,Caixa da transportadora molhada e deformada; etiqueta com o número do pedido GBH467002 legível.
+IMG000318,AT115570,MS0012362,GBH459183,CH682189,whatsapp,2026-10-26 08:42:02,foto_produto,4136b418954e0bcd,2026-10-23 01:31:20,Moto G54,Fotos do iOS,Itens do pedido sobre a mesa: Esfoliante Corporal Café 200g; a nota fiscal lista um item a mais.
+IMG000319,AT115570,MS0012362,GBH459183,CH682189,whatsapp,2026-10-26 08:42:02,foto_embalagem,fd2a33e8af51b488,,,,Caixa da transportadora amassada em uma das quinas.
+IMG000320,AT115598,MS0012405,GBH456870,CH741137,whatsapp,2026-10-26 10:00:05,foto_produto,b4c1fd1d8869e9fc,,,,Leave-in Termoprotetor 200ml com a tampa quebrada e produto espalhado na caixa.
+IMG000321,AT115601,MS0012411,GBH457517,CH392143,whatsapp,2026-10-26 10:47:54,foto_produto,e6dc7cd668349fe6,,,,Embalagem de Body Mist Baunilha 200ml amassada e vazando.
+IMG000322,AT115610,MS0012430,GCH555045,CH649721,whatsapp,2026-10-26 11:17:14,foto_produto,d715c6e8e613893d,,,,Necessaire estampada com o zíper arrebentado.
+IMG000323,AT115628,MS0012463,GBH468761,CH325613,email,2026-10-26 13:28:13,foto_produto,0309dc198864756e,,,,Itens do pedido sobre a mesa: Kit Barba Completo (Óleo + Balm + Shampoo); a nota fiscal lista um item a mais.
+IMG000324,AT115631,MS0012471,GBH455983,CH854487,whatsapp,2026-10-26 12:30:39,foto_produto,cf6da53c3c26fe17,,,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000325,AT115634,MS0012476,GBH458636,CH181743,reclame_aqui,2026-10-28 08:24:45,foto_produto,2998cfa58faa4a29,2026-10-27 09:47:07,Galaxy A54,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000326,AT115634,MS0012476,GBH458636,CH181743,reclame_aqui,2026-10-28 08:24:45,foto_embalagem,943cdb09c8c5f962,2026-10-24 12:37:14,iPhone 11,,Caixa da transportadora amassada em uma das quinas.
+IMG000327,AT115645,MS0012491,GCH556720,CH228108,whatsapp,2026-10-26 14:41:36,foto_produto,a18abd9d59075928,2026-10-26 14:01:59,iPhone 15,,Case Anti Impacto Slim Standard / Motorola Moto G84 5G Personalizada Iniciais com o nome impresso diferente do pedido e a arte deslocada para a esquerda.
+IMG000328,AT115645,MS0012491,GCH556720,CH228108,whatsapp,2026-10-26 14:41:36,foto_embalagem,18505e965a691983,,,,Caixa da transportadora molhada e deformada.
+IMG000329,AT115673,MS0012528,GBH458964,CH704812,whatsapp,2026-10-26 17:05:34,foto_produto,847258adf574f344,,,,Caixa aberta com Gel de Limpeza Facial 150ml; não há outro item nem brinde dentro da caixa.
+IMG000330,AT115694,MS0012545,GBH464417,CH197813,whatsapp,2026-10-26 19:35:52,foto_produto,fbd235010c3ff6d7,2026-10-26 11:31:43,Redmi 13C,Editor de Fotos do Galaxy,Caixa aberta com Óleo Corporal Castanha-do-Pará 120ml; não há outro item nem brinde dentro da caixa.
+IMG000331,AT115698,MS0012554,GBH461185,CH935985,whatsapp,2026-10-27 10:12:10,foto_produto,0e883322674af332,2026-10-24 13:56:53,iPhone 11,,Itens do pedido sobre a mesa: Perfume Feminino Oriental Âmbar 100ml; a nota fiscal lista um item a mais.
+IMG000332,AT115703,MS0012561,GBH459821,CH613171,whatsapp,2026-10-27 11:22:07,foto_produto,700b04bd8dda7408,,,,Itens do pedido sobre a mesa: Base Líquida Matte 30ml; a nota fiscal lista um item a mais.
+IMG000333,AT115703,MS0012561,GBH459821,CH613171,whatsapp,2026-10-27 11:22:07,foto_embalagem,81ef1cb2d38689ef,2026-10-26 22:04:19,Moto G84,,Caixa da transportadora molhada e deformada.
+IMG000334,AT115728,MS0012588,GBH461821,CH829862,whatsapp,2026-10-27 08:17:59,foto_produto,038d3209b603d6a6,,,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000335,AT115744,MS0012606,GBH459387,CH156175,reclame_aqui,2026-10-27 08:46:58,foto_produto,cb133f01ee88e1cb,2026-10-26 07:38:52,Redmi Note 13,,Caixa aberta com Esfoliante Corporal Café 200g; não há outro item nem brinde dentro da caixa.
+IMG000336,AT115744,MS0012606,GBH459387,CH156175,reclame_aqui,2026-10-27 08:46:58,foto_embalagem,def893d7f13c9a44,,,,Caixa da transportadora íntegra por fora.
+IMG000337,AT115764,MS0012631,GBH461881,CH963526,whatsapp,2026-10-27 09:07:00,foto_produto,28a9f3df45a9c1e9,2026-10-25 18:06:44,iPhone 13,,Embalagem de Shampoo Antirresíduo 300ml amassada e vazando.
+IMG000338,AT115768,MS0012638,GBH461466,CH515240,whatsapp,2026-10-27 08:59:35,foto_produto,bd45299c22681a59,2026-10-22 12:38:04,Galaxy A15,Editor de Fotos do Galaxy,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000339,AT115768,MS0012638,GBH461466,CH515240,whatsapp,2026-10-27 08:59:35,foto_embalagem,8904b0add9b417fd,2026-10-24 05:27:41,Redmi 13C,,Caixa da transportadora com a fita violada; etiqueta com o número do pedido GBH461466 legível.
+IMG000340,AT115773,MS0012646,GBH466994,CH714951,email,2026-10-28 08:28:14,foto_produto,11303f891718607d,2026-10-23 00:42:15,Galaxy S23,,Caixa aberta com Óleo para Barba 30ml; não há outro item nem brinde dentro da caixa.
+IMG000341,AT115773,MS0012646,GBH466994,CH714951,email,2026-10-28 08:28:14,foto_embalagem,3586ff318effa68b,2026-10-26 01:08:58,iPhone 11,,Caixa da transportadora íntegra por fora.
+IMG000342,AT115775,MS0012652,GCH555952,CH486501,email,2026-10-28 09:01:50,foto_produto,533ca5d087615715,2026-10-26 22:25:36,Poco X6,,Case Guard Magsafe / iPhone 16 Pro Personalizada Nome com o nome impresso diferente do pedido e a arte deslocada para a esquerda.
+IMG000343,AT115775,MS0012652,GCH555952,CH486501,email,2026-10-28 09:01:50,foto_embalagem,f9598d70aa9cd915,2026-10-27 02:33:00,iPhone 11,,Caixa da transportadora amassada em uma das quinas.
+IMG000344,AT115795,MS0012676,GBH465864,CH559253,whatsapp,2026-10-27 12:00:38,foto_produto,ce326a127ffd66ce,,,,Itens do pedido sobre a mesa: Body Mist Baunilha 200ml; a nota fiscal lista um item a mais.
+IMG000345,AT115820,MS0012706,GBH465777,CH781308,whatsapp,2026-10-27 16:36:07,foto_produto,273c39027b4565b7,,,,Caixa aberta com Creme Área dos Olhos 15g; não há outro item nem brinde dentro da caixa.
+IMG000346,AT115820,MS0012706,GBH465777,CH781308,whatsapp,2026-10-27 16:36:07,foto_embalagem,81d4474031f05982,2026-10-26 15:40:53,Poco X6,,Caixa da transportadora com a fita violada; etiqueta com o número do pedido GBH465777 legível.
+IMG000347,AT115830,MS0012720,GBH470698,CH237898,email,2026-10-28 11:31:07,foto_produto,bdf3047cd1b09a68,,,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000348,AT115832,MS0012725,GCH553770,CH563084,email,2026-10-28 11:54:06,foto_produto,180ac8aad5b2cab8,2026-10-26 17:00:39,iPhone 15,,Case Infinite Air / iPhone 13/14 Clear com trinca no canto inferior direito.
+IMG000349,AT115860,MS0012756,GBH460826,CH523472,whatsapp,2026-10-27 17:59:52,foto_produto,2c8c5885e6fee102,,,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000350,AT115860,MS0012756,GBH460826,CH523472,whatsapp,2026-10-27 17:59:52,foto_embalagem,0a897b62627f562b,2026-10-22 01:08:08,Galaxy A34,,Caixa da transportadora íntegra por fora; etiqueta com o número do pedido GBH460826 legível.
+IMG000351,AT115933,MS0012845,GBH465004,CH726241,email,2026-10-28 14:39:43,foto_produto,6d3989d4f7f23fe8,,,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000352,AT115933,MS0012845,GBH465004,CH726241,email,2026-10-28 14:39:43,foto_embalagem,b2d0aaa2f76029d3,,,,Caixa da transportadora molhada e deformada.
+IMG000353,AT115958,MS0012882,GBH468066,CH320107,whatsapp,2026-10-28 08:55:46,foto_produto,f6dc69b952066dac,,,,Caixa aberta com Esfoliante Facial Enzimático 100g; não há outro item nem brinde dentro da caixa.
+IMG000354,AT115973,MS0012895,GBH470284,CH161236,email,2026-10-30 09:20:54,foto_produto,290c07f4c473b484,2026-10-28 02:55:03,Galaxy A15,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000355,AT115973,MS0012895,GBH470284,CH161236,email,2026-10-30 09:20:54,foto_embalagem,dc164e86d22e50ad,2026-10-27 01:15:58,Redmi 13C,,Caixa da transportadora com a fita violada; etiqueta com o número do pedido GBH470284 legível.
+IMG000356,AT115977,MS0012902,GBH471100,CH425679,email,2026-10-28 17:21:10,foto_produto,d5aba5e68e3d5800,2026-10-25 22:38:54,Redmi 13C,,Caixa aberta com Sérum Ácido Hialurônico 30ml; não há outro item nem brinde dentro da caixa.
+IMG000357,AT115989,MS0012921,GBH465960,CH589848,email,2026-10-29 09:31:56,foto_produto,7f12a02126a96a41,,,,Ampola de Tratamento Brilho 15ml (3 un) com a tampa quebrada e produto espalhado na caixa.
+IMG000358,AT115998,MS0012936,GBH447060,CH684441,email,2026-10-29 10:46:13,foto_produto,611f115ee633feba,2026-10-26 03:27:11,Galaxy A15,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000359,AT116002,MS0012941,GCH557811,CH546644,reclame_aqui,2026-10-30 09:54:04,foto_produto,6439585295e23f32,2026-10-29 03:46:36,Galaxy S23,,Case Anti Impacto Slim Air / iPhone 16 Pro Max Personalizada Iniciais com o nome impresso diferente do pedido e a arte deslocada para a esquerda.
+IMG000360,AT116028,MS0012968,GBH464541,CH646823,whatsapp,2026-10-28 15:20:28,foto_produto,ab018b77940f234f,,,,Caixa aberta com Kit Pincéis 5 peças; não há outro item nem brinde dentro da caixa.
+IMG000361,AT116069,MS0013006,GBH465354,CH926749,whatsapp,2026-10-28 19:26:42,foto_produto,f0ac3f9e480a6a64,2026-10-26 11:14:48,iPhone 13,,Itens do pedido sobre a mesa: Óleo Corporal Castanha-do-Pará 120ml; a nota fiscal lista um item a mais.
+IMG000362,AT116069,MS0013006,GBH465354,CH926749,whatsapp,2026-10-28 19:26:42,foto_embalagem,750d636a090fadc5,,,,Caixa da transportadora com a fita violada; etiqueta com o número do pedido GBH465354 legível.
+IMG000363,AT116098,MS0013040,GCH555952,CH486501,email,2026-10-29 08:50:29,foto_produto,533ca5d087615715,2026-10-27 01:43:46,Moto G84,,Case Guard Magsafe / iPhone 16 Pro Personalizada Nome com o nome impresso diferente do pedido e a arte deslocada para a esquerda.
+IMG000364,AT116106,MS0013054,GBH469142,CH282077,whatsapp,2026-10-29 08:14:16,foto_produto,db488534b3799235,,,,Embalagem de Creme de Pentear Cachos Definidos 1kg amassada e vazando.
+IMG000365,AT116115,MS0013069,GBH453855,CH564202,whatsapp,2026-10-29 08:24:44,foto_produto,80033817553c18be,,,,Co-wash Hidratante 300ml com o pote rachado.
+IMG000366,AT116122,MS0013078,GBH464541,CH646823,whatsapp,2026-10-29 09:46:01,foto_produto,ab018b77940f234f,,,,Caixa aberta com Kit Pincéis 5 peças; não há outro item nem brinde dentro da caixa.
+IMG000367,AT116157,MS0013114,GCH556292,CH157276,reclame_aqui,2026-10-30 12:50:22,foto_produto,e1961585026e9374,2026-10-29 12:08:06,Moto G84,,Copo Vibe 470ml Personalizado Iniciais com a impressão borrada e as letras ilegíveis.
+IMG000368,AT116184,MS0013141,GBH465801,CH894861,whatsapp,2026-10-29 16:19:07,foto_produto,ad7f8f6064f74e97,,,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000369,AT116197,MS0013152,GCH556347,CH178481,whatsapp,2026-10-29 19:01:40,foto_produto,a0e0d363b281e32c,,,,Case Anti Impacto Slim Air / Samsung Galaxy A56 Personalizada Iniciais com o nome impresso diferente do pedido e a arte deslocada para a esquerda.
+IMG000370,AT116197,MS0013152,GCH556347,CH178481,whatsapp,2026-10-29 19:01:40,foto_embalagem,31aae41db402ff8d,,,,Caixa da transportadora molhada e deformada.
+IMG000371,AT116203,MS0013159,GBH461016,CH891536,whatsapp,2026-10-29 21:16:01,foto_produto,f631aed0f9fbf30c,,,,Itens do pedido sobre a mesa: Perfume Floral Frutado Pêssego 50ml; a nota fiscal lista um item a mais.
+IMG000372,AT116216,MS0013173,GBH469243,CH927567,whatsapp,2026-10-30 09:28:30,foto_produto,eb1c4371cd2afb33,,,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000373,AT116216,MS0013173,GBH469243,CH927567,whatsapp,2026-10-30 09:28:30,foto_embalagem,82629d37e685cd26,,,,Caixa da transportadora íntegra por fora; etiqueta com o número do pedido GBH469243 legível.
+IMG000374,AT116254,MS0013230,GCH555786,CH599404,whatsapp,2026-10-30 08:43:35,foto_produto,fe2de129f7344636,,,,Case Anti Impacto Slim Air / Samsung Galaxy S24 FE Personalizada Foto com a impressão borrada e as letras ilegíveis.
+IMG000375,AT116254,MS0013230,GCH555786,CH599404,whatsapp,2026-10-30 08:43:35,foto_embalagem,8703e7bddf20119c,,,,Caixa da transportadora íntegra por fora.
+IMG000376,AT116339,MS0013326,GBH468854,CH589848,whatsapp,2026-10-30 16:17:25,foto_produto,0a13d032fe02a749,,,,Caixa vazia com papel de enchimento; nota fiscal do pedido ao lado.
+IMG000377,AT116418,MS0013401,GBH459183,CH682189,whatsapp,2026-10-31 09:14:27,foto_produto,4136b418954e0bcd,,,,Itens do pedido sobre a mesa: Esfoliante Corporal Café 200g; a nota fiscal lista um item a mais.
+IMG000381,AT116529,MS0013522,GBH473596,CH734501,email,2026-11-01 16:16:32,foto_produto,2b2f1cb5974f81fb,2026-10-27 22:37:49,Galaxy A54,,Caixa aberta com Máscara de Cílios Volume; não há outro item nem brinde dentro da caixa.
+IMG000382,AT116529,MS0013522,GBH473596,CH734501,email,2026-11-01 16:16:32,foto_embalagem,da48565bf0e93edd,,,,Caixa da transportadora íntegra por fora; etiqueta com o número do pedido GBH473596 legível.
+IMG000383,AT116549,MS0013551,GBH474725,CH662667,email,2026-11-01 17:39:23,foto_produto,c6d3a9113232fd7f,2026-10-29 11:47:30,Poco X6,,Embalagem de Kit Miniaturas 4x15ml amassada e vazando.
+IMG000391,AT116585,MS0013582,GBH477848,CH752447,email,2026-11-01 13:41:58,foto_produto,9546a1acc3cc3193,2026-10-29 03:36:44,Redmi 13C,,Itens do pedido sobre a mesa: Body Splash Masculino Sport 200ml; a nota fiscal lista um item a mais.
+IMG000398,AT116626,MS0013630,GBH475284,CH441852,whatsapp,2026-11-01 18:15:26,foto_produto,18ed0b3ce23a14e0,,,,Itens do pedido sobre a mesa: Perfume Unissex Cítrico Neroli 50ml; a nota fiscal lista um item a mais.

@@ -1,0 +1,19 @@
+codigo,descricao,tipo_desconto,percentual_desconto,marcas_validas,valor_minimo_pedido,primeira_compra,inicio_vigencia,fim_vigencia,limite_uso_total,limite_uso_por_cliente,origem,criado_por,status
+NEWS5,5% para quem assina a newsletter,percentual,5,todas,0.00,nao,2026-01-01,2026-12-31,,3,crm,marketing_crm,ativo
+BEMVINDA10,10% na primeira compra,percentual,10,todas,0.00,sim,2026-01-01,2026-12-31,,1,marketing,marketing_crm,ativo
+INFLU10,10% campanha de influenciadoras,percentual,10,todas,0.00,nao,2026-04-01,2026-12-31,20000,2,influenciador,marketing_crm,ativo
+OUTUBRO10,"10% em outubro, compras acima de R$ 150",percentual,10,todas,150.00,nao,2026-10-01,2026-10-31,8000,1,marketing,marketing_crm,expirado
+VOLTA15,15% para clientes inativos,percentual,15,todas,0.00,nao,2026-03-01,2026-12-31,,1,crm,marketing_crm,ativo
+PRIMEIRA15,15% na primeira compra pelo app,percentual,15,todas,0.00,sim,2026-02-01,2026-12-31,,1,marketing,marketing_crm,ativo
+FRETEGRATIS,Frete grátis em compras abaixo do mínimo do frete grátis,frete_gratis,0,todas,0.00,nao,2026-01-01,2026-12-31,,5,marketing,marketing_crm,ativo
+GOCASE20,20% Gocase (Dia das Mães),percentual,20,Gocase,0.00,nao,2026-04-20,2026-04-30,5000,1,marca,marketing_crm,expirado
+LESCENT20,20% Lescent (lançamento),percentual,20,Lescent,0.00,nao,2026-03-10,2026-03-31,3000,1,marca,marketing_crm,expirado
+KOKESHI15,15% Kokeshi,percentual,15,Kokeshi,0.00,nao,2026-01-01,2026-12-31,,2,marca,marketing_crm,ativo
+CACHOS15,15% Yenzah,percentual,15,Yenzah,0.00,nao,2026-01-01,2026-12-31,,2,marca,marketing_crm,ativo
+SAMIA15,15% By Samia,percentual,15,By Samia,0.00,nao,2026-01-01,2026-12-31,,2,marca,marketing_crm,ativo
+APICE10,10% Ápice,percentual,10,Ápice,0.00,nao,2026-01-01,2026-12-31,,2,marca,marketing_crm,ativo
+BARBA10,10% Barbour's,percentual,10,Barbour's,0.00,nao,2026-01-01,2026-12-31,,2,marca,marketing_crm,ativo
+RITUAL10,10% Rituária,percentual,10,Rituária,0.00,nao,2026-01-01,2026-12-31,,2,marca,marketing_crm,ativo
+AUA10,10% Auá,percentual,10,Auá,0.00,nao,2026-01-01,2026-12-31,,2,marca,marketing_crm,ativo
+VOLTA10,10% oferecido pelo atendimento,percentual,10,todas,0.00,nao,2026-08-01,2026-12-31,,1,atendimento,supervisor_01,ativo
+TROCA15,15% oferecido pelo atendimento em troca de fragrância,percentual,15,todas,0.00,nao,2026-08-01,2026-12-31,,1,atendimento,supervisor_01,ativo
